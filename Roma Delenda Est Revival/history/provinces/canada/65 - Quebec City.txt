@@ -1,0 +1,6 @@
+owner = NVA
+controller = NVA
+add_core = NVA
+trade_goods = grain
+life_rating = 35
+naval_base = 1

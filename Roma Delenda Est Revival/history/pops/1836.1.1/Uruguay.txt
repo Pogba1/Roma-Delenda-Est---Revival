@@ -1,0 +1,212 @@
+#Uruguay Region (200000)
+#Under rule of Uruguay 1836
+#Montevideo (112000/28000 POPS)
+2344 = {
+    aristocrats = {
+        culture = platinean
+        religion = mahayana
+        size = 575
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = mahayana
+        size = 100
+    }
+
+    officers = {
+        culture = platinean
+        religion = mahayana
+        size = 50
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = mahayana
+        size = 250
+    }
+
+    artisans = {
+        culture = platinean
+        religion = mahayana
+        size = 980
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 5000
+    }
+
+    farmers = {
+        culture = platinean
+        religion = mahayana
+        size = 18095
+    }
+}
+#Paysandu (36000/9000 POPS)
+2345 = {
+    aristocrats = {
+        culture = platinean
+        religion = mahayana
+        size = 25
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = mahayana
+        size = 10
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = mahayana
+        size = 50
+    }
+
+    artisans = {
+        culture = platinean
+        religion = mahayana
+        size = 100
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 100
+    }
+
+    farmers = {
+        culture = platinean
+        religion = mahayana
+        size = 1800
+    }
+
+    artisans = {
+        culture = platinean
+        religion = mahayana
+        size = 100
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 100
+    }
+
+    farmers = {
+        culture = platinean
+        religion = mahayana
+        size = 840
+    }
+
+}
+#Tacumba (12000/3000 POPS)
+2346 = {
+
+    aristocrats = {
+        culture = platinean
+        religion = mahayana
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = mahayana
+        size = 20
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = mahayana
+        size = 75
+    }
+
+    artisans = {
+        culture = platinean
+        religion = mahayana
+        size = 450
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 1000
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 1500
+    }
+
+    farmers = {
+        culture = platinean
+        religion = mahayana
+        size = 7275
+    }
+
+}
+#Melo (40000/10000 POPS)
+2347 = {
+    aristocrats = {
+        culture = platinean
+        religion = mahayana
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = platinean
+        religion = mahayana
+        size = 10
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = mahayana
+        size = 50
+    }
+
+    artisans = {
+        culture = platinean
+        religion = mahayana
+        size = 350
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 400
+    }
+
+    farmers = {
+        culture = platinean
+        religion = mahayana
+        size = 5450
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = mahayana
+        size = 50
+    }
+
+    artisans = {
+        culture = platinean
+        religion = mahayana
+        size = 150
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = mahayana
+        size = 100
+    }
+
+    farmers = {
+        culture = platinean
+        religion = mahayana
+        size = 2775
+    }
+
+}

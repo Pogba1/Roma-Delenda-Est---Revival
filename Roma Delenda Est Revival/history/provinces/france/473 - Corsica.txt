@@ -1,0 +1,8 @@
+owner = VAN
+controller = VAN
+add_core = ITA
+add_core = VAN
+add_core = CRS
+trade_goods = fish
+life_rating = 34
+naval_base = 1

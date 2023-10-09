@@ -1,0 +1,10 @@
+
+army = {
+    name = "Poiters Armee"
+    location = 443
+    regiment = {
+        name= "1.artillery"
+        type = artillery
+        home = 444
+    }
+}

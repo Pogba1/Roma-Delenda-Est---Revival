@@ -1,6 +1,0 @@
-name = "Roma Delenda Est - Revival"
-path = "mod/Roma Delenda Est - Revival"
-user_dir = "Roma Delenda Est - Revival"
-replace_path = "history/provinces"
-replace_path = "events"
-replace_path = "decisions"

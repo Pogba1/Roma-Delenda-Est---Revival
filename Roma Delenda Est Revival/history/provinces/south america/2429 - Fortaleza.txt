@@ -1,0 +1,6 @@
+owner = ESP
+controller = ESP
+add_core = ESP
+trade_goods = fish
+terrain = savanna
+life_rating = 35

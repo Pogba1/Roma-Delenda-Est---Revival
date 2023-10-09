@@ -1,0 +1,6 @@
+owner = NVA
+controller = NVA
+add_core = NVA
+trade_goods = iron
+life_rating = 35
+

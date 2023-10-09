@@ -1,0 +1,7 @@
+owner = GLD
+controller = GLD
+add_core = GLD
+add_core = MAY
+is_slave = yes
+trade_goods = coffee
+life_rating = 34

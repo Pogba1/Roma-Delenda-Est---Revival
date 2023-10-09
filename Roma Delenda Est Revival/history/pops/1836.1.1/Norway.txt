@@ -1,0 +1,445 @@
+#Trondelag-Nordland Region - 304000
+#Trondheim (140000/35000 POPS)
+305 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = nordic
+        religion = fuckme
+        size = 300
+    }
+
+    officers = {
+        culture = nordic
+        religion = fuckme
+        size = 50
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 150
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 3250
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 2000
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 31250
+    }
+}
+#Bodo (56000/14000 POPS)
+306 = {
+    clergymen = {
+        culture = sami
+        religion = protestant
+        size = 50
+    }
+
+    aristocrats = {
+        culture = sami
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = sami
+        religion = protestant
+        size = 750
+    }
+
+    soldiers = {
+        culture = sami
+        religion = protestant
+        size = 100
+    }
+
+    farmers = {
+        culture = sami
+        religion = protestant
+        size = 13100
+    }
+
+    farmers = {
+        culture = finnish
+        religion = protestant
+        size = 1100
+    }
+}
+#Hammerfest (36000/9000 POPS)
+307 = {
+    aristocrats = {
+        culture = sami
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = sami
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = sami
+        religion = protestant
+        size = 500
+    }
+
+    soldiers = {
+        culture = sami
+        religion = protestant
+        size = 50
+    }
+
+    farmers = {
+        culture = sami
+        religion = protestant
+        size = 5000
+    }
+
+    farmers = {
+        culture = sami
+        religion = protestant
+        size = 2400
+    }
+
+    farmers = {
+        culture = finnish
+        religion = protestant
+        size = 2000
+    }
+}
+#Alesund (72000/18000 POPS)
+308 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 200
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 75
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 1100
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 100
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 17825
+    }
+
+}
+
+#Vestlandet-Sorlandet Region : 544000
+#Bergen (180000/45000 POPS)
+309 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 400
+    }
+
+    bureaucrats = {
+        culture = nordic
+        religion = fuckme
+        size = 500
+    }
+
+    officers = {
+        culture = nordic
+        religion = fuckme
+        size = 100
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 200
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 5000
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 2000
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 39200
+    }
+}
+#Christiansand (164000/41000 POPS)
+310 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 600
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 175
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 2000
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 1100
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 38825
+    }
+}
+#Skien (68000/17000 POPS)
+311 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 100
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 75
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 750
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 100
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 17075
+    }
+}
+#Drammen (132000/33000 POPS)
+312 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 300
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 125
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 2000
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 250
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 32125
+    }
+
+}
+#Ostlandet Region - 352000
+#Christiania (108000/27000 POPS)
+313 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = nordic
+        religion = fuckme
+        size = 500
+    }
+
+    officers = {
+        culture = nordic
+        religion = fuckme
+        size = 100
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 125
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 7000
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 3000
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 18275
+    }
+}
+#Hamar (80000/20000 POPS)
+314 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 200
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 100
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 1100
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 150
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 19750
+    }
+}
+#Lillehammer (96000/24000 POPS)
+315 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 200
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 125
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 1250
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 200
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 23425
+    }
+}
+#Frederiksstad (68000/17000 POPS)
+316 = {
+    aristocrats = {
+        culture = nordic
+        religion = fuckme
+        size = 150
+    }
+
+    clergymen = {
+        culture = nordic
+        religion = fuckme
+        size = 75
+    }
+
+    artisans = {
+        culture = nordic
+        religion = fuckme
+        size = 750
+    }
+
+    soldiers = {
+        culture = nordic
+        religion = fuckme
+        size = 150
+    }
+
+    farmers = {
+        culture = nordic
+        religion = fuckme
+        size = 17025
+    }
+
+}

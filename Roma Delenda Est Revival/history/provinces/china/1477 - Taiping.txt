@@ -1,0 +1,10 @@
+owner = SHG
+controller = SHG
+add_core = SHG
+trade_goods = silk
+life_rating = 32
+1861.1.1 = {
+    owner = TPG
+    controller = TPG
+    add_core = TPG
+}

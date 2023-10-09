@@ -1,5 +1,0 @@
-owner = ISA
-controller = ISA
-add_core = ISA
-trade_goods = fruit
-life_rating = 35

@@ -1,0 +1,7 @@
+owner = POI
+controller = POI
+add_core = POI
+add_core = FRA
+trade_goods = cattle
+life_rating = 36
+1861.1.1 = { railroad = 3 }

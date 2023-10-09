@@ -1,0 +1,6 @@
+owner = ACH
+controller = ACH
+add_core = ACH
+add_core = GRE
+trade_goods = iron
+life_rating = 40

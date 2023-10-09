@@ -1,6 +1,0 @@
-owner = LIS
-controller = LIS
-add_core = LIS
-add_core = BSQ
-trade_goods = fish
-life_rating = 35

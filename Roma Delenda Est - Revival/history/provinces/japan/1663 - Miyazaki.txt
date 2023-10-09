@@ -1,6 +1,0 @@
-owner = MLY
-controller = MLY
-add_core = JAP
-trade_goods = cattle
-life_rating = 35
-colonial = 2

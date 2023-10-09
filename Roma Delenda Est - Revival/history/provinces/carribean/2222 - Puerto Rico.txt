@@ -1,6 +1,0 @@
-owner = GLD
-controller = GLD
-add_core = GLD
-trade_goods = coffee
-life_rating = 35
-

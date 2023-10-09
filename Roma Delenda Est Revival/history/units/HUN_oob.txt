@@ -1,0 +1,165 @@
+
+prestige = 30
+
+
+leader = {
+    name = "von Mittrowitz-Nettolitzky"
+    date = 1835.1.1
+    type = land
+    personality = disciplined
+    background = aristocrat
+    prestige = 0.1
+}
+
+leader = {
+    name = "Hermann von Hess"
+    date = 1834.1.1
+    type = land
+    personality = diplomatic
+    background = artillerist
+    prestige = 0.1
+}
+
+
+
+
+
+army = {
+    name = "I. Pest Army"
+    location = 641
+    regiment = {
+        name= "1.1. Kavalleriedivision"
+        type = cuirassier
+        home = 641
+    }
+
+    regiment = {
+        name= "2.1. Kavalleriedivision"
+        type = cuirassier
+        home = 641
+    }
+
+    regiment = {
+        name= "3.1. Kavalleriedivision"
+        type = cuirassier
+        home = 641
+    }
+
+    regiment = {
+        name= "2.2. Infanteriedivision"
+        type = infantry
+        home = 649
+    }
+
+    regiment = {
+        name= "3.2. Infanteriedivision"
+        type = infantry
+        home = 644
+    }
+
+    regiment = {
+        name= "1.3. Infanteriedivision"
+        type = infantry
+        home = 643
+    }
+
+    regiment = {
+        name= "2.3. Infanteriedivision"
+        type = infantry
+        home = 639
+    }
+
+    regiment = {
+        name= "3.3. Infanteriedivision"
+        type = artillery
+        home = 639
+    }
+
+    regiment = {
+        name= "2.3. Infanteriedivision"
+        type = infantry
+        home = 639
+    }
+
+    regiment = {
+        name= "3.3. Infanteriedivision"
+        type = artillery
+        home = 639
+    }
+
+    regiment = {
+        name= "3.3. Infanteriedivision"
+        type = artillery
+        home = 639
+    }
+}
+
+army = {
+    name = "II. Transylvania Army"
+    location = 647
+    regiment = {
+        name= "1.1. Kavalleriedivision"
+        type = cuirassier
+        home = 647
+    }
+
+    regiment = {
+        name= "2.1. Kavalleriedivision"
+        type = cuirassier
+        home = 688
+    }
+
+    regiment = {
+        name= "3.1. Kavalleriedivision"
+        type = cuirassier
+        home = 672
+    }
+
+    regiment = {
+        name= "2.2. Infanteriedivision"
+        type = infantry
+        home = 673
+    }
+
+    regiment = {
+        name= "3.2. Infanteriedivision"
+        type = infantry
+        home = 667
+    }
+
+    regiment = {
+        name= "1.3. Infanteriedivision"
+        type = infantry
+        home = 665
+    }
+
+    regiment = {
+        name= "2.3. Infanteriedivision"
+        type = infantry
+        home = 812
+    }
+
+    regiment = {
+        name= "3.3. Infanteriedivision"
+        type = artillery
+        home = 813
+    }
+
+    regiment = {
+        name= "2.3. Infanteriedivision"
+        type = infantry
+        home = 795
+    }
+
+    regiment = {
+        name= "3.3. Infanteriedivision"
+        type = artillery
+        home = 783
+    }
+
+    regiment = {
+        name= "3.3. Infanteriedivision"
+        type = artillery
+        home = 809
+    }
+}

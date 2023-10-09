@@ -1,0 +1,697 @@
+army = {
+    name = "Army of The Blue Banner"
+    location = 1470
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1470
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1470
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1470
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1474
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1474
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1474
+    }
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1477
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1477
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1477
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1477
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1477
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1472
+    }
+}
+
+army = {
+    name = "Army of The South"
+    location = 1518
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1518
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1518
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1516
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1516
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1516
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1517
+    }
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1517
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1519
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1519
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 1523
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1523
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 1581
+    }
+}
+
+
+army = {
+    name = "1st Green Standard Army"
+    location = 1562
+    regiment = {
+        name= "1st Green Standard"
+        type = infantry
+        home = 1562
+    }
+
+    regiment = {
+        name= "2nd Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+    regiment = {
+        name= "3rd Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "4th Green Standard"
+        type = artillery
+        home = 1515
+    }
+
+    regiment = {
+        name= "5th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "6th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+        regiment = {
+        name= "7th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "8th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+    regiment = {
+        name= "9th Green Standard"
+        type = infantry
+        home = 1579
+    }
+    regiment = {
+        name= "6th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+        regiment = {
+        name= "7th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "8th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+    regiment = {
+        name= "9th Green Standard"
+        type = infantry
+        home = 1579
+    }
+    regiment = {
+        name= "9th Green Standard"
+        type = infantry
+        home = 1579
+    }
+    regiment = {
+        name= "6th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+        regiment = {
+        name= "7th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "8th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+    regiment = {
+        name= "9th Green Standard"
+        type = infantry
+        home = 1579
+    }
+}
+
+
+
+army = {
+    name = "4th Green Standard Army"
+    location = 1564
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1564
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1564
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1568
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1568
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1571
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1571
+    }
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1581
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1581
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1583
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1583
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1583
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1579
+    }
+}
+
+
+army = {
+    name = "Army of the North"
+    location = 1567
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1579
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1579
+    }
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1579
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1579
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1579
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1579
+    }
+}
+
+
+army = {
+    name = "Army of the West"
+    location = 1543
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1540
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1540
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1540
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1540
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1540
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1540
+    }
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1540
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1540
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1540
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1540
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1540
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1540
+    }
+}
+
+army = {
+    name = "Army of the East "
+    location = 1583
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1541
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1541
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1541
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1541
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1541
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1541
+    }
+
+    regiment = {
+        name= "28th Green Standard"
+        type = infantry
+        home = 1541
+    }
+
+    regiment = {
+        name= "29th Green Standard"
+        type = artillery
+        home = 1541
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1541
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1541
+    }
+
+    regiment = {
+        name= "30th Green Standard"
+        type = infantry
+        home = 1541
+    }
+
+    regiment = {
+        name= "31st Green Standard"
+        type = irregular
+        home = 1541
+    }
+}
+leader = {
+    name = "Guan Tianpei"
+    picture = asian_admiral_4
+    date = 1820.1.1
+    type = sea
+    personality = chivalrous
+    background = elderly
+}
+
+leader = {
+    name = "Lin Zexu"
+    picture = asian_admiral_1
+    date = 1820.1.1
+    type = sea
+    personality = charismatic
+    background = elderly
+}
+
+leader = {
+    name = "Daoguang Emperor"
+    picture = asian_general_3
+    date = 1820.1.1
+    type = land
+    personality = inefficient
+    background = aristocrat
+}
+
+leader = {
+    name = "Qishan"
+    date = 1830.1.1
+    type = land
+    personality = gutsy
+    background = old_school
+}
+
+leader = {
+    name = "Yishan"
+    date = 1830.1.1
+    type = land
+    personality = impetuous
+    background = aristocrat
+}
+
+leader = {
+    name = "Yijing"
+    date = 1830.1.1
+    type = land
+    personality = spirited
+    background = aristocrat
+}
+
+leader = {
+    name = "Yang Fang"
+    date = 1820.1.1
+    type = land
+    personality = brash
+    background = school_of_offense
+}
+
+#Channel Fleet
+navy = {
+    name = "Shang fleet"
+    location = 1540
+
+    ship = {
+        name= "HMS Powerful"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Prince Regent"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Princess Charlotte"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Rodney"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Royal Adelaide"
+        type = manowar
+    }
+
+
+    ship = {
+        name= "HMS America"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Castor"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Conquestadore"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Eagle"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Forth"
+        type = frigate
+    }
+    ship = {
+        name= "13th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "14th Transport Flotilla"
+        type = steam_transport
+    }
+
+
+}

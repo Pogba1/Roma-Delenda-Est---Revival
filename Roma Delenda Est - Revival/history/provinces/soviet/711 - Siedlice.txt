@@ -1,5 +1,0 @@
-owner = GAL
-controller = GAL
-add_core = GAL
-trade_goods = cattle
-life_rating = 35

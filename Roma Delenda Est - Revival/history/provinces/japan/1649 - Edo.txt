@@ -1,7 +1,0 @@
-owner = AIN
-controller = AIN
-add_core = AIN
-trade_goods = fruit
-life_rating = 40
-fort = 1
-naval_base = 2

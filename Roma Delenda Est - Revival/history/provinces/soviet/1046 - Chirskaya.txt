@@ -1,6 +1,0 @@
-owner = TCA
-controller = TCA
-add_core = TCA
-add_core = CIR
-trade_goods = coal
-life_rating = 35

@@ -1,8 +1,0 @@
-owner = GLD
-controller = GLD
-add_core = GLD
-add_core = GUY
-trade_goods = fruit
-terrain = jungle
-life_rating = 35
-

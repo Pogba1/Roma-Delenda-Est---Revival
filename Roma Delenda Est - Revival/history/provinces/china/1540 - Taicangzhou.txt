@@ -1,6 +1,0 @@
-owner = SHG
-controller = SHG
-add_core = SHG
-trade_goods = fish
-life_rating = 32
-naval_base = 1

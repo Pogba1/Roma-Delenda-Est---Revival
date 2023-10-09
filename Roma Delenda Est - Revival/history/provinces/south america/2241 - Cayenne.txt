@@ -1,7 +1,0 @@
-owner = GLD
-controller = GLD
-add_core = GLD
-add_core = GUY
-trade_goods = tropical_wood
-life_rating = 35
-

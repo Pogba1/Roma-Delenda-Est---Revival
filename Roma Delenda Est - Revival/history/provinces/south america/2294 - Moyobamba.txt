@@ -1,5 +1,0 @@
-owner = ISK
-controller = ISK
-add_core = ISK
-trade_goods = timber
-life_rating = 35

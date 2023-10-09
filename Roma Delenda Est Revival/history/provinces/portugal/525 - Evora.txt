@@ -1,0 +1,6 @@
+owner = LIS
+controller = LIS
+add_core = LIS
+add_core = BSQ
+trade_goods = grain
+life_rating = 35

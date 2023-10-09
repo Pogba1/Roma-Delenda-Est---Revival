@@ -1,6 +1,0 @@
-owner = NIK
-controller = NIK
-add_core = NIK
-add_core = GRE
-trade_goods = fruit
-life_rating = 40

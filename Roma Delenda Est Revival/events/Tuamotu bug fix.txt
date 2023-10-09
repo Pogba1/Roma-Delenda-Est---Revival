@@ -1,0 +1,80 @@
+
+
+
+# THIS EVENT TRIES TO FIX TUAMOTU REPLACING GREEK MINORS
+country_event = {
+    id = 30
+    title = "EVTNAM26"
+    desc = "EVTDESC26"
+    trigger = {
+            tag = TMT                   
+}
+	mean_time_to_happen = {
+		days = 10
+	}
+
+    option = {
+        name = "EVTOPTA26"
+         any_owned = {
+			limit = { is_core = MAC }
+			secede_province = MAC
+
+		}   
+         any_owned = {
+			limit = { is_core = ATH }
+			secede_province = ATH
+
+		}  
+         any_owned = {
+			limit = { is_core = ACH }
+			secede_province = ACH
+
+		}   
+         any_owned = {
+			limit = { is_core = EPI }
+			secede_province = EPI
+
+		}
+         any_owned = {
+			limit = { is_core = THR }
+			secede_province = THR
+
+		}  
+         any_owned = {
+			limit = { is_core = BYZ }
+			secede_province = BYZ
+
+		}
+         any_owned = {
+			limit = { is_core = NIK }
+			secede_province = NIK
+
+		} 
+         any_owned = {
+			limit = { is_core = PNT }
+			secede_province = PNT
+
+		}
+         any_owned = {
+			limit = { is_core = MGN }
+			secede_province = MGN
+
+		}
+         any_owned = {
+			limit = { is_core = PAP }
+			secede_province = PAP
+
+		}     
+         any_owned = {
+			limit = { is_core = EPI }
+			secede_province = EPI
+
+		}  
+         any_owned = {
+			limit = { is_core = SIC }
+			secede_province = SIC
+
+		}         
+    }
+}
+

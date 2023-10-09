@@ -1,0 +1,167 @@
+leader = {
+    name = "Mukhulai"
+    date = 1830.1.1
+    type = land
+    personality = brilliant
+    background = cavalry_school
+    prestige = 0.2
+}
+
+leader = {
+    name = "Balingiin Tomorbaatar"
+    date = 1834.1.1
+    type = land
+    personality = daring
+    background = bootlicker
+    prestige = 0.2
+}
+
+
+
+
+army = {
+    name = "Army of Mongolia"
+    location = 1534
+    regiment = {
+        name= "1st Infantry"
+        type = infantry
+        home = 1534
+    }
+
+   regiment = {
+        name= "Royal Dragoons"
+        type = dragoon
+        home = 1552
+    }
+
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1533
+    }
+
+   regiment = {
+        name= "Royal Dragoons"
+        type = dragoon
+        home = 1002
+    }
+
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1532
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1532
+    }
+   regiment = {
+        name= "Royal Dragoons"
+        type = dragoon
+        home = 1535
+    }
+
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1492
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1492
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1492
+    }
+
+}
+
+army = {
+    name = "Army of the south"
+    location = 1492
+    regiment = {
+        name= "1st Infantry"
+        type = infantry
+        home = 1490
+    }
+
+   regiment = {
+        name= "Royal Dragoons"
+        type = artillery
+        home = 1491
+    }
+
+    regiment = {
+        name= "Heavy Brigade"
+        type = artillery
+        home = 1490
+    }
+
+   regiment = {
+        name= "Royal Dragoons"
+        type = dragoon
+        home = 1489
+    }
+
+    regiment = {
+        name= "Heavy Brigade"
+        type = artillery
+        home = 1489
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = infantry
+        home = 1488
+    }
+   regiment = {
+        name= "Royal Dragoons"
+        type = infantry
+        home = 1488
+    }
+
+    regiment = {
+        name= "Heavy Brigade"
+        type = artillery
+        home = 1488
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1488
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = artillery
+        home = 1488
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1488
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = infantry
+        home = 1075
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = artillery
+        home = 1552
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = cuirassier
+        home = 1552
+    }
+    regiment = {
+        name= "Heavy Brigade"
+        type = infantry
+        home = 1533
+    }
+
+}

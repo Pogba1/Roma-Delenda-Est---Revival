@@ -1,0 +1,5 @@
+owner = NVA
+controller = NVA
+add_core = NVA
+trade_goods = fish
+life_rating = 31

@@ -1,5 +1,0 @@
-owner = PRT
-controller = PRT
-add_core = PRT
-trade_goods = cattle
-life_rating = 35

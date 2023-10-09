@@ -1,0 +1,706 @@
+#Flanders Region (2558000)
+#Brussels (772000/193000 POPS)
+387 = {
+    ######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    capitalists = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    officers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clerks = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+
+    craftsmen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 600
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1025
+    }
+    ########
+
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 1000
+    }
+
+    officers = {
+        culture = picard
+        religion = catholic
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = picard
+        religion = catholic
+        size = 250
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 425
+    }
+
+    capitalists = {
+        culture = picard
+        religion = catholic
+        size = 75
+    }
+
+    clerks = {
+        culture = picard
+        religion = catholic
+        size = 1550
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 3400
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 7500
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 2000
+    }
+
+    labourers = {
+        culture = picard
+        religion = catholic
+        size = 37725
+    }
+
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 300
+    }
+
+    officers = {
+        culture = picard
+        religion = catholic
+        size = 450
+    }
+
+    bureaucrats = {
+        culture = picard
+        religion = catholic
+        size = 800
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 250
+    }
+
+    capitalists = {
+        culture = picard
+        religion = catholic
+        size = 150
+    }
+
+    clerks = {
+        culture = picard
+        religion = catholic
+        size = 300
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 10000
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 7300
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 1100
+    }
+
+    labourers = {
+        culture = picard
+        religion = catholic
+        size = 5650
+    }
+}
+#Bruges (456000/114000 POPS)
+388 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 750
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 425
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 5000
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 550
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 850
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 50525
+    }
+}
+#Ghent (704000/176000 POPS)
+389 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 875
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 650
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 7500
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 4000
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 1250
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 109750
+    }
+}
+#Antwerp (354000/88500 POPS)
+390 = {
+
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 625
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 375
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 300
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 2400
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 6400
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 700
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 37700
+    }
+    ######Jews
+    craftsmen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 300
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+    ########
+}
+#Hasselt (272000/68000 POPS)
+391 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 350
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 275
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 1700
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 32175
+    }
+
+}
+#Wallonia Region (1432000)
+#Namur (388000/97000 POPS)
+392 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 850
+    }
+
+    officers = {
+        culture = picard
+        religion = catholic
+        size = 350
+    }
+
+    bureaucrats = {
+        culture = picard
+        religion = catholic
+        size = 500
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 550
+    }
+
+    capitalists = {
+        culture = picard
+        religion = catholic
+        size = 150
+    }
+
+    clerks = {
+        culture = picard
+        religion = catholic
+        size = 2000
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 14000
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 1300
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 2000
+    }
+
+    labourers = {
+        culture = picard
+        religion = catholic
+        size = 21200
+    }
+}
+#Tournai (292000/73000 POPS)
+393 = {
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 100
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 1100
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 100
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 8800
+    }
+
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 700
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 300
+    }
+
+    clerks = {
+        culture = picard
+        religion = catholic
+        size = 100
+    }
+
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 2200
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 1100
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 36075
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 125
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 500
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 12000
+    }
+}
+#Charleroi (396000/99000 POPS)
+394 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 900
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 575
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 3800
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 16000
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 1100
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 44725
+    }
+
+    ######Jews
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+    ########
+}
+#Liege (212000/53000 POPS)
+395 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 750
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 500
+    }
+
+    clerks = {
+        culture = picard
+        religion = catholic
+        size = 100
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 3000
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 1200
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 3100
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 17800
+    }
+}
+#Spa - Eupen-Malmedy (144000/36000 POPS)
+396 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 50
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 450
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 1200
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 8375
+    }
+}
+#Luxembourg Region (172000)
+#Arlon (172000/43000 POPS)
+398 = {
+    aristocrats = {
+        culture = picard
+        religion = catholic
+        size = 450
+    }
+
+    clergymen = {
+        culture = picard
+        religion = catholic
+        size = 225
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 1350
+    }
+
+    soldiers = {
+        culture = picard
+        religion = catholic
+        size = 1100
+    }
+
+    craftsmen = {
+        culture = picard
+        religion = catholic
+        size = 6000
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 20425
+    }
+
+    artisans = {
+        culture = picard
+        religion = catholic
+        size = 250
+    }
+
+    farmers = {
+        culture = picard
+        religion = catholic
+        size = 4200
+    }
+
+}

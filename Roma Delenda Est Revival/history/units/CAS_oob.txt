@@ -1,0 +1,88 @@
+
+leader = {
+    name = "Tokugawa Nariaki"
+    date = 1836.1.1
+    type = land
+    personality = disciplined
+    background = old_school
+    prestige = 0.1
+ }
+
+army = {
+    name = "Army of Cascadia"
+    location = 136
+    regiment = {
+        name= "1.Samurai"
+        type = cavalry
+        home = 95
+    }
+    regiment = {
+        name= "2.Samurai"
+        type = cavalry
+        home = 82
+    }
+    regiment = {
+        name= "3.Samurai"
+        type = cavalry
+        home = 83
+    }
+    regiment = {
+        name= "1.Edo"
+        type = artillery
+        home = 92
+    }
+    regiment = {
+        name= "2.Edo"
+        type = infantry
+        home = 80
+    }
+    regiment = {
+        name= "3.Edo"
+        type = infantry
+        home = 79
+    }
+    regiment = {
+        name= "4.Edo"
+        type = artillery
+        home = 79
+    }
+    regiment = {
+        name= "3.Edo"
+        type = infantry
+        home = 14
+    }
+    regiment = {
+        name= "4.Edo"
+        type = artillery
+        home = 78
+    }
+}
+#
+navy = {
+    name = "Cascadian fleet"
+    location = 1645 #Niigata
+    ship = {
+        name= "HMS Amphitrite"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Java"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Laurel"
+        type = frigate
+    }
+
+    ship = {
+        name= "8th Transport Flotilla"
+        type = steam_transport
+    }
+    ship = {
+        name= "14th Transport Flotilla"
+        type = steam_transport
+    }
+
+}

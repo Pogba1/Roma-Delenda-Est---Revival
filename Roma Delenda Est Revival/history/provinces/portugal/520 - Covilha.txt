@@ -1,0 +1,6 @@
+owner = COV
+controller = COV
+add_core = COV
+add_core = BSQ
+trade_goods = wool
+life_rating = 35

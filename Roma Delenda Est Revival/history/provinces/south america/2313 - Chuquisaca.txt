@@ -1,0 +1,9 @@
+owner = ISK
+controller = ISK
+add_core = ISK
+trade_goods = wool
+life_rating = 35
+1860.1.1 = {
+    owner = BOL
+    controller = BOL
+}

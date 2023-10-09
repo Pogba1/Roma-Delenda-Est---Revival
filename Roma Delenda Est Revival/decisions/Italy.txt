@@ -1,0 +1,141 @@
+political_decisions = {
+    accademia_della_crusca = {
+        potential = {
+               tag = TUS
+            NOT = { has_country_flag = accademia_della_crusca }
+        }
+
+        allow = {
+            romanticism = 1
+            idealism = 1
+            money = 80000
+        }
+
+        effect = {
+               treasury = -80000
+            prestige = 15
+            political_reform = free_press
+            set_country_flag = accademia_della_crusca
+        }
+    }
+
+integrate_Tripoli = {
+        picture = form_union_nation
+	potential = {
+	     tag = ITA 
+	     year = 1850
+             exists = TRI 
+	}
+	allow = {
+	  nationalism_n_imperialism = 1
+	  war = no
+	  year = 1865
+          TRI = {
+		in_sphere = THIS
+                            OR = {
+                                is_vassal = no
+                                vassal_of = THIS
+                   }
+	  }
+       }
+	  effect = {
+            prestige = 10
+            add_accepted_culture = Tripolitainian
+           TRI = {
+              any_owned = { 
+              limit = { core = TRI 
+              NOT = { is_core = CYR }
+              } 
+            add_core = ITA }
+          }
+            TRI = { country_event = 11101 }
+            country_event = 222
+            }
+ 	    ai_will_do = {
+            factor = 1
+            }         
+}
+
+    award_order_of_st_francis = {
+        picture = award_order_of_st_francis
+        potential = {
+            tag = SIC
+            government = absolute_monarchy
+            NOT = { has_country_flag = order_awarded }
+        }
+
+        allow = {
+            prestige = 25
+        }
+
+        effect = {
+            years_of_research = 0.2
+            prestige = 2
+            set_country_flag = order_awarded
+        }
+    }
+
+    statuto_albertino = {
+        potential = {
+            OR = {
+                tag = SAR
+                tag = SVY
+            }
+            government = absolute_monarchy
+            OR = {
+                has_country_flag = liberal_revolution_in_progress
+                has_country_flag = liberal_revolution_fired
+            }
+            NOT = { has_country_flag = get_your_statuto_albertino_here }
+        }
+
+        allow = {
+            state_n_government = 1
+            average_militancy = 2
+        }
+
+        effect = {
+            any_pop = { militancy = -2 }
+            any_pop = { scaled_militancy = { factor = 3 ideology = reactionary  } }
+            political_reform = universal_weighted_voting
+            political_reform = proportional_representation
+            political_reform = harassment
+            political_reform = censored_press
+            political_reform = yes_meeting
+            social_reform = incarceration
+            prestige = 5
+            set_country_flag = get_your_statuto_albertino_here
+        }
+
+        ai_will_do = {
+            factor = 0.9
+        }
+    }
+
+
+    the_case_of_edgardo_mortara = {
+        potential = {
+            tag = PAP
+            government = theocracy
+            NOT = { has_country_flag = edgardo_mortara }
+            year = 1858
+            owns = 741
+        }
+
+        allow = {
+            idealism = 1
+        }
+
+        effect = {
+            prestige = 15
+            badboy = 1
+            any_greater_power = {
+                relation = {
+                    value = -20
+                    who = THIS
+                }
+            }
+            set_country_flag = edgardo_mortara
+        }
+    }
+   }

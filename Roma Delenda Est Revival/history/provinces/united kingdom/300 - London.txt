@@ -1,0 +1,20 @@
+owner = ALB
+controller = ALB
+add_core = ALB
+trade_goods = grain
+life_rating = 45
+fort = 1
+
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = luxury_clothes_factory
+        upgrade = yes
+    }
+    state_building = {
+        level = 1
+        building = luxury_furniture_factory
+        upgrade = yes
+    }
+}
+1861.1.1 = { railroad = 3 }

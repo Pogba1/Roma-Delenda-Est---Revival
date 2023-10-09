@@ -1,5 +1,0 @@
-owner = NVA
-controller = NVA
-add_core = NVA
-trade_goods = coal
-life_rating = 31

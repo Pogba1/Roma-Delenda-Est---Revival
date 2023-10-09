@@ -1,6 +1,0 @@
-owner = BOU
-controller = BOU
-add_core = BOU
-add_core = FRA
-trade_goods = iron
-life_rating = 35

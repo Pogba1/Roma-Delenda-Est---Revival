@@ -1,0 +1,219 @@
+#The End of the holy war -Coptic victory
+country_event = {
+    id = 235
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+    trigger = {
+        has_country_flag = crusade_called
+        war = no
+        ARA = {
+          is_disarmed = yes
+          truce_with = THIS
+          }
+    }
+
+    mean_time_to_happen = { days = 1 }
+
+    option = {
+        name = "EVT235OPTA"
+        set_country_flag = victorious_crusaders
+        any_country = {limit = { has_country_flag = crusade_called} clr_country_flag = crusade_called } 
+        clr_country_flag = crusade_called
+         prestige = 80
+           1829 = {  add_core = ETH }
+           1830 = {  add_core = ETH }
+           1828 = {  add_core = ETH }
+           1827 = {  add_core = ETH }
+           1831 = {  add_core = ETH }
+           1838 = {  add_core = ETH }
+           1840 = {  add_core = ETH }
+           1832 = {  add_core = ETH }
+           1834 = {  add_core = EGY } 
+           1836 = {  add_core = EGY } 
+           1837 = {  add_core = EGY }
+           1806 = {  add_core = EGY }
+           1835 = { add_core = EGY }
+           1833 = { add_core = EGY }
+       SUD = {
+            country_event = 236        
+        }
+       ARA= {
+            country_event = 237        
+        }
+       SOM= {
+            country_event = 241        
+        }
+      create_vassal = ARA
+    }
+}
+# Sudan lost
+country_event = {
+    id = 236
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+  is_triggered_only = yes
+
+    option = {
+        name = "EVT235OPTA"
+       SUD = {
+            any_owned = {
+			limit = { is_core = EGY }
+			secede_province = EGY
+	      }
+            any_owned = {
+			limit = { is_core = ETH }
+			secede_province = ETH
+	      }                   
+        }
+    }
+}
+# Arabia lost
+country_event = {
+    id = 237
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+  is_triggered_only = yes
+
+    option = {
+        name = "EVT235OPTA"
+NEJ_1156 = { add_core = LEV secede_province = LEV   }
+    }
+}
+
+# Somaliland lost
+country_event = {
+    id = 241
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+  is_triggered_only = yes
+
+    option = {
+        name = "EVT235OPTA"
+        all_core = {add_core = ETH}
+      ETH = { inherit = THIS}
+}
+}
+
+#The End of the holy war - Sunni victory
+country_event = {
+    id = 238
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+    trigger = {
+        has_country_flag = crusade_called
+        war = no
+      AND = {
+         LEV = {
+          is_disarmed = yes
+          truce_with = THIS
+          }
+         EGY = {
+          is_disarmed = yes
+          truce_with = THIS
+          }
+         ETH = {
+          is_disarmed = yes
+          truce_with = THIS
+          }
+	}
+    }
+
+    mean_time_to_happen = { days = 1 }
+
+    option = {
+        name = "EVT235OPTA"
+        set_country_flag = defeated_crusaders
+        clr_country_flag = crusade_called
+        any_country = {limit = { has_country_flag = crusade_called} clr_country_flag = crusade_called }
+        clr_country_flag = crusade_called 
+         prestige = 80
+        EGY_921 = { add_core = ARA }
+        EGY_903 = {add_core = ARA }
+        EGY_1755 = {add_core = ARA }
+        ENG_1848 = { add_core = ARA }
+        ETH_1859 = { add_core = SOM }
+        create_vassal = LEV
+       EGY = {
+            country_event = 240        
+        }
+       LEV = {
+            country_event = 239        
+        }
+       ETH = {
+            country_event = 242       
+        }
+     }
+}
+# Levant lost
+country_event = {
+    id = 239
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+  is_triggered_only = yes
+
+    option = {
+        name = "EVT235OPTA"
+            any_owned = {
+			limit = { is_core = ARA }
+			secede_province = ARA
+	      }
+    }
+}
+# Egupt lost
+country_event = {
+    id = 240
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+  is_triggered_only = yes
+
+    option = {
+        name = "EVT235OPTA"
+            any_owned = {
+			limit = { is_core = ARA }
+			secede_province = ARA
+	      }
+            any_owned = {
+			limit = { NOT = { is_core = ARA } }
+			add_core = SUD
+	      }
+            any_owned = {
+			limit = { is_core = SUD }
+			secede_province = SUD
+	      }
+    }
+}
+# Ethiopia lost
+country_event = {
+    id = 242
+    title = "EVTNAME235"
+    desc = "EVTDESC235"
+    major = yes
+  is_triggered_only = yes
+
+    option = {
+        name = "EVT235OPTA"
+            any_owned = {
+			limit = { is_core = ARA }
+			secede_province = ARA
+	      }
+            any_owned = {
+			limit = { is_core = SOM }
+			secede_province = SOM
+	      }
+            any_owned = {
+			limit = { NOT = { is_core = ARA } }
+			add_core = SUD
+	      }
+            any_owned = {
+			limit = { is_core = SUD }
+			secede_province = SUD
+	      }
+    }
+}

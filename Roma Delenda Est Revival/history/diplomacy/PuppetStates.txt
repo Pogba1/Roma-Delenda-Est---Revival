@@ -1,0 +1,81 @@
+#Arabia- Sudan
+vassal = {
+    first = ARA
+    second = SUD
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+#Arabia- Somalia
+vassal = {
+    first = ARA
+    second = SOM
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+#Occitania - New Aquitania
+vassal = {
+    first = OCC
+    second = NVA
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+#Ireland - Tir na nOg
+vassal = {
+    first = IRE
+    second = ISA
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+#Manchuria - Yakutia
+vassal = {
+    first = MCK
+    second = YAK
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+#Manchuria - Siberia
+vassal = {
+    first = MCK
+    second = SIB
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+#China - Yingzhou
+vassal = {
+    first = CHI
+    second = CHC
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+
+#######################
+#        INDIA        #
+#######################
+
+
+##########################China
+
+#########1861
+# Siam - Cambodia
+vassal = {
+    first = SIA
+    second = CAM
+    start_date = 1861.1.1
+    end_date = 1936.1.1
+}
+
+# Siam - Champasak
+vassal = {
+    first = SIA
+    second = CHK
+    start_date = 1836.1.1
+    end_date =  1936.1.1
+}
+
+# UK - KAS
+vassal = {
+    first = ENG
+    second = KAS
+    start_date = 1861.1.1
+    end_date = 1936.1.1
+}

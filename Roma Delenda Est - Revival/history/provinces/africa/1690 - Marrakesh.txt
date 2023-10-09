@@ -1,5 +1,0 @@
-owner = NUM
-controller = GLD
-add_core = NUM
-trade_goods = iron
-life_rating = 35

@@ -1,0 +1,15 @@
+
+army = {
+    name = "Nancy Armee"
+    location = 411
+    regiment = {
+        name= "1.Infanterie"
+        type = infantry
+        home = 411
+    }
+    regiment = {
+        name= "2. Infanterie"
+        type = infantry
+        home = 414
+    }
+}

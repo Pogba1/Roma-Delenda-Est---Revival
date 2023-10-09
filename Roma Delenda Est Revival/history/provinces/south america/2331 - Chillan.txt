@@ -1,0 +1,6 @@
+owner = JIN
+controller = JIN
+add_core = JIN
+trade_goods = iron
+terrain = montane_forest
+life_rating = 35

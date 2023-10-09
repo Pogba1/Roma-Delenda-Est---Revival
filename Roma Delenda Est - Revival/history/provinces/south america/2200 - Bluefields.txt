@@ -1,6 +1,0 @@
-owner = GLD
-controller = GLD
-add_core = GLD
-is_slave = yes
-trade_goods = fruit
-life_rating = 33

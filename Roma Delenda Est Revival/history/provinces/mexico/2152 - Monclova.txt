@@ -1,0 +1,6 @@
+owner = GLD
+controller = GLD
+add_core = GLD
+terrain = new_world_semidesert
+trade_goods = dye
+life_rating = 32

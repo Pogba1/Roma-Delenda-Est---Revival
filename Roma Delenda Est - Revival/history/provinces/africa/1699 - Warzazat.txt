@@ -1,6 +1,0 @@
-owner = NUM
-controller = GLD
-add_core = NUM
-trade_goods = fruit
-life_rating = 31
-terrain = semidesert

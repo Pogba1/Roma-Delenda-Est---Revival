@@ -1,6 +1,0 @@
-owner = ELY
-controller = ELY
-add_core = ELY
-trade_goods = cattle
-terrain = dryhills
-life_rating = 35

@@ -1,0 +1,6 @@
+owner = JIN
+controller = JIN
+add_core = JIN
+trade_goods = timber
+terrain = savanna
+life_rating = 25

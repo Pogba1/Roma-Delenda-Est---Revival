@@ -1,5 +1,0 @@
-owner = SHG
-controller = SHG
-add_core = SHG
-trade_goods = silk
-life_rating = 32

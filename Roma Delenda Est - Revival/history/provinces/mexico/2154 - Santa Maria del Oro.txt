@@ -1,6 +1,0 @@
-owner = CHC
-controller = CHC
-add_core = CHC
-trade_goods = grain
-terrain = montane_forest
-life_rating = 35

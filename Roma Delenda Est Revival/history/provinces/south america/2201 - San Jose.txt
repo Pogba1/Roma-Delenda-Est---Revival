@@ -1,0 +1,10 @@
+owner = GLD
+controller = GLD
+add_core = GLD
+is_slave = yes
+trade_goods = fruit
+life_rating = 39
+1861.1.1 = {
+    owner = COS
+    controller = COS
+}

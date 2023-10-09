@@ -1,0 +1,58 @@
+
+leader = {
+    name = "Vicente de Mesquita"
+    date = 1835.1.1
+    type = land
+    personality = dauntless
+    background = madman
+    prestige = 0.3
+}
+
+army = {
+    name = "Exército Português"
+    location = 520
+    regiment = {
+        name= "1. Brigada de Infantaria"
+        type = infantry
+        home = 520
+    }
+
+    regiment = {
+        name= "2. Brigada de Infantaria"
+        type = infantry
+        home = 522
+    }
+}
+
+navy = {
+    name = "Marinha Portuguesa"
+    location = 522
+    ship = {
+        name= "Dom Fernando II e Gloria"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bartholomeu Daiz"
+        type = commerce_raider
+    }
+
+}
+
+navy = {
+    location = 522
+    name = "Esquadrão de Navio"
+
+    ship = {
+        name= "1. Transporte Flotilha"
+        type = steam_transport
+    }
+    ship = {
+        name= "2. Transporte Flotilha"
+        type = steam_transport
+    }
+    ship = {
+        name= "3. Transporte Flotilha"
+        type = steam_transport
+    }
+}

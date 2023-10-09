@@ -1,0 +1,105 @@
+army = {
+    name = "Army of Yingzhou"
+    location = 87
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 87
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 89
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 90
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = infantry
+        home = 88
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 100
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 102
+    }
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 2137
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = infantry
+        home = 2141
+    }
+}
+
+leader = {
+    name = "Yang Fang"
+    date = 1820.1.1
+    type = land
+    personality = brash
+    background = school_of_offense
+}
+
+#Channel Fleet
+navy = {
+    name = "Yingzhou Fleet"
+    location = 90
+
+    ship = {
+        name= "HMS Powerful"
+        type = manowar
+    }
+
+    ship = {
+        name= "HMS Seahorse"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Stag"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Thalia"
+        type = frigate
+    }
+
+    ship = {
+        name= "11th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "12th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "13th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "14th Transport Flotilla"
+        type = steam_transport
+    }
+
+}

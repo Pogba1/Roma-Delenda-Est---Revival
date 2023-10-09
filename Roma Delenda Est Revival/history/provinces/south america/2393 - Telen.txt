@@ -1,0 +1,5 @@
+owner = JIN
+controller = JIN
+add_core = JIN
+trade_goods = wool
+life_rating = 25

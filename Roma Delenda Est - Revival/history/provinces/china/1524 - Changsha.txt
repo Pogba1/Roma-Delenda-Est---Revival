@@ -1,5 +1,0 @@
-owner = HAK
-controller = HAK
-add_core = HAK
-trade_goods = tea
-life_rating = 32

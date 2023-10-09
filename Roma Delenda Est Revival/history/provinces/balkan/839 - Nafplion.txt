@@ -1,0 +1,20 @@
+owner = ACH
+controller = ACH
+add_core = GRE
+add_core = ACH
+trade_goods = sulphur
+life_rating = 45
+state_building = {
+    level = 1
+    building = artillery_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = liquor_distillery
+    upgrade = yes
+state_building = {
+    level = 1
+    building = ammunition_factory
+    upgrade = yes
+}

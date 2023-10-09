@@ -1,0 +1,10 @@
+
+army = {
+    name = "Paris Armee"
+    location = 445
+    regiment = {
+        name= "1.Infanterie"
+        type = infantry
+        home = 446
+    }
+}

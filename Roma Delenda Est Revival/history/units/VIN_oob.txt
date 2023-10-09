@@ -1,0 +1,56 @@
+prestige = 15
+leader = {
+    name = "Albrecht Bernardotte "
+    date = 1836.1.1
+    type = land
+    personality = daring
+    background = adventurer
+}
+
+army = {
+    name = "Vinlandic Haeren"
+    location = 235
+    regiment = {
+        name= "1.1. Infanteridivision"
+        type = guard
+        home = 235
+    }
+
+    regiment = {
+        name= "2.1. Infanteridivision"
+        type = guard
+        home = 238
+    }
+
+    regiment = {
+        name= "3.1. Infanteridivision"
+        type = artillery
+        home = 46
+    }
+
+    regiment = {
+        name= "1.2. Infanteridivision"
+        type = artillery
+        home = 57
+    }
+
+    regiment = {
+        name= "1.1. Artilleridivision"
+        type = guard
+        home = 57
+    }
+}
+
+navy = {
+    name = "Royal Navy"
+    location = 61
+    ship = {
+        name= "Vinland "
+        type = manowar
+    }
+
+    ship = {
+        name= "Dronning Marie"
+        type = manowar
+    }
+}

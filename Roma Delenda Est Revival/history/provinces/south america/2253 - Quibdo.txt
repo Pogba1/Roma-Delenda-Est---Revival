@@ -1,0 +1,6 @@
+owner = GLD
+controller = GLD
+add_core = GLD
+is_slave = yes
+trade_goods = fish
+life_rating = 33

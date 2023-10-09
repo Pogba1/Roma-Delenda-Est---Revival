@@ -1,7 +1,0 @@
-owner = EPI
-controller = EPI
-add_core = EPI
-add_core = GRE
-trade_goods = fruit
-life_rating = 37
-terrain = small_island

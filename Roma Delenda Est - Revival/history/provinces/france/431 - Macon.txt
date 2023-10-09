@@ -1,7 +1,0 @@
-owner = BOU
-controller = BOU
-add_core = FRA
-add_core = BOU
-trade_goods = coal
-life_rating = 35
-1861.1.1 = { railroad = 2 }

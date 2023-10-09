@@ -1,0 +1,6 @@
+owner = CAS
+controller = CAS
+add_core = CAS
+terrain = new_world_montane_tundra
+trade_goods = fish
+life_rating = 31

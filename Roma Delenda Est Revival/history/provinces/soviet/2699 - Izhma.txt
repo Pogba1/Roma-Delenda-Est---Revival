@@ -1,0 +1,6 @@
+owner = UGR
+controller = UGR
+add_core = UGR
+trade_goods = timber
+terrain = boreal
+life_rating = 10

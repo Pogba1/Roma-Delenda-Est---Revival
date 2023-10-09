@@ -1,6 +1,0 @@
-owner = ESP
-controller = ESP
-add_core = ESP
-trade_goods = tobacco
-terrain = farmlands
-life_rating = 35

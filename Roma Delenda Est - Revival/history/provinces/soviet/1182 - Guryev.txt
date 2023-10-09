@@ -1,6 +1,0 @@
-owner = VLG
-controller = VLG
-add_core = VLG
-trade_goods = opium
-life_rating = 35
-

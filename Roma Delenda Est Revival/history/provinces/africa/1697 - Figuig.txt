@@ -1,0 +1,6 @@
+owner = NUM
+controller = NUM
+add_core = NUM
+terrain = semidesert
+trade_goods = wool
+life_rating = 31

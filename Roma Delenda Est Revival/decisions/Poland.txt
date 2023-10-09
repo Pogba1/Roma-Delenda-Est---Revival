@@ -1,0 +1,31 @@
+
+    january_uprising_victory = {
+        picture = become_poland
+        potential = {
+            tag = CPL
+            owns = 706
+            has_global_flag = january_uprising_happened
+            any_neighbor_country = { has_country_flag = through_january_uprising }
+            has_country_modifier = polish_uprising_mobilization
+        }
+
+        allow = {
+            war = no
+            any_neighbor_country = {
+                truce_with = THIS
+                has_recently_lost_war = yes
+            }
+        }
+        effect = {
+            any_neighbor_country = { clr_country_flag = through_january_uprising }
+            set_country_flag = poland_is_free
+            remove_country_modifier = polish_uprising_mobilization
+            remove_country_modifier = unrecognized_country
+            any_owned = {
+                limit = { OR = { is_core = CPL is_core = POL } }
+                remove_core = RUS
+            }
+        }
+        ai_will_do = { factor = 1  }
+    }
+}

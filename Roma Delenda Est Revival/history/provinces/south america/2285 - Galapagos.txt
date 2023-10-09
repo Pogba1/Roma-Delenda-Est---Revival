@@ -1,0 +1,6 @@
+owner = ISK
+controller = ISK
+add_core = ISK
+trade_goods = fish
+life_rating = 30
+terrain = new_world_plains

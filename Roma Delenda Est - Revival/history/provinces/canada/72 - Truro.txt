@@ -1,6 +1,0 @@
-owner = NVA
-controller = NVA
-add_core = NVA
-trade_goods = timber
-life_rating = 31
-

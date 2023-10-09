@@ -1,0 +1,531 @@
+army = {
+    name = "1st Army of Malaya"
+    location = 1353
+
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1353
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1354
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1352
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 2575
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1387
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1385
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1405
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1406
+    }
+
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1407
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1409
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1399
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1400
+    }
+}
+
+
+army = {
+    name = "2nd Army of Malaya"
+    location = 1456
+
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1456
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1455
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1457
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1464
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 2562
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1485
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1485
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1678
+    }
+
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 2681
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 2406
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1399
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1400
+    }
+}
+army = {
+    name = "Army of Japan"
+    location = 1660
+
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1660
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1664
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1663
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1662
+    }
+
+}
+
+army = {
+    name = "2nd Army of Malaya"
+    location = 1413
+
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1413
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1413
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1413
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1414
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1416
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1417
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1420
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1403
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1422
+    }
+    regiment = {
+        name= "1st division"
+        type = artillery
+        home = 1429
+    }
+
+    regiment = {
+        name= "2nd devision"
+        type = infantry
+        home = 1463
+    }
+
+}
+
+
+#Transport
+navy = {
+    name = "1st Indian Ocean fleet"
+    location = 1413 #Goa
+    ship = {
+        name= "1st Transport Flotilla"
+        type = steam_transport
+    }
+    ship = {
+        name= "2nd Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "3rd Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "4th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "5th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "6th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "7th Transport Flotilla"
+        type = steam_transport
+    }
+
+
+    ship = {
+        name= "15th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "HMS Bacchante"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Belvidera"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Briton"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Crescent"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Galatea"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Havannah"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Maidstone"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Menelaus"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Nymphe"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Tenedos"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Pallas"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Sirius"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Trincomalee"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Apollo"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Horatio"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Owen Glendower"
+        type = frigate
+    }
+}
+
+#Transport
+navy = {
+    name = "2nd Indian Ocean fleet"
+    location = 1384 #Goa
+    ship = {
+        name= "1st Transport Flotilla"
+        type = steam_transport
+    }
+    ship = {
+        name= "2nd Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "3rd Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "4th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "5th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "6th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "7th Transport Flotilla"
+        type = steam_transport
+    }
+
+
+    ship = {
+        name= "15th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "HMS Bacchante"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Belvidera"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Briton"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Crescent"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Galatea"
+        type = commerce_raider
+    }
+
+    ship = {
+        name= "HMS Havannah"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Maidstone"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Menelaus"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Nymphe"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Tenedos"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Pallas"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Sirius"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Trincomalee"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Apollo"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Horatio"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Owen Glendower"
+        type = frigate
+    }
+}
+
+
+leader = {
+    name = "Try Sutrisno"
+    date = 1825.1.1
+    type = land
+    personality = reserved
+    background = generals_aide
+    prestige = 0.1
+}
+
+leader = {
+    name = "Soedjono Hoemardani"
+    date = 1836.1.1
+    type = land
+    personality = able
+    background = engineer
+    prestige = 0.0
+}
+
+
+
+leader = {
+    name = "Sutoyo Siswomiharjo"
+    date = 1836.1.1
+    type = sea
+    personality = harsh
+    background = cavalry_school
+    prestige = 0.0
+}
+leader = {
+    name = "Agus Wirahadikusumah"
+    date = 1836.1.1
+    type = sea
+    personality = harsh
+    background = cavalry_school
+    prestige = 0.0
+}

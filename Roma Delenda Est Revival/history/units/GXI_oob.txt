@@ -1,0 +1,40 @@
+army = {
+    name = "Army of Hakka"
+    location = 1502
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = irregular
+        home = 1502
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1502
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1503
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = irregular
+        home = 1503
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = irregular
+        home = 1504
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1530
+    }
+
+}

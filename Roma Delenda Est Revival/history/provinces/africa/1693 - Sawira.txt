@@ -1,0 +1,6 @@
+owner = NUM
+controller = GLD
+add_core = NUM
+trade_goods = grain
+life_rating = 35
+naval_base = 2

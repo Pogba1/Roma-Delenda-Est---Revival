@@ -1,9 +1,0 @@
-owner = SEV
-controller = SEV
-add_core = SEV
-add_core = BSQ
-terrain = urban
-trade_goods = fish
-life_rating = 35
-naval_base = 2
-fort = 1

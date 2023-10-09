@@ -1,3 +1,0 @@
-name = "Sixth Xhosa War"
-
-

@@ -1,5 +1,0 @@
-owner = GLD
-controller = GLD
-add_core = GLD
-trade_goods = tobacco
-life_rating = 35

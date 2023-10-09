@@ -1,0 +1,5 @@
+owner = PRT
+controller = PRT
+add_core = PRT
+trade_goods = fish
+life_rating = 40

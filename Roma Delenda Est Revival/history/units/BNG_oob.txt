@@ -1,0 +1,40 @@
+army = {
+    name = "Army of Bengal"
+    location = 1251
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = irregular
+        home = 1251
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1251
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1251
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = irregular
+        home = 1251
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = irregular
+        home = 1256
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1256
+    }
+
+}
