@@ -1,0 +1,6 @@
+owner = NUM
+controller = GLD
+add_core = NUM
+trade_goods = fish
+life_rating = 10
+naval_base = 1

@@ -1,0 +1,20 @@
+
+army = {
+    name = "Moulins Armee"
+    location = 430
+    regiment = {
+        name= "1.Infanterie"
+        type = infantry
+        home = 430
+    }
+    regiment = {
+        name= "2. Infanterie"
+        type = infantry
+        home = 431
+    }
+   regiment = {
+        name= "3.Infanterie"
+        type = infantry
+        home = 428
+    }
+}

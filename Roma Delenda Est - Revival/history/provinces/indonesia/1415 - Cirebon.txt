@@ -1,0 +1,7 @@
+owner = MLY
+controller = MLY
+add_core = MLY
+add_core = JAV
+trade_goods = coffee
+life_rating = 35
+

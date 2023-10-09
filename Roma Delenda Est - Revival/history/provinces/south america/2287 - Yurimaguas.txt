@@ -1,0 +1,6 @@
+owner = ISK
+controller = ISK
+add_core = ISK
+trade_goods = rubber
+terrain = montane_forest
+life_rating = 35

@@ -1,0 +1,7 @@
+owner = NUM
+controller = GLD
+add_core = NUM
+trade_goods = fish
+terrain = semidesert
+life_rating = 10
+

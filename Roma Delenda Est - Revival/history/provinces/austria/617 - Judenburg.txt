@@ -1,0 +1,5 @@
+owner = KED
+controller = KED
+add_core = KED
+trade_goods = iron
+life_rating = 35

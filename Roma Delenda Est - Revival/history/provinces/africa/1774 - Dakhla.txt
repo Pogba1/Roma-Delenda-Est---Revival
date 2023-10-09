@@ -1,0 +1,6 @@
+owner = NUM
+controller = GLD
+add_core = NUM
+trade_goods = wool
+life_rating = 10
+

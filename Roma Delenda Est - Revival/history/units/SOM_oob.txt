@@ -1,0 +1,59 @@
+leader = {
+    name = "Zubayr Pasha"
+    date = 1835.1.1
+    type = land
+    personality = charismatic
+    background = drillmaster
+    prestige = 0.1
+}
+
+navy = {
+    name = "Somalian Navy"
+    location = 1872
+    ship = {
+        name= "Al Qahira"
+        type = frigate
+    }
+}
+
+
+army = {
+    name = "Army of the horn of Africa"
+    location = 1872
+    regiment = {
+        name= "1.2 Sipahis"
+        type = cavalry
+        home = 1867
+    }
+
+    regiment = {
+        name= "2.2 Sipahis"
+        type = cavalry
+        home = 1867
+    }
+
+    regiment = {
+        name= "3.5 Infantry"
+        type = infantry
+        home = 1868
+    }
+
+    regiment = {
+        name= "1.6 Infantry"
+        type = artillery
+        home = 1869
+    }
+
+    regiment = {
+        name= "2.6 Infantry"
+        type = infantry
+        home = 1872
+    }
+
+    regiment = {
+        name= "3.6 Infantry"
+        type = artillery
+        home = 1873
+    }
+
+}

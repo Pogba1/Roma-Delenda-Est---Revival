@@ -1,0 +1,87 @@
+
+leader = {
+    name = "Said bin Sultan"
+    type = land
+    date = 1807.12.12
+    background = aristocrat
+    personality = aggressive
+}
+
+leader = {
+    name = "Muhhamed Ali "
+    type = land
+    date = 1837.12.12
+    background = aristocrat
+    personality = defiant
+}
+
+army = {
+    name = "Army of the Sultan of Muscat"
+    location = 1166
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1166
+    }
+    regiment = {
+        name= "2. Brigade"
+        type = artillery
+        home = 1166
+    }
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1160
+    }
+    regiment = {
+        name= "2. Brigade"
+        type = artillery
+        home = 1160
+    }
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1157
+    }
+    regiment = {
+        name= "2. Brigade"
+        type = artillery
+        home = 1157
+    }
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1162
+    }
+}
+
+army = {
+    name = "Army of Mecca"
+    location = 1151
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1151
+    }
+    regiment = {
+        name= "2. Brigade"
+        type = artillery
+        home = 1152
+    }
+}
+
+navy = {
+    name = "Omani Fleet"
+    location = 1166
+    ship = {
+        name= "Transport Flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name= "Transport Flotilla"
+        type = clipper_transport
+    }
+
+}
+
+prestige = 30

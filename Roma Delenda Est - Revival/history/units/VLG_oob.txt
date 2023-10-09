@@ -1,0 +1,47 @@
+army = {
+    name = "Wolgan Army"
+    location = 1025
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = irregular
+        home = 1025
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = irregular
+        home = 1025
+    }
+
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 1025
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 1037
+    }
+  regiment = {
+        name= "2. Infanteriebrigade"
+        type = irregular
+        home = 1039
+    }
+
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 1039
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 1039
+    }
+
+}

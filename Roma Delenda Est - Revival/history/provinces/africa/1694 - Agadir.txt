@@ -1,0 +1,6 @@
+owner = NUM
+controller = GLD
+add_core = NUM
+trade_goods = coal
+life_rating = 32
+terrain = semidesert

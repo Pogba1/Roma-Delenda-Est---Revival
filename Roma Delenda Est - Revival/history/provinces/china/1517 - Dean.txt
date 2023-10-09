@@ -1,0 +1,5 @@
+owner = SHG
+controller = SHG
+add_core = SHG
+trade_goods = iron
+life_rating = 32

@@ -1,0 +1,7 @@
+owner = GLD
+controller = GLD
+add_core = GLD
+add_core = GUY
+is_slave = yes
+trade_goods = timber
+life_rating = 31

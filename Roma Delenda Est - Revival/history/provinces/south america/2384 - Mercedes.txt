@@ -1,0 +1,10 @@
+owner = JIN
+controller = JIN
+add_core = JIN
+trade_goods = cattle
+life_rating = 25
+1861.1.1 = {
+    owner = ARG
+    controller = ARG
+    add_core = ARG
+    }

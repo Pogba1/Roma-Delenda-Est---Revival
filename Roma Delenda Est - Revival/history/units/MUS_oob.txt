@@ -1,0 +1,123 @@
+prestige = 20
+leader = {
+    name = "Fedor von Berg"
+    date = 1828.1.1
+    type = land
+    personality = sharp
+    background = cartographer
+    prestige = 0.3
+}
+
+leader = {
+    name = "Ferdinand Wrangel"
+    date = 1836.1.1
+    type = land
+    personality = active_p
+    background = cartographer
+    prestige = 0.3
+}
+
+army = {
+    name = "1. Line Corps"
+    location = 1014
+    regiment = {
+        name= "1.1. Division"
+        type = infantry
+        home = 1014
+    }
+
+    regiment = {
+        name= "2.1. Division"
+        type = infantry
+        home = 1014
+    }
+
+    regiment = {
+        name= "3.1. Division"
+        type = infantry
+        home = 1015
+    }
+
+    regiment = {
+        name= "1.2. Division"
+        type = infantry
+        home = 1015
+    }
+
+    regiment = {
+        name= "2.2. Division"
+        type = infantry
+        home = 1003
+    }
+
+    regiment = {
+        name= "3.2. Division"
+        type = infantry
+        home = 1006
+    }
+
+    regiment = {
+        name= "1.3. Division"
+        type = infantry
+        home = 989
+    }
+
+}
+
+army = {
+    name = "Grenadier Corps"
+    location = 998
+    regiment = {
+        name= "1.St. Pauls Division"
+        type = infantry
+        home = 998
+    }
+
+    regiment = {
+        name= "2.St. Pauls Division"
+        type = infantry
+        home = 1008
+    }
+
+    regiment = {
+        name= "3.St. Pauls Division"
+        type = infantry
+        home = 1008
+    }
+
+    regiment = {
+        name= "4.St. Pauls Division"
+        type = artillery
+        home = 1008
+    }
+
+    regiment = {
+        name= "3.Jaeger Division"
+        type = infantry
+        home = 1012
+    }
+
+    regiment = {
+        name= "4.Jaeger Division"
+        type = engineer
+        home = 1012
+    }
+
+    regiment = {
+        name= "1.Moskva Division"
+        type = infantry
+        home = 1011
+    }
+
+    regiment = {
+        name= "2.Moskva Division"
+        type = infantry
+        home = 1011
+    }
+
+    regiment = {
+        name= "3.Moskva Division"
+        type = infantry
+        home = 1011
+    }
+}

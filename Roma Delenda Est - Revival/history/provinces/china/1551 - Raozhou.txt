@@ -1,0 +1,5 @@
+owner = WUX
+controller = WUX
+add_core = WUX
+trade_goods = timber
+life_rating = 32

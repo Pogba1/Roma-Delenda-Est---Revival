@@ -1,0 +1,61 @@
+army = {
+    name = "Army of The Nanzhao"
+    location = 1505
+
+    regiment = {
+        name= "1. Blue Banner"
+        type = irregular
+        home = 1505
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = artillery
+        home = 1507
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1507
+    }
+   regiment = {
+        name= "1. Blue Banner"
+        type = irregular
+        home = 1506
+    }
+
+    regiment = {
+        name= "2. Blue Banner"
+        type = irregular
+        home = 1601
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1601
+    }
+    regiment = {
+        name= "2. Blue Banner"
+        type = irregular
+        home = 1602
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1602
+    }
+    regiment = {
+        name= "2. Blue Banner"
+        type = irregular
+        home = 1603
+    }
+
+    regiment = {
+        name= "3. Blue Banner"
+        type = irregular
+        home = 1603
+    }
+}

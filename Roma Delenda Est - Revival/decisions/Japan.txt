@@ -1,0 +1,70 @@
+political_decisions = {
+
+#Ainu gets claims in japan
+claim_Kyoto = {
+
+potential = {
+tag = AIN
+
+NOT = { has_country_flag = claimed_Kyoto}
+}
+
+allow = {
+war = no
+is_vassal = no
+nationalism_n_imperialism = 1
+}
+
+effect = { 
+set_country_flag = claimed_Kyoto
+badboy = 5
+prestige = 20
+JAP_1655 = {add_core = AIN }
+}
+
+       ai_will_do = { factor = 1 
+            modifier = {
+                factor = 0
+                badboy = 20
+            }
+         }
+
+
+}
+
+#Japan gets claims in ainu
+claim_Nagoya = {
+
+potential = {
+tag = JAP
+
+NOT = { has_country_flag = claimed_Nagoya}
+}
+
+allow = {
+war = no
+is_vassal = no
+nationalism_n_imperialism = 1
+}
+
+effect = { 
+set_country_flag = claimed_Nagoya
+badboy = 5
+prestige = 20
+JAP_1675 = {add_core = JAP }
+}
+
+       ai_will_do = { factor = 1 
+            modifier = {
+                factor = 0
+                badboy = 20
+            }
+         }
+
+
+}
+
+
+
+
+}

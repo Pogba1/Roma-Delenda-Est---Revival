@@ -1,0 +1,74 @@
+leader = {
+    name = "Oleg Belokonev"
+    date = 1829.1.1
+    type = land
+    personality = tactful
+    background = elderly
+    prestige = 0.1
+}
+
+leader = {
+    name = "Pavel Pavlovich Kozlovsky"
+    date = 1817.1.1
+    type = land
+    personality = cautious
+    background = school_of_defense
+    prestige = 0.2
+}
+
+army = {
+    name = "Paradian Army"
+    location = 718
+    regiment = {
+        name= "1. Infanteriebrigade"
+        type = infantry
+        home = 718
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 718
+    }
+
+    regiment = {
+        name= "3. Infanteriebrigade"
+        type = infantry
+        home = 718
+    }
+    regiment = {
+        name= "1. Infanteriebrigade"
+        type = artillery
+        home = 948
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = irregular
+        home = 944
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = irregular
+        home = 944
+    }
+ 
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = irregular
+        home = 943
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 1016
+    }
+
+    regiment = {
+        name= "2. Infanteriebrigade"
+        type = infantry
+        home = 1016
+    }
+}

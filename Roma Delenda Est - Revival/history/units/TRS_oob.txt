@@ -1,0 +1,15 @@
+
+army = {
+    name = "Tours Armee"
+    location = 441
+    regiment = {
+        name= "1.Infanterie"
+        type = infantry
+        home = 441
+    }
+    regiment = {
+        name= "2. Infanterie"
+        type = infantry
+        home = 436
+    }
+}

@@ -1,0 +1,129 @@
+
+army = {
+    name = "Yellow Banner"
+    location = 1082
+
+    regiment = {
+        name= "3rd Chengde Jalan"
+        type = infantry
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Jirim Jalan"
+        type = artillery
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Manzhouli Jalan"
+        type = infantry
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Qiqihar Jalan"
+        type = infantry
+        home = 1073
+    }
+
+    regiment = {
+        name= "2nd Qiqihar Jalan"
+        type = infantry
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Jilin Jalan"
+        type = artillery
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Ninguta Jalan"
+        type = artillery
+        home = 1073
+    }
+
+    regiment = {
+        name = "2nd Ninguta Jalan"
+        type = infantry
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Aigun Jalan"
+        type = infantry
+        home = 1073
+    }
+
+    regiment = {
+        name= "1st Ulusamudan Jalan"
+        type = infantry
+        home = 1073
+    }
+
+}
+
+
+
+army = {
+    name = "Red Banner"
+    location = 1553
+
+    regiment = {
+        name= "1st Jirim Jalan"
+        type = artillery
+        home = 1533
+    }
+
+    regiment = {
+        name= "1st Manzhouli Jalan"
+        type = infantry
+        home = 1002
+    }
+
+    regiment = {
+        name= "1st Qiqihar Jalan"
+        type = infantry
+        home = 1552
+    }
+
+    regiment = {
+        name= "2nd Qiqihar Jalan"
+        type = infantry
+        home = 1552
+    }
+
+    regiment = {
+        name= "1st Jilin Jalan"
+        type = artillery
+        home = 1555
+    }
+
+    regiment = {
+        name= "1st Ninguta Jalan"
+        type = artillery
+        home = 1554
+    }
+
+    regiment = {
+        name = "2nd Ninguta Jalan"
+        type = infantry
+        home = 1554
+    }
+
+    regiment = {
+        name= "1st Aigun Jalan"
+        type = infantry
+        home = 1553
+    }
+
+    regiment = {
+        name= "1st Ulusamudan Jalan"
+        type = infantry
+        home = 1085
+    }
+}
+
+

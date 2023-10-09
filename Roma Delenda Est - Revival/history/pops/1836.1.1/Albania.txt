@@ -1,0 +1,172 @@
+849 = {
+    aristocrats = {
+        culture = Epirote
+        religion = orthodox
+        size = 614
+    }
+    bureaucrats = {
+        culture = Epirote
+        religion = orthodox
+        size = 143
+    }
+    officers = {
+        culture = Epirote
+        religion = orthodox
+        size = 122
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 256
+    }
+    artisans = {
+        culture = Epirote
+        religion = orthodox
+        size = 1310
+    }
+    soldiers = {
+        culture = Epirote
+        religion = orthodox
+        size = 819
+    }
+    farmers = {
+        culture = Epirote
+        religion = orthodox
+        size = 40947
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 100
+    }
+    farmers = {
+        culture = Epirote
+        religion = orthodox
+        size = 4065
+    }
+
+    ######Jews
+    farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 100
+    }
+    ########
+}
+850 = {
+    aristocrats = {
+        culture = albanian
+        religion = orthodox
+        size = 880
+    }
+    clergymen = {
+        culture = albanian
+        religion = orthodox
+        size = 307
+    }
+    artisans = {
+        culture = albanian
+        religion = orthodox
+        size = 1556
+    }
+    soldiers = {
+        culture = albanian
+        religion = orthodox
+        size = 819
+    }
+    farmers = {
+        culture = albanian
+        religion = orthodox
+        size = 30566
+    }
+}
+851 = {
+    aristocrats = {
+        culture = Epirote
+        religion = orthodox
+        size = 245
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 100
+    }
+    artisans = {
+        culture = Epirote
+        religion = orthodox
+        size = 491
+    }
+    soldiers = {
+        culture = Epirote
+        religion = orthodox
+        size = 450
+    }
+    farmers = {
+        culture = Epirote
+        religion = orthodox
+        size = 8632
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 100
+    }
+}
+852 = {
+    aristocrats = {
+        culture = Epirote
+        religion = orthodox
+        size = 573
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 256
+    }
+    artisans = {
+        culture = Epirote
+        religion = orthodox
+        size = 1331
+    }
+    soldiers = {
+        culture = Epirote
+        religion = orthodox
+        size = 286
+    }
+    farmers = {
+        culture = Epirote
+        religion = orthodox
+        size = 13947
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 143
+    }
+}
+853 = {
+    aristocrats = {
+        culture = Epirote
+        religion = orthodox
+        size = 307
+    }
+    clergymen = {
+        culture = Epirote
+        religion = orthodox
+        size = 600
+    }
+    soldiers = {
+        culture = Epirote
+        religion = orthodox
+        size = 550
+    }
+    artisans = {
+        culture = Epirote
+        religion = orthodox
+        size = 222
+    }
+    farmers = {
+        culture = Epirote
+        religion = orthodox
+        size = 1300
+    }

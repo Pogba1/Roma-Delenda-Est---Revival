@@ -1,0 +1,8 @@
+owner = IRE
+controller = IRE
+add_core = HYD
+add_core = MAH
+add_core = HND
+colonial = 2
+trade_goods = cotton
+life_rating = 32

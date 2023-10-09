@@ -1,0 +1,6 @@
+owner = CHI
+controller = CHI
+add_core = AST
+trade_goods = grain
+terrain = savanna
+life_rating = 31

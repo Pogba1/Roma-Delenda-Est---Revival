@@ -1,0 +1,726 @@
+#Greek isolationism ( INFLUENCE )
+country_event = {
+	id = 2144
+	title = "EVTNAME2145"
+	desc = "EVTDESC2145"
+	picture = "administration"
+	
+	trigger = {
+		NOT = { is_culture_group = Hellenic }
+                NOT = { exists = GRE }
+		OR = {
+                   diplomatic_influence = {
+	           who = ATH
+	           value = 50
+                    }
+                      diplomatic_influence = {
+	              who = ACH
+                     value = 50
+		} 
+                      diplomatic_influence = {
+	              who = MAC
+                     value = 50
+		}
+                      diplomatic_influence = {
+	              who = MAC
+                     value = 50
+		}
+                      diplomatic_influence = {
+	              who = EPI
+                     value = 50
+		} 
+                     diplomatic_influence = {
+	              who = THR
+                     value = 50
+		} 
+                     diplomatic_influence = {
+	              who = BYZ
+                     value = 50
+		}
+                     diplomatic_influence = {
+	              who = BYZ
+                     value = 50
+		}
+                     diplomatic_influence = {
+	              who = NIK
+                     value = 50
+		} 
+                     diplomatic_influence = {
+	              who = PNT
+                     value = 50
+		}     
+		}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = {
+		name = "EVT2145A"
+                      diplomatic_influence = {
+	              who = ATH
+                     value = -100
+		}
+                      diplomatic_influence = {
+	              who = ACH
+                     value = -100
+		} 
+                      diplomatic_influence = {
+	              who = MAC
+                     value = -100
+		}
+                      diplomatic_influence = {
+	              who = MAC
+                     value = -100
+		}
+                      diplomatic_influence = {
+	              who = EPI
+                     value = -100
+		} 
+                     diplomatic_influence = {
+	              who = THR
+                     value = -100
+		} 
+                     diplomatic_influence = {
+	              who = BYZ
+                     value = -100
+		}
+                     diplomatic_influence = {
+	              who = BYZ
+                     value = -100
+		}
+                     diplomatic_influence = {
+	              who = NIK
+                     value = -100
+		} 
+                     diplomatic_influence = {
+	              who = PNT
+                     value = -100
+		}       
+	}
+}
+
+#Greek isolationism ( alliances )
+country_event = {
+	id = 2145
+	title = "EVTNAME2145"
+	desc = "EVTDESC2145"
+	picture = "administration"
+	
+	trigger = {
+		NOT = { is_culture_group = Hellenic }
+                NOT = { exists = GRE }
+		OR = {
+			AND = {
+				alliance_with = MAC
+				 }
+			
+			AND = {
+				alliance_with = ATH
+				 }
+			
+			AND = {
+				alliance_with = ACH
+                                 }
+			AND = {
+				alliance_with = THR	
+			}
+			AND = {
+				alliance_with = EPI
+			 }
+			AND = {
+				alliance_with = BYZ
+			 }
+			AND = {
+				alliance_with = NIK
+			 }
+			AND = {
+				alliance_with = PNT
+			 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = {
+		name = "EVT2145A"
+		any_country = {
+			limit = {
+				is_culture_group = Hellenic
+				alliance_with = THIS
+			}
+			leave_alliance = THIS
+			relation = { who = THIS value = -200 }
+		}
+	}
+}
+
+
+# Greek autonomy 1
+country_event = {
+       
+	id = 2146
+	title = "EVTNAME2146"
+	desc = "EVTDESC2146"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = MAC
+                                NOT = { is_core = this}
+                                NOT = {exists = MAC}
+	}
+    }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2146A"
+         any_owned = {
+			limit = { is_core = MAC }
+			secede_province = MAC
+
+		}
+               create_vassal = MAC       	
+	}		
+}
+
+# Greek autonomy 2
+country_event = {
+       
+	id = 2147
+	title = "EVTNAME2147"
+	desc = "EVTDESC2147"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = ATH
+                                NOT = { is_core = this}
+                                NOT = {exists = ATH}
+	}
+    }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2147A"
+       any_owned = {
+			limit = { is_core = ATH }
+			secede_province = ATH
+		        }
+                        create_vassal = ATH      	
+	}		
+}
+
+# Greek autonomy 3
+country_event = {
+       
+	id = 2148
+	title = "EVTNAME2148"
+	desc = "EVTDESC2148"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = ACH
+                                NOT = { is_core = this}
+                                NOT = {exists = ACH}
+	}
+    }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2148A"
+			any_owned = {
+			limit = { is_core = ACH }
+			secede_province = ACH
+                        }
+                   create_vassal = ACH      	
+	}		
+}
+
+# Greek autonomy 4
+country_event = {
+       
+	id = 2149
+	title = "EVTNAME2149"
+	desc = "EVTDESC2149"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = EPI
+                                NOT = { is_core = this}
+                                NOT = {exists = EPI}
+	}
+    }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2149A"
+                    any_owned = {
+			limit = { is_core = EPI }
+			secede_province = EPI
+                          } 
+                        create_vassal = EPI      	
+	}		
+}
+
+# Greek autonomy 5
+country_event = {
+       
+	id = 2150
+	title = "EVTNAME2150"
+	desc = "EVTDESC2150"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = THR
+                                NOT = { is_core = this}
+                                NOT = {exists = THR}
+	}
+    }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2150A"
+                         any_owned = {
+			limit = { is_core = THR }
+			secede_province = THR
+                      }
+                        create_vassal = THR 
+     	
+	}		
+}
+
+# Greek autonomy 6
+country_event = {
+       
+	id = 2151
+	title = "EVTNAME2151"
+	desc = "EVTDESC2151"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = BYZ
+                                NOT = { is_core = this}
+                                NOT = {exists = BYZ}
+	}
+    }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2151A"
+any_owned = {
+			limit = { is_core = BYZ }
+			secede_province = BYZ
+                              	
+	       }
+              create_vassal = BYZ		
+}
+}
+# Greek autonomy 7
+country_event = {
+        
+	id = 2152
+	title = "EVTNAME2152"
+	desc = "EVTDESC2152"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = NIK
+                                NOT = { is_core = this}
+                                NOT = {exists = NIK}
+	}
+   }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "EVT2152A"
+any_owned = {
+			limit = { is_core = NIK }
+			secede_province = NIK                        
+                       } 
+                        create_vassal = NIK 	
+	}		
+}
+
+# Greek autonomy 8
+country_event = {
+	id = 2153
+	title = "EVTNAME2153"
+	desc = "EVTDESC2153"
+	picture = "administration"
+	
+	trigger = {
+             NOT = { tag = GRE }
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			AND = { is_core = PNT
+                                NOT = { is_core = this}
+                                NOT = {exists = PNT}
+	}
+   }
+}	
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "EVT2153A"
+                      any_owned = {
+			limit = { is_core = PNT }
+			secede_province = PNT
+                          	
+	              }
+                   create_vassal = PNT
+                 }
+}
+# Greek autonomy post civil war ( Pontus/Thrace )
+country_event = {
+        war = no
+	id = 2154
+	title = "EVTNAME2154"
+	desc = "EVTDESC2154"
+	picture = "administration"
+	
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			OR = {
+                            AND = { is_core = PNT
+                                NOT = {exists = PNT}
+	}
+                            AND = { is_core = THR
+                                NOT = {exists = THR}
+	}
+    }	
+}
+}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2154A"
+                         any_owned = {
+			limit = { is_core = THR }
+			secede_province = THR
+                      }
+                      create_vassal = THR
+ 
+                       any_owned = {
+			limit = { is_core = PNT }
+			secede_province = PNT  	
+	              }
+                   create_vassal = PNT
+     	
+	}		
+}
+
+# Greek autonomy post civil war ( Paphlagonia )
+country_event = {
+	id = 2156
+	title = "EVTNAME2156"
+	desc = "EVTDESC2156"
+	picture = "administration"
+	
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+                            AND = { is_core = PAP
+                                NOT = {exists = PAP}
+	}
+    }	
+}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2156A"
+                      any_owned = {
+			limit = { is_core = PAP }
+			secede_province = PAP
+                      }
+                      create_vassal = PAP
+	}		
+}
+}
+}
+
+# Greek autonomy post civil war ( Magna Greacia )
+country_event = {
+	id = 2157
+	title = "EVTNAME2157"
+	desc = "EVTDESC2157"
+	picture = "administration"
+	
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+                            AND = { is_core = MGN
+                                NOT = {exists = MGN}
+	}
+    }	
+}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2157A"
+                       any_owned = {
+			limit = { is_core = MGN }
+			secede_province = MGN
+                      }
+                      create_vassal = MGN 
+	}		
+}
+}
+}
+
+# Greek autonomy post civil war ( SICILY )
+country_event = {
+	id = 2158
+	title = "EVTNAME2158"
+	desc = "EVTDESC2158"
+	picture = "administration"
+	
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+                            AND = { is_core = SIC
+                                NOT = {exists = SIC}
+	}
+    }	
+}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVT2158A"
+                       any_owned = {
+                        limit = { is_core = SIC }
+			secede_province = SIC
+                      }
+                      create_vassal = SIC 	
+	}		
+}
+}
+}
+
+
+#Force civil war
+country_event = {
+	id = 2159
+	title = "EVTNAME2159"
+	desc = "EVTDESC2159"
+	picture = "administration"
+	
+	trigger = {
+                year = 1855
+                is_culture_group = Hellenic
+                NOT = { exists = GRE }
+                is_vassal = no
+	}
+	
+	mean_time_to_happen = {
+		days = 360
+	}
+	
+	option = {
+		name = "EVT2159A"
+
+random_country = {
+                 limit = {
+                is_culture_group = Hellenic
+                is_vassal = no
+                NOT = {truce_with = THIS }
+                }
+                leave_alliance = THIS
+            war = {
+		 target = THIS
+                 attacker_goal = { casus_belli = greek_cb }
+                 defender_goal = { casus_belli = greek_cb }
+                 call_ally = yes 
+   }
+}
+}
+}
+#Force vassal to change overlord
+country_event = {
+	id = 2160
+	title = "EVTNAME2160"
+	desc = "EVTDESC2160"
+	picture = "administration"
+	
+	trigger = {
+                is_culture_group = Hellenic
+                NOT = { exists = GRE }
+                has_country_flag = greek_vassal
+                is_vassal = no
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = {
+		name = "EVT2160A"
+
+random_country = {
+                 limit = {
+                is_culture_group = Hellenic
+                is_vassal = no
+                truce_with = THIS
+                }
+                inherit = THIS
+   }
+}
+}
+
+
+
+#Return cores to north greek vassals (used to fix the release bugs)
+country_event = {
+	id = 2155
+	title = "EVTNAME2155"
+	desc = "EVTDESC2155"
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			OR = {
+AND ={
+                            is_core = PNT
+                            PNT= { is_vassal_of = THIS }
+}
+AND ={
+                            is_core = THR
+                            THR = { is_vassal_of = THIS }
+}
+   }	
+}
+}
+	option = {
+		name = "EVT2155A"
+		 any_owned = {
+			limit = { is_core = THR }
+			secede_province = THR
+		}
+             any_owned = {
+			limit = { is_core = PNT }
+			secede_province = PNT
+		}
+
+	}
+}
+
+#Return cores to east greek vassals (used to fix the release bugs)
+country_event = {
+	id = 2161
+	title = "EVTNAME2155"
+	desc = "EVTDESC2155"
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+AND ={
+                            is_core = PAP
+                            PAP= { is_vassal_of = THIS }
+  }	
+ }
+}
+	option = {
+		name = "EVT2155A"
+		 any_owned = {
+			limit = { is_core = PAP }
+			secede_province = PAP
+		}
+
+	}
+}
+
+#Return cores to west greek vassals (used to fix the release bugs)
+country_event = {
+	id = 2162
+	title = "EVTNAME2155"
+	desc = "EVTDESC2155"
+	trigger = {
+             has_country_flag = greek_divergent_cultures
+             tag = GRE
+	     is_culture_group = Hellenic 
+		any_owned_province = { 
+			OR = {
+AND ={
+                            is_core = MGN
+                            MGN = { is_vassal_of = THIS }
+}
+AND ={
+                            is_core = SIC
+                            SIC = { is_vassal_of = THIS }
+}
+   }	
+}
+}
+	option = {
+		name = "EVT2155A"
+		 any_owned = {
+			limit = { is_core = MGN }
+			secede_province = MGN
+		}
+             any_owned = {
+			limit = { is_core = SIC }
+			secede_province = SIC
+		}
+
+	}

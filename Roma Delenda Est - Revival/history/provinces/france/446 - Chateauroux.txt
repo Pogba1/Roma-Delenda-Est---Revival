@@ -1,0 +1,7 @@
+owner = LIM
+controller = LIM
+add_core = FRA
+add_core = LIM
+trade_goods = grain
+life_rating = 32
+1861.1.1 = { railroad = 3 }

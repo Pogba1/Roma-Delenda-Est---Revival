@@ -1,0 +1,138 @@
+RYU = { value = 125 }
+SUL = { value = 100 }
+BRU = { value = 100 }
+USA = { value = 0 }
+RUS = { value = 75 }
+
+leader = {
+    name = "Tokugawa Nariaki"
+    date = 1836.1.1
+    type = land
+    personality = disciplined
+    background = old_school
+    prestige = 0.1
+ }
+
+army = {
+    name = "Army of the Tokugawa Shogunate"
+    location = 1649
+    regiment = {
+        name= "1.Samurai"
+        type = cavalry
+        home = 1649
+    }
+    regiment = {
+        name= "2.Samurai"
+        type = cavalry
+        home = 1649
+    }
+    regiment = {
+        name= "3.Samurai"
+        type = cavalry
+        home = 1650
+    }
+    regiment = {
+        name= "1.Edo"
+        type = artillery
+        home = 1651
+    }
+    regiment = {
+        name= "2.Edo"
+        type = infantry
+        home = 1652
+    }
+    regiment = {
+        name= "3.Edo"
+        type = infantry
+        home = 1674
+    }
+    regiment = {
+        name= "4.Edo"
+        type = artillery
+        home = 1653
+    }
+    regiment = {
+        name= "3.Edo"
+        type = infantry
+        home = 1676
+    }
+    regiment = {
+        name= "4.Edo"
+        type = artillery
+        home = 1677
+    }
+}
+Ainu Fleet
+navy = {
+    name = "Ainu fleet"
+    location = 1645 #Niigata
+    ship = {
+        name= "HMS Amphitrite"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Arethusa"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Blonde"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Brilliant"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Forte"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Java"
+        type = frigate
+    }
+
+    ship = {
+        name= "HMS Laurel"
+        type = frigate
+    }
+
+    ship = {
+        name= "8th Transport Flotilla"
+        type = steam_transport
+    }
+    ship = {
+        name= "9th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "10th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "11th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "12th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "13th Transport Flotilla"
+        type = steam_transport
+    }
+
+    ship = {
+        name= "14th Transport Flotilla"
+        type = steam_transport
+    }
+
+}

@@ -1,0 +1,5 @@
+owner = ESP
+controller = ESP
+add_core = ESP
+trade_goods = tropical_wood
+life_rating = 31

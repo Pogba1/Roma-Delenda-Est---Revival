@@ -1,0 +1,141 @@
+
+EGY = {
+    value = 200
+}
+ETH ={
+    value = 200 
+}
+navy = {
+    name = "Taba"
+    location = 1751
+
+    ship = {
+        name= "El Aboukir"
+        type = frigate
+    }
+
+    ship = {
+        name= "Najim al Zafir"
+        type = frigate
+    }
+
+    ship = {
+        name= "Cairo"
+        type = frigate
+    }
+
+    ship = {
+        name= "Al Iskandariyah"
+        type = frigate
+    }
+
+    ship = {
+        name= "Aswan"
+        type = frigate
+    }
+
+    ship = {
+        name= "Port Said"
+        type = frigate
+    }
+
+    ship = {
+        name= "Marsa Matruh"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bur Tawfiq"
+        type = frigate
+    }
+    ship = {
+        name= "1st transport flotilla"
+        type = clipper_transport
+    }
+    ship = {
+        name= "1st transport flotilla"
+        type = clipper_transport
+    }
+       ship = {
+       name= "1st transport flotilla"
+       type = clipper_transport
+    }
+    ship = {
+        name= "1st transport flotilla"
+        type = clipper_transport
+    }
+
+}
+
+prestige = 20
+
+army = {
+    name = "Army of Antioch"
+    location = 900
+    regiment = {
+        name= "1.1 Sipahis"
+        type = cavalry
+        home = 908
+    }
+
+    regiment = {
+        name= "2.1 Sipahis"
+        type = cavalry
+        home = 917
+    }
+
+    regiment = {
+        name= "3.1 Sipahis"
+        type = artillery
+        home = 918
+    }
+
+    regiment = {
+        name= "1.1 Infantry"
+        type = infantry
+        home = 917
+    }
+
+    regiment = {
+        name= "2.1 Infantry"
+        type = infantry
+        home = 921
+    }
+
+    regiment = {
+        name= "3.1 Infantry"
+        type = infantry
+        home = 897
+    }
+
+    regiment = {
+        name= "1.2 Infantry"
+        type = infantry
+        home = 901
+    }
+
+    regiment = {
+        name= "2.2 Infantry"
+        type = infantry
+        home = 902
+    }
+
+    regiment = {
+        name= "3.2 Infantry"
+        type = infantry
+        home = 1747
+    }
+}
+
+
+
+
+leader = {
+    name = "Kamal Amin"
+    type = land
+    date="1832.1.1"
+    personality = defiant
+    background = expert_raider
+    prestige = 0.3
+}
+

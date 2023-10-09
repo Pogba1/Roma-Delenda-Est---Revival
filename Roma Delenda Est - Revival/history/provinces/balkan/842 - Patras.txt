@@ -1,0 +1,10 @@
+owner = ACH
+controller = ACH
+add_core = ACH
+add_core = GRE
+trade_goods = fruit
+life_rating = 40
+state_building = {
+    level = 1
+    building = small_arms_factory
+    upgrade = yes

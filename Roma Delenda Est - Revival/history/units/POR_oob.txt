@@ -1,0 +1,73 @@
+GBU = {
+    value = 100
+}
+
+LOA = {
+    value = 75
+}
+
+KON = {
+    value = 125
+}
+
+SUA = {
+    value = 100
+}
+
+leader = {
+    name = "Vicente de Mesquita"
+    date = 1835.1.1
+    type = land
+    personality = dauntless
+    background = madman
+    prestige = 0.3
+}
+
+army = {
+    name = "Exército Português"
+    location = 518
+    regiment = {
+        name= "1. Brigada de Infantaria"
+        type = infantry
+        home = 518
+    }
+
+    regiment = {
+        name= "2. Brigada de Infantaria"
+        type = infantry
+        home = 519
+    }
+}
+
+navy = {
+    name = "Marinha Portuguesa"
+    location = 518
+    ship = {
+        name= "Dom Fernando II e Gloria"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bartholomeu Daiz"
+        type = commerce_raider
+    }
+
+}
+
+navy = {
+    location = 518
+    name = "Esquadrão de Navio"
+
+    ship = {
+        name= "1. Transporte Flotilha"
+        type = steam_transport
+    }
+    ship = {
+        name= "2. Transporte Flotilha"
+        type = steam_transport
+    }
+    ship = {
+        name= "3. Transporte Flotilha"
+        type = steam_transport
+    }
+}

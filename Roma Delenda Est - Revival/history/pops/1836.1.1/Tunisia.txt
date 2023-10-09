@@ -1,0 +1,273 @@
+#Tunisia Region (1392000)
+#under the rule of Tunisia in 1836
+#Tunis (488000/122000 POPS)
+1725 = {
+    aristocrats = {
+        culture = Vandal
+        religion = catholic
+        size = 2350
+    }
+     craftsmen = {
+        culture = Vandal
+        religion = catholic
+        size = 10350
+    }
+    bureaucrats = {
+        culture = Vandal
+        religion = catholic
+        size = 350
+    }
+
+    officers = {
+        culture = Vandal
+        religion = catholic
+        size = 325
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 7200
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 15000
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 10000
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 7500
+    }
+
+    soldiers = {
+        culture = Vandal
+        religion = catholic
+        size = 6000
+    }
+    farmers = {
+        culture = Vandal
+        religion = catholic
+        size = 146425
+    }
+    clergymen = {
+        culture = sephardic
+        religion = jewish
+        size = 75
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 3725
+    }
+    artisans = {
+        culture = south_italian
+        religion = catholic
+        size = 1000
+    }
+}
+#Bizerte (268000/67000 POPS)
+1726 = {
+    aristocrats = {
+        culture = Vandal
+        religion = catholic
+        size = 1250
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 675
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 3250
+    }
+
+    soldiers = {
+        culture = Vandal
+        religion = catholic
+        size = 1400
+    }
+
+    farmers = {
+        culture = Vandal
+        religion = catholic
+        size = 108575
+    }
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 250
+    }
+}
+#Gafsa (112000/28000 POPS)
+1727 = {
+    aristocrats = {
+        culture = Vandal
+        religion = catholic
+        size = 450
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 275
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 1250
+    }
+
+    soldiers = {
+        culture = Vandal
+        religion = catholic
+        size = 1600
+    }
+
+    farmers = {
+        culture = Vandal
+        religion = catholic
+        size = 45025
+    }
+}
+#Kairouan (228000/57000 POPS)
+1728 = {
+    aristocrats = {
+        culture = Vandal
+        religion = catholic
+        size = 875
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 400
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 2250
+    }
+
+    soldiers = {
+        culture = Vandal
+        religion = catholic
+        size = 1100
+    }
+
+    farmers = {
+        culture = Vandal
+        religion = catholic
+        size = 40225
+    }
+
+    slaves = {
+        culture = Vandal
+        religion = catholic
+        size = 12000
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 5
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 245
+    }
+}
+#Tozeur (96000/24000 POPS)
+1729 = {
+    aristocrats = {
+        culture = Vandal
+        religion = catholic
+        size = 350
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 200
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 950
+    }
+
+    soldiers = {
+        culture = Vandal
+        religion = catholic
+        size = 200
+    }
+
+    farmers = {
+        culture = Vandal
+        religion = catholic
+        size = 19300
+    }
+}
+#Gabes (200000/50000 POPS)
+1730 = {
+    aristocrats = {
+        culture = Vandal
+        religion = catholic
+        size = 900
+    }
+
+    clergymen = {
+        culture = Vandal
+        religion = catholic
+        size = 400
+    }
+
+    artisans = {
+        culture = Vandal
+        religion = catholic
+        size = 2275
+    }
+
+    soldiers = {
+        culture = Vandal
+        religion = catholic
+        size = 4100
+    }
+
+    farmers = {
+        culture = Vandal
+        religion = catholic
+        size = 40825
+    }
+
+    slaves = {
+        culture = Vandal
+        religion = catholic
+        size = 4000
+    }
+
+    artisans = {
+        culture = sephardic
+        religion = jewish
+        size = 500
+    }
+
+}

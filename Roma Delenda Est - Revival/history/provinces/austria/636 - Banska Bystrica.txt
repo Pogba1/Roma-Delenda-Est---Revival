@@ -1,0 +1,5 @@
+owner = GAL
+controller = GAL
+add_core = GAL
+trade_goods = iron
+life_rating = 35

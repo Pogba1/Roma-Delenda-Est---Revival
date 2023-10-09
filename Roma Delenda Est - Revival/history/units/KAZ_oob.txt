@@ -1,0 +1,32 @@
+army = {
+    name = "The Middle Juz Army"
+    location = 1185
+    regiment = {
+        name= "Juz Cavalry"
+        type = cavalry
+        home = 1185
+    }
+    regiment = {
+        name= "Juz Cavalry"
+        type = cavalry
+        home = 1064
+    }
+    regiment = {
+        name= "Juz Cavalry"
+        type = cavalry
+        home = 1060
+    }
+    regiment = {
+        name= "Juz Cavalry"
+        type = cavalry
+        home = 1614
+    }
+}
+
+leader = {
+    name = "Kenesary Khan"
+    type = land
+    date = 1836.1.1
+    background = aristocrat
+    personality = mediocre
+    }

@@ -1,0 +1,291 @@
+army = {
+    name = "Kavkazskii Korpus"
+    location = 1090
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1090
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1051
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1051
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1051
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1050
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1050
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1050
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1050
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1050
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1052
+       }
+}
+
+army = {
+    name = "Georgian Army"
+    location = 1056
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1056
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1056
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1056
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1056
+    }
+    regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1056
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1055
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1054
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1054
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = artillery
+        home = 1054
+       }
+   regiment = {
+        name = "1.1-ya Kavkazskii Pekhotnaya Diviziya"
+        type = infantry
+        home = 1054
+       }
+}
+
+army = {
+    name = "Circassian Army"
+    location = 1051
+
+
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1051
+    }
+
+    regiment = {
+        name= "2. Brigade"
+        type = infantry
+        home = 1049
+    }
+
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1051
+    }
+
+    regiment = {
+        name= "4. Cavalry"
+        type = cavalry
+        home = 1051
+    }
+
+    regiment = {
+        name= "5. Cavalry"
+        type = cavalry
+        home = 1049
+    }
+
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1050
+    }
+
+    regiment = {
+        name= "2. Brigade"
+        type = infantry
+        home = 1050
+    }
+
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1049
+    }
+    regiment = {
+        name= "2. Brigade"
+        type = infantry
+        home = 1050
+    }
+
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1049
+    }
+
+    regiment = {
+        name= "4. Cavalry"
+        type = cavalry
+        home = 1049
+    }
+
+    regiment = {
+        name= "5. Cavalry"
+        type = cavalry
+        home = 1049
+    }
+}
+
+army = {
+    name = "Avar Army"
+    location = 1053
+    regiment = {
+        name= "1. Brigade"
+        type = infantry
+        home = 1053
+    }
+
+    regiment = {
+        name= "2. Brigade"
+        type = infantry
+        home = 1053
+    }
+
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1055
+    }
+
+    regiment = {
+        name= "4. Brigade"
+        type = artillery
+        home = 1055
+    }
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1055
+    }
+
+    regiment = {
+        name= "4. Brigade"
+        type = artillery
+        home = 1055
+    }
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1055
+    }
+
+    regiment = {
+        name= "4. Brigade"
+        type = artillery
+        home = 1055
+    }
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1055
+    }
+
+    regiment = {
+        name= "4. Brigade"
+        type = artillery
+        home = 1055
+    }
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1055
+    }
+
+    regiment = {
+        name= "4. Brigade"
+        type = artillery
+        home = 1055
+    }
+    regiment = {
+        name= "3. Brigade"
+        type = infantry
+        home = 1055
+    }
+
+    regiment = {
+        name= "4. Brigade"
+        type = artillery
+        home = 1055
+    }
+
+}
+
+leader = {
+    name = "Imam Shamil"
+    picture = arab_general_4
+    type = land
+    date = 1836.1.1
+    background = school_of_defense
+    personality = implacable
+    prestige = 0.9
+    }
+
+
+
+leader = {
+    name = "Georg Andreas von Rosen"
+    picture = european_general_14
+    date = 1800.1.1
+    type = land
+    personality = soldierly
+    background = rising_star
+}

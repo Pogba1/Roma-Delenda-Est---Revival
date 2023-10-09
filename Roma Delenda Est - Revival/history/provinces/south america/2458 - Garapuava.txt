@@ -1,0 +1,5 @@
+owner = ELY
+controller = ELY
+add_core = ELY
+trade_goods = fruit
+life_rating = 35

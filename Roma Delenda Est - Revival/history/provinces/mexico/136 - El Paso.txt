@@ -1,0 +1,14 @@
+owner = CAS
+controller = CAS
+add_core = CAS
+terrain = new_world_semidesert
+trade_goods = cotton
+life_rating = 35
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+    add_core = USA
+    remove_core = MEX
+    colonial = 0
+}

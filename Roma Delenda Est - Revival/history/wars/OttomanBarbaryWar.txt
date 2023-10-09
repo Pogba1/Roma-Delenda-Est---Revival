@@ -1,0 +1,16 @@
+name = "Ottoman Restoration of Tripoli"
+
+1835.10.2 = {
+
+    }
+
+    war_goal = {
+
+    }
+
+}
+
+1836.6.6 = {
+    rem_attacker = TUR
+    rem_defender = TRI
+}

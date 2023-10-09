@@ -1,0 +1,82 @@
+EGY = {
+    value = 175
+}
+LEV = {
+    value = 175
+}
+leader = {
+   name = "Tewoderos Kasa"
+   type = land
+   date = 1836.1.1
+   background = school_of_offense
+   personality = bold
+}
+
+army = {
+    name = "Army of the Emperor of Ethiopia"
+    location = 1854
+    regiment = {
+        name= "1st 'Galla' Division"
+        type = infantry
+        home = 1852
+    }
+
+    regiment = {
+        name= "2nd 'Galla' Division"
+        type = infantry
+        home = 1853
+    }
+
+    regiment = {
+        name= "3rd 'Galla' Division"
+        type = artillery
+        home = 1854
+    }
+
+}
+
+army = {
+    name = "Army of the Ras of Tigre"
+    location = 1855
+    regiment = {
+        name= "1st 'Wolla' Division"
+        type = infantry
+        home = 1856
+    }
+
+    regiment = {
+        name= "2nd 'Wolla' Division"
+        type = artillery
+        home = 1857
+    }
+
+    regiment = {
+        name= "3rd 'Wolla' Division"
+        type = artillery
+        home = 1855
+    }
+
+}
+
+army = {
+    name = "Army of the Ras of Shoa"
+    location = 1861
+    regiment = {
+        name= "1st 'Shoa' Division"
+        type = infantry
+        home = 1859
+    }
+
+    regiment = {
+        name= "2nd 'Shoa' Division"
+        type = infantry
+        home = 1859
+    }
+
+    regiment = {
+        name= "3rd 'Shoa' Division"
+        type = artillery
+        home = 1860
+    }
+
+}

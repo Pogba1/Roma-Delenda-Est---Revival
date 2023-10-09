@@ -1,0 +1,7 @@
+owner = SHA
+controller = SHA
+add_core = SIA
+add_core = SHA
+add_core = BUR
+trade_goods = wool
+life_rating = 35

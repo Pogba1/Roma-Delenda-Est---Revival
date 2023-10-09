@@ -1,0 +1,20 @@
+owner = SHG
+controller = SHG
+add_core = SHG
+trade_goods = tea
+life_rating = 32
+state_building = {
+    level = 3
+    building = ammunition_factory
+    upgrade = yes
+}
+state_building = {
+    level = 3
+    building = small_arms_factory
+    upgrade = yes
+}
+1861.1.1 = {
+    owner = TPG
+    controller = TPG
+    add_core = TPG
+}
