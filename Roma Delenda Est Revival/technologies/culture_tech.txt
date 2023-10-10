@@ -66,10 +66,6 @@ realism = {
             is_greater_power = yes
         }
         modifier = {
-            factor = 5
-            tag = ENG
-        }
-        modifier = {
             factor = 0.1
             not = { literacy = 0.3  }
             is_greater_power = no
@@ -458,10 +454,7 @@ positivism = {
             factor = 5
             capital_scope = { continent = europe }
             NOT = { tag = TUR }
-            OR = {
-                not = { literacy = 0.40 }
-                tag = ENG
-            }
+            NOT = { literacy = 0.40 }
             OR = {
                 is_greater_power = yes
                 is_secondary_power = yes
@@ -470,16 +463,6 @@ positivism = {
         modifier = {
             factor = 3
             tech_school = culture_tech_school
-        }
-        modifier = {
-            factor = 3
-            OR = {
-                tag = PRU
-                tag = NGF
-                tag = GER
-                tag = ENG
-                tag = USA
-            }
         }
     }
 
@@ -509,10 +492,7 @@ functionalism = {
             factor = 5
             capital_scope = { continent = europe }
             NOT = { tag = TUR }
-            OR = {
-                not = { literacy = 0.50 }
-                tag = ENG
-            }
+            NOT = { literacy = 0.50 }
             OR = {
                 is_greater_power = yes
                 is_secondary_power = yes
@@ -521,16 +501,6 @@ functionalism = {
         modifier = {
             factor = 3
             tech_school = culture_tech_school
-        }
-        modifier = {
-            factor = 3
-            OR = {
-                tag = PRU
-                tag = NGF
-                tag = GER
-                tag = ENG
-                tag = USA
-            }
         }
     }
 
@@ -561,9 +531,8 @@ biologism = {
             capital_scope = { continent = europe }
             NOT = { tag = TUR }
             OR = {
-                not = { literacy = 0.7 }
+                NOT = { literacy = 0.7 }
                 year = 1880
-                tag = ENG
             }
             OR = {
                 is_greater_power = yes
@@ -573,16 +542,6 @@ biologism = {
         modifier = {
             factor = 5
             tech_school = culture_tech_school
-        }
-        modifier = {
-            factor = 5
-            OR = {
-                tag = PRU
-                tag = NGF
-                tag = GER
-                tag = ENG
-                tag = USA
-            }
         }
     }
 
@@ -614,9 +573,8 @@ social_science = {
             capital_scope = { continent = europe }
             NOT = { tag = TUR }
             OR = {
-                not = { literacy = 0.75 }
+                NOT = { literacy = 0.75 }
                 year = 1890
-                tag = ENG
             }
             OR = {
                 is_greater_power = yes
@@ -789,8 +747,6 @@ state_n_government = {
             OR = {
                 year = 1860
                 tag = SAR
-                tag = PRU
-                tag = USA
                 colonial_nation = yes
             }
         }

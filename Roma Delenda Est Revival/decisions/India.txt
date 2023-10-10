@@ -419,7 +419,6 @@ political_decisions = {
             factor = 1
             modifier = {
                 factor = 0
-                tag = ENG
                 OR = {
                     BIK = { exists = no }
                     BIK = { vassal_of = THIS }

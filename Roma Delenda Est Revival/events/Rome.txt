@@ -128,6 +128,7 @@ country_event = {
 	              who = SPQ
                      value = 50    
 		}
+    }
 	
 	mean_time_to_happen = {
 		days = 0

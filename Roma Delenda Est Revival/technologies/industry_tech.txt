@@ -884,11 +884,7 @@ drilling_and_blasting = {
             factor = 40
             OR = {
                 tag = FRA
-                tag = ENG
-                tag = USA
                 tag = NGF
-                tag = GER
-                tag = PRU
                 tag = RUS
             }
         }

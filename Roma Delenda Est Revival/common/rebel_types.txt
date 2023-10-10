@@ -1628,29 +1628,6 @@ pan_nationalist_rebels = {
         }
         modifier = {
             factor = 0
-            country = {
-                tag = AUS
-                NOT = { has_country_flag = austrian_greater_germany }
-                any_owned_province = {
-                    is_colonial = no
-                    NOT = {
-                        OR = {
-                            is_core = AUS
-                            is_core = GER
-                        }
-                    }
-                }
-            }
-        }
-        modifier = {
-            factor = 0
-            country = {
-                tag = KUK
-                NOT = { has_country_flag = austrian_greater_germany }
-            }
-        }
-        modifier = {
-            factor = 0
             country = { tag = DNB }
         }
         modifier = {
@@ -3687,18 +3664,6 @@ liberal_rebels = {
         }
         modifier = {
             factor = 0.25
-            is_culture_group = germanic
-            country = {
-                is_greater_power = no
-                is_culture_group = germanic
-                NOT = { tag = GER }
-                NOT = { tag = AUS }
-                NOT = { tag = KUK }
-                NOT = { has_country_flag = wants_to_unify }
-            }
-        }
-        modifier = {
-            factor = 0.25
             is_culture_group = italian
             country = {
                 is_greater_power = no
@@ -3810,38 +3775,6 @@ liberal_rebels = {
         random_owned = {
             limit = { owner = { NOT = { slavery = no_slavery } } }
             owner = { political_reform = no_slavery }
-        }
-        random_owned = {
-            limit = {
-                owner = {
-                    OR = {
-                        government = democracy
-                        government = hms_government
-                    }
-                    NOT = {
-                        voting_system = proportional_representation
-                        tag = USA
-                        tag = ENG
-                    }
-                }
-            }
-            owner = { political_reform = proportional_representation }
-        }
-        random_owned = {
-            limit = {
-                owner = {
-                    OR = {
-                        government = democracy
-                        government = hms_government
-                    }
-                    NOT = {
-                        upper_house_composition = population_equal_weight
-                        tag = USA
-                        tag = ENG
-                    }
-                }
-            }
-            owner = { political_reform = population_equal_weight }
         }
         random_owned = {
             limit = { owner = { political_parties = non_secret_ballots } }
@@ -4632,18 +4565,6 @@ socialist_rebels = {
                 location = {
                     any_core = { is_primary_culture = THIS }
                 }
-            }
-        }
-        modifier = {
-            factor = 0.5
-            is_culture_group = germanic
-            country = {
-                is_greater_power = no
-                is_culture_group = germanic
-                NOT = { tag = GER }
-                NOT = { tag = AUS }
-                NOT = { tag = KUK }
-                NOT = { has_country_flag = wants_to_unify }
             }
         }
         modifier = {

@@ -488,7 +488,6 @@ country_event = {
 	}		
 }
 }
-}
 
 # Greek autonomy post civil war ( Magna Greacia )
 country_event = {
@@ -520,8 +519,6 @@ country_event = {
                       create_vassal = MGN 
 	}		
 }
-}
-}
 
 # Greek autonomy post civil war ( SICILY )
 country_event = {
@@ -552,8 +549,6 @@ country_event = {
                       }
                       create_vassal = SIC 	
 	}		
-}
-}
 }
 
 
@@ -724,3 +719,4 @@ AND ={
 		}
 
 	}
+}

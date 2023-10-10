@@ -339,11 +339,7 @@ country_event = {
                 tag = GER
                 exists = yes
                 THIS = {
-                    NOT = {
-                        tag = AUS
-                        tag = KUK
-                        tag = DNB
-                    }
+                    tag = DNB
                 }
             }
             diplomatic_influence = {
@@ -415,8 +411,6 @@ country_event = {
                 owner = {
                     primary_culture = south_german
                     NOT = {
-                        tag = AUS
-                        tag = KUK
                         tag = DNB
                     }
                 }
@@ -456,8 +450,6 @@ country_event = {
                 owner = {
                     primary_culture = south_german
                     NOT = {
-                        tag = AUS
-                        tag = KUK
                         tag = DNB
                     }
                 }
@@ -538,8 +530,6 @@ country_event = {
                 owner = {
                     primary_culture = south_german
                     NOT = {
-                        tag = AUS
-                        tag = KUK
                         tag = DNB
                     }
                 }
@@ -569,10 +559,6 @@ country_event = {
                     is_greater_power = yes
                     is_sphere_leader_of = THIS
                     neighbour = THIS
-                    NOT = {
-                        tag = AUS
-                        tag = KUK
-                    }
                 }
                 country_event = 60130
             }
@@ -583,8 +569,6 @@ country_event = {
                     OR = {
                         NOT = { is_sphere_leader_of = THIS }
                         NOT = { neighbour = THIS }
-                        tag = AUS
-                        tag = KUK
                     }
                 }
                 country_event = 11104
@@ -603,11 +587,7 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    OR = {
-                        tag = AUS
-                        tag = KUK
-                        tag = DNB
-                    }
+                    tag = DNB
                 }
             }
             any_country = {

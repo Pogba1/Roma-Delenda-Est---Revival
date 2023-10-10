@@ -1335,6 +1335,7 @@ province_event = {
                      NOT = { year = 1870}
                       }
              }
+        }
         any_neighbor_province = {
             owned_by = THIS
             is_core = THIS

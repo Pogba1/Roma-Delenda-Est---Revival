@@ -235,18 +235,3 @@ is_triggered_only = yes
         name = "EVTOPTA557"
     }
 }
-
-
-#Occitania is notified of Vinlandic Victory
-country_event = {
-    id = 558
-    title = "EVTNAM558"
-    desc = "EVTDESC558"
-    picture = "form_union_nation"
-
-is_triggered_only = yes
-
-    option = {
-        name = "EVTOPTA558"
-    }
-}

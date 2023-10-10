@@ -3539,10 +3539,6 @@ political_decisions = {
                     overlord = { tag = ARC }
                 }
                 AND = {
-                    tag = HUN
-                    overlord = { tag = AUS }
-                }
-                AND = {
                     is_culture_group = italian
                     overlord = { is_culture_group = italian }
                 }
@@ -3727,24 +3723,5 @@ political_decisions = {
             }
         }
     }
-
-
-    # find_when_uk_flips_upper_house = {
-
-    # find_when_uk_flips_upper_house = {
-        # potential = {
-            # tag = ENG
-            # NOT = { has_country_flag = abandoned_two_party_system }
-        # }
-
-        # allow = {
-            # NOT = { upper_house_composition = appointed }
-        # }
-
-        # effect = {
-            # set_country_flag = abandoned_two_party_system
-        # }
-        # ai_will_do = { factor = 1 }
-    # }
 
 }

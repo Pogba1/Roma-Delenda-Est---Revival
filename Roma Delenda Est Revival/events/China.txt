@@ -101,19 +101,21 @@ country_event = {
     title = "EVTNAM25"
     desc = "EVTDESC25"
     trigger = {
-          OR = {
-             AND = {
+        OR = {
+            AND = {
             tag = CHI
             year = 1880
             war = no
             NOT = { has_country_flag = Yingzhou_revolt }
             }
-          AND = {
-          tag = CHI
-          CHC = { NOT = { vassal_of = THIS } }
-          NOT = { has_country_flag = Yingzhou_revolt }  
-          }          
-}
+            AND = {
+                tag = CHI
+                CHC = { NOT = { vassal_of = THIS } }
+                NOT = { has_country_flag = Yingzhou_revolt }  
+            }          
+        }
+    }
+    
 	mean_time_to_happen = {
 		days = 60
 	}

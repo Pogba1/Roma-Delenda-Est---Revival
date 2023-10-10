@@ -63,11 +63,6 @@ political_decisions = {
         CMP = { annex_to = THIS }
 
         ai_will_do = { factor = 1 }
+        }
     }
-
-
-
-
-
-
 }

@@ -167,16 +167,7 @@ political_decisions = {
                     }
                     debt_law = serfdom
                 }
-                # #Change Border Policy
-                # AND = {
-                    # OR = {
-                        # has_country_flag = government_decisions_on
-                        # ai = yes
-                    # }
-                    # civilized = yes
-                    # NOT = { has_country_flag = change_border_policy }
-                    # NOT = { has_country_modifier = law_changed_by_force }
-                # }
+            }
         }
         allow = {
         }
@@ -700,7 +691,6 @@ political_decisions = {
                     NOT = {
                         exists = ZBW
                         has_global_flag = zimbabwe_organized
-                        tag = ENG
                     }
                     owns = 2068
                     NOT = { has_country_flag = ian_would_be_proud }
@@ -810,10 +800,6 @@ political_decisions = {
         picture = marching_soldiers
         alert = no
         potential = {
-            # OR = {
-                # has_country_flag = government_decisions_on
-                # ai = yes
-            # }
             civilized = yes
             war = yes
             OR = {
