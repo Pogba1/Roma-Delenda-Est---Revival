@@ -101,7 +101,7 @@
     }
 
     artisans = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 3090.0
     }
@@ -166,7 +166,7 @@
     }
 
     artisans = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 1030.0
     }
@@ -244,13 +244,13 @@
     }
 
     artisans = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 154.5
     }
 
     farmers = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 1030.0
     }
@@ -316,19 +316,19 @@
     }
 
     clergymen = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 51.5
     }
 
     artisans = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 154.5
     }
 
     farmers = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 3090.0
     }
@@ -400,7 +400,7 @@
     }
 
     farmers = {
-        culture = flemish
+        culture = dutch
         religion = catholic
         size = 1030.0
     }

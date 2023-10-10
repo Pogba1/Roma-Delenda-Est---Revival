@@ -130,9 +130,9 @@ greek_divergent_north = {
 greek_divergent_east = {
         picture = form_union_nation
         potential = {
-       NOT = { has_country_flag = greek_divergent_assimilation_east}
-       tag = GRE
-       exists = PAP
+            NOT = { has_country_flag = greek_divergent_assimilation_east}
+            tag = GRE
+            exists = PAP
         }
         allow = {
             nationalism_n_imperialism = 1
@@ -148,24 +148,18 @@ greek_divergent_east = {
                     NOT = { is_greater_power = yes }
                     NOT = { has_country_flag = post_colonial_country }
                     is_culture_group = THIS
-                        vassal_of = THIS
-}
+                    vassal_of = THIS
+                }
         		any_owned = {
-                		limit = {
-                    			OR = {
-                        			is_core = PAP
-                    			     }
-                			}
-                add_province_modifier = {
-                    name = greek_divergent_assimilation
-                    duration = -1
+                    limit = {
+                        is_core = PAP
+                    }
+                    add_province_modifier = {
+                        name = greek_divergent_assimilation
+                        duration = -1
+                    }
                 }
             }
-                }
-                
-            }
-        ai_will_do = {
-            factor = 1
         }
     }
 
@@ -259,7 +253,7 @@ Centralise_hellas = {
                 }
                 country_event = 11101
             }
-any_owned = {
+            any_owned = {
                 limit = {
                     OR = {
                         is_core = MAC
@@ -289,38 +283,6 @@ any_owned = {
                 remove_core = SIC
                 remove_core = PAP
             }
-any_province = {
-                limit = {
-                    OR = {
-                        is_core = MAC
-                        is_core = ATH
-                        is_core = EPI
-                        is_core = THR
-                        is_core = BYZ
-                        is_core = NIK
-                        is_core = PNT
-                        is_core = MGN
-                        is_core = CYR
-                        is_core = SIC
-                        is_core = PAP
-                        is_core = ACH
-                    }
-                }
-                remove_core = MAC
-                remove_core = ACH
-                remove_core = ATH
-                remove_core = EPI
-                remove_core = THR
-                remove_core = BYZ
-                remove_core = PNT
-                remove_core = NIK
-                remove_core = CYR
-                remove_core = MGN
-                remove_core = SIC
-                remove_core = PAP
-            }
-
-
         }
         ai_will_do = {
             factor = 1

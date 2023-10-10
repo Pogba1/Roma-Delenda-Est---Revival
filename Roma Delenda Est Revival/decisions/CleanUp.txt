@@ -3561,10 +3561,7 @@ political_decisions = {
                 AND = {
                     tag = SBA
                     overlord = {
-                        OR = {
-                            tag = ARG
-                            tag = ARC
-                        }
+                        tag = ARC
                     }
                 }
             }

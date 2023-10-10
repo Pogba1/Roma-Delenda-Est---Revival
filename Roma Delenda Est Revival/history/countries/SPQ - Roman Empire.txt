@@ -60,7 +60,7 @@ upper_house = {
     military_plans = 1
     army_command_principle = 1
     army_professionalism = 1
-    army_decision_making
+    army_decision_making = 1
 
     post_nelsonian_thought = 1
     battleship_column_doctrine = 1

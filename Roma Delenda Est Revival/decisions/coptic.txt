@@ -78,10 +78,10 @@ political_decisions = {
         picture = form_union_nation
         potential = {
             OR = {
-	       tag = LEV
-               }
+	            tag = LEV
+            }
             has_country_flag = victorious_crusaders
-           NOT = {has_country_flag = orient_centralised}
+            NOT = {has_country_flag = orient_centralised}
         }
         allow = {
             war = no

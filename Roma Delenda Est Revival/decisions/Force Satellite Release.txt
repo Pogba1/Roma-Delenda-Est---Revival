@@ -12,9 +12,7 @@ political_decisions = {
             }
             NOT = { tag = LBG }
             NOT = { tag = NEH }
-            NOT = { tag = CSA }
             NOT = { tag = SHW }
-            NOT = { tag = TPG }
             NOT = { has_country_modifier = no_freedom }
             NOT = { has_country_flag = freedom_attempt_made }
         }
@@ -57,11 +55,7 @@ political_decisions = {
             }
             modifier = {
                 factor = 0
-                OR = {
-                    tag = CAN
-                    tag = AST
-                    tag = NZL
-                }
+                tag = AST
                 NOT = { revolt_percentage = .25 }
                 NOT = { average_militancy = 4 }
                 NOT = { capital_scope = { controlled_by_rebels = yes } }

@@ -421,14 +421,6 @@ political_decisions = {
             2509 = { life_rating = 4 } #Auckland
             2571 = { life_rating = 2 } #Tauranga
             2514 = { life_rating = 2 }
-            any_pop = { limit = { location = { is_core = NZL } has_pop_culture = australian } reduce_pop = 1.2 }
-            any_pop = { limit = { location = { is_core = NZL } has_pop_culture = maori } literacy = -0.8 }
-
-            any_pop = {
-                limit = { has_pop_culture = maori location = { is_core = NZL } }
-                ideology = { value = reactionary factor = 0.10 }
-                militancy = 3
-            }
         }
         ai_will_do = {  factor = 1 }
     }

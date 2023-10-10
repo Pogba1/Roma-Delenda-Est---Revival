@@ -21,7 +21,6 @@ country_event = {
             tag = NEH
             tag = KUK
             tag = SIC
-            tag = MOL
             tag = WAL
             tag = SER
             primary_culture = north_italian

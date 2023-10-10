@@ -113,11 +113,11 @@ political_decisions = {
             is_greater_power = yes            
           }
         effect = {
-                 change_tag = CLP
-                 LEV = {all_core = {add_core = CLP } }
-                 SOM = { all_core = {add_core = CLP } }
-                 SUD = {all_core = {add_core = CLP } }
-                 ARA = { all_core = {add_core = CLP }  }
+            change_tag = CLP
+            LEV = {all_core = {add_core = CLP } }
+            SOM = { all_core = {add_core = CLP } }
+            SUD = {all_core = {add_core = CLP } }
+            ARA = { all_core = {add_core = CLP }  }
             add_accepted_culture = bedouin
             add_accepted_culture = sudanese
             add_accepted_culture = nilotic
@@ -132,9 +132,8 @@ political_decisions = {
             add_accepted_culture = ubangian
             add_accepted_culture = somali
             add_accepted_culture = cushitic
-                 LEB = { country_event = 11101 }
-                 SOM = { country_event = 11101 }
-                 SUD = { country_event = 11101 }
+            SOM = { country_event = 11101 }
+            SUD = { country_event = 11101 }
         }
         ai_will_do = { factor = 1 
          }

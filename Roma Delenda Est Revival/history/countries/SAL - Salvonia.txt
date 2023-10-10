@@ -118,4 +118,3 @@ nonstate_consciousness = 0
     medicine = 1
 
 #Inventions
-}

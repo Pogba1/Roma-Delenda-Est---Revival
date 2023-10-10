@@ -434,11 +434,8 @@ country_event = {
             colonial_nation = yes
         }
         NOT = {
-            tag = NGF
-            tag = SGF
             tag = RUS
             tag = FRA
-            tag = DNB
             tag = TUR
             tag = JAP
             tag = TKG
@@ -1917,8 +1914,6 @@ country_event = {
             has_country_flag = dismantling_treaty
         }
         NOT = {
-            tag = NGF
-            tag = SGF
             tag = RUS
             tag = FRA
             tag = TUR

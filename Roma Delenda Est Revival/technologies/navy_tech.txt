@@ -157,7 +157,6 @@ battleship_column_doctrine = {
                 tag = BEL
                 tag = SPA
                 tag = SPC
-                tag = CHL
             }
         }
     }
@@ -1790,15 +1789,6 @@ naval_statistics = {
         modifier = {
             factor = 0
             NOT = { total_amount_of_ships = 1 }
-        }
-        modifier = {
-            factor = 30
-            is_greater_power = yes
-            OR = {
-                tag = GER
-                tag = NGF
-                tag = PRU
-            }
         }
         modifier = {
             factor = 1.02

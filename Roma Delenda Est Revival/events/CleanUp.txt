@@ -1794,11 +1794,7 @@ country_event = {
             tag = THR
             overlord = GRE
 }
-            tag = DNB
             tag = DES
-            tag = FSA
-            tag = UIL
-            tag = UNB
             tag = UBD
             tag = INO
             tag = IRE

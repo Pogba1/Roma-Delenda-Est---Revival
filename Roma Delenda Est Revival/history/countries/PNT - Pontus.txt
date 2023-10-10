@@ -93,14 +93,6 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "PNT_oob.txt"
-1861.1.1 = {
-    oob = "/1861/GRE_oob.txt"
-
-
-    government = prussian_constitutionalism
-    plurality = 50
-    literacy = 0.27
-
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed

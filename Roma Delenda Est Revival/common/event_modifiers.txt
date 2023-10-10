@@ -2304,12 +2304,6 @@ sons_of_liberty = {
     icon = 18
 }
 
-apache_raiders    = {
-    population_growth = -0.002
-    pop_militancy_modifier = 0.2
-    icon = 18
-}
-
 treaties_of_velasco = {
     icon = 5
 }

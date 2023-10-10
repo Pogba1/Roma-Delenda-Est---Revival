@@ -635,14 +635,6 @@ market_structure = {
         factor = 2
 
         modifier = {
-            factor = 50
-            OR = {
-                tag = NGF
-                tag = GER
-                tag = PRU
-            }
-        }
-        modifier = {
             factor = 2
             is_greater_power = yes
         }
@@ -902,14 +894,6 @@ organized_factories = {
     rgo_size = { precious_goods = 0.05 }
         ai_chance = {
         factor = 1.03
-        modifier = {
-            factor = 50
-            OR = {
-                tag = NGF
-                tag = GER
-                tag = PRU
-            }
-        }
         modifier = {
             factor = 1.2
             is_greater_power = yes

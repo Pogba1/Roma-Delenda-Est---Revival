@@ -1622,7 +1622,6 @@ province_event = {
                 civilized = yes
                 tag = KOR
                 tag = QNG
-                tag = TPG
                 tag = CHI
             }
         }
@@ -1666,8 +1665,8 @@ province_event = {
                     province_id = 2147  #Ciudad Acuna
                     province_id = 2152  #Monclova
                     province_id = 2155  #Torreon
-                    province_id = 2255  #Barranquilla (El Cerrejón mines)
-                    province_id = 2399  #Rio Gallegos (Río Turbio mines)
+                    province_id = 2255  #Barranquilla (El Cerrejï¿½n mines)
+                    province_id = 2399  #Rio Gallegos (Rï¿½o Turbio mines)
                     province_id = 2561  #Siegburg
                     province_id = 595   #Nuremberg (Waldenburg)
                     province_id = 598   #Bayreuth (Waldenburg)
@@ -1812,7 +1811,6 @@ province_event = {
                     OR = {
                         tag = QNG
                         tag = CHI
-                        tag = TPG
                         tag = KOR
                     }
                 }

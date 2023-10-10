@@ -62,7 +62,7 @@ army = {
         home = 1677
     }
 }
-Ainu Fleet
+#Ainu Fleet
 navy = {
     name = "Ainu fleet"
     location = 1645 #Niigata
