@@ -537,7 +537,7 @@ diplomacy = {
     PEACE_COST_CLEAR_UNION_SPHERE = 0.6, -- Peace cost to assert hegemony per affected country
 
     GOOD_PEACE_REFUSAL_MILITANCY = 1.0, --Militancy hit from refusing a good peace offer
-    GOOD_PEACE_REFUSAL_WAREXH = 10.0, --War exhaustion hit from refusing a good peace offer
+    GOOD_PEACE_REFUSAL_WAREXH = 5.0, --War exhaustion hit from refusing a good peace offer
 
     PEACE_COST_GUNBOAT = 5, -- Cost of forcing a defaulting country to pay its debt
     INFAMY_GUNBOAT = 0, -- Infamy cost for debt collection

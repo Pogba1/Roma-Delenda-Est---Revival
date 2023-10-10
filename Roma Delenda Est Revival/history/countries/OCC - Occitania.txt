@@ -79,7 +79,7 @@ secularization = yes
 social_conscience = yes
 
 oob = "OCC_oob.txt"
-ruling_party = OCC_liberal
+ruling_party = OCC_conservative
 upper_house = {
     fascist = 1
     liberal = 49
