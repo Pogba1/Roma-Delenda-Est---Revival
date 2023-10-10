@@ -15,17 +15,8 @@ state_building = {
     building = steel_factory
     upgrade = yes
 }
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    remove_core = SIC
-    railroad = 2
-    naval_base = 2
-    state_building = {
-        level = 1
-        building = steel_factory
-        upgrade = yes
-    }
+
+
     state_building = {
         level = 1
         building = clipper_shipyard

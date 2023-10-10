@@ -14,5 +14,7 @@ party_loyalty = {
     loyalty_value = 12
 }
 
-1861.1.1 = { colonial = 0 }
-1861.1.1 = { railroad = 3 }
+
+
+
+

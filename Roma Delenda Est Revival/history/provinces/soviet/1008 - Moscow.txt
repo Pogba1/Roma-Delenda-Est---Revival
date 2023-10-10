@@ -5,12 +5,8 @@ trade_goods = coal
 life_rating = 40
 fort = 1
 terrain = mining_district
-1861.1.1 = {
-    state_building = {
-        level = 1
-        building = fabric_factory
-        upgrade = yes
-    }
+
+
     state_building = {
         level = 1
         building = lumber_mill
@@ -22,4 +18,5 @@ terrain = mining_district
         upgrade = yes
     }
 }
-1861.1.1 = { railroad = 2 }
+
+
