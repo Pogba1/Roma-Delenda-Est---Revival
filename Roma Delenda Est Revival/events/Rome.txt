@@ -25,8 +25,6 @@ fire_only_once = yes
      PAP = { all_core ={ add_core = SPQ } }
      SAL = { all_core ={ add_core = SPQ } }
      ARM = { all_core ={ add_core = SPQ } }
-     ALB = { all_core ={ add_core = SPQ } }
-     WHA = { all_core ={ add_core = SPQ } }
      MES = { all_core ={ add_core = SPQ } }
     }
 }

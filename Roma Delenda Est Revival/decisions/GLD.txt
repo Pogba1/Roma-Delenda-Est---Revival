@@ -5,7 +5,7 @@ political_decisions = {
 		picture = treaty_signing
 		potential = {
 			tag = NUM
-                        NOT = { has_country_flag = rejected_the_reclematon }
+			NOT = { has_country_flag = rejected_the_reclematon }
 		}
 		
 		allow = {
@@ -18,16 +18,15 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = rejected_the_reclematon
-			GLD = { country_event=98247 }
-                        war_exhaustion = -50
-                        any_pop = { militancy = -5 }
+			GLD = { 
+				country_event = 98247 
+			}
+			war_exhaustion = -50
+			any_pop = { militancy = -5 }
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-
-
 }

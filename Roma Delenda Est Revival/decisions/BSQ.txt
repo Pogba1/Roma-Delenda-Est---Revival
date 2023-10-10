@@ -3,9 +3,9 @@ political_decisions = {
     basque_call_to_union = {
         picture = form_union_nation
         potential = {
-        is_culture_group = pan_basque
-        NOT = { exists = BSQ }
-        ai = yes       
+            is_culture_group = pan_basque
+            NOT = { exists = BSQ }
+            ai = yes       
             }
         allow = {
             prestige = 45
@@ -32,9 +32,6 @@ political_decisions = {
                 country_event = 11101
             }
             add_accepted_culture = union
-        }
-        ai_will_do = {
-            factor = 1
         }
     }
 

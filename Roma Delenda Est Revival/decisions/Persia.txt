@@ -6,9 +6,9 @@ persian_cinema = {
 
     potential = {
         tag = PER
-        NOT = { has_country_flag = persian_cinema }
-        NOT = { has_country_modifier = silver_age }
-        year = 1880
+            NOT = { has_country_flag = persian_cinema }
+            NOT = { has_country_modifier = silver_age }
+            year = 1880
         }
 
     allow = {
@@ -31,60 +31,11 @@ persian_cinema = {
     ai_will_do = { factor = 1 }
     }
 
-# Establish the Dar ul-Funun
-establish_the_dar_al_funun = {
-        picture = suezcanalcompany
-        potential = {
-            tag = PER
-            civilized = no
-            has_country_modifier = silver_age
-            NOT = {    has_country_flag = dar_al_funun_built }
-        }
-        allow = {
-            has_country_modifier = amir_kabir
-        }
-        effect = {
-            years_of_research = 0.5
-            any_pop = { consciousness = 1 }
-            set_country_flag = dar_al_funun_built
-            add_country_modifier = {
-                name = dar_al_funun
-                duration = 3650
-            }
-            random_owned = {
-                limit = {
-                    owner = {
-                        civilized = no
-                        education_reform = no_education_reform
-                    }
-                }
-                owner = {
-                    economic_reform = yes_education_reform
-                    any_pop = {
-                        scaled_militancy = {
-                            ideology = liberal
-                            factor = 0.5
-                        }
-                        scaled_militancy = {
-                            ideology = conservative
-                            factor = 1
-                        }
-                        scaled_militancy = {
-                            ideology = reactionary
-                            factor = 3
-                        }
-                    }
-                }
-            }
-        }
-    }
-
 #Establish the Majles
 establish_the_majles = {
     picture = caucasus_viceroyalty
     potential = {
         tag = PER
-        year = 1900
         NOT = { has_country_flag = majles_established }
     }
 
@@ -106,41 +57,6 @@ establish_the_majles = {
     ai_will_do = { factor = 1 }
 }
 
-# End the bazaari strike.
-end_bazaari_strike = {
-    picture = PER_bazaari_strike
-    potential = {
-        has_country_modifier = bazaari_strike
-    }
-
-    allow = {
-        has_country_modifier = bazaari_strike
-    }
-
-    effect = {
-        prestige_factor = -0.1
-        remove_country_modifier = bazaari_strike
-        years_of_research = -1
-        add_country_modifier = { name = uncivilized_isolationism duration = -1 }
-        remove_country_modifier = western_influences
-        random_owned = {
-            limit = { owner = { NOT = { border_policy = closed_borders } } }
-            owner = { political_reform = closed_borders }
-        }
-        treasury = -50000
-        any_country = {
-            limit = { is_greater_power = yes }
-            diplomatic_influence = { who = THIS value = -200 }
-            relation = { who = THIS value = -100 }
-        }
-        random_country = {
-            limit = { is_greater_power = yes is_sphere_leader_of = THIS }
-            treasury = 50000
-        }
-        clr_country_flag = ulama_no
-    }
-    ai_will_do = { factor = 1 }
-}
 #Bring Tea to Iran
 bring_tea_to_iran = {
         picture = prince_mirza
@@ -172,7 +88,6 @@ bring_tea_to_iran = {
             1114 = { trade_goods = tea }
             1121 = { trade_goods = tea }
             1116 = { trade_goods = tea }
-            relation = { who = ENG value = -50 }
         }
         ai_will_do = { factor = 1 }
     }
