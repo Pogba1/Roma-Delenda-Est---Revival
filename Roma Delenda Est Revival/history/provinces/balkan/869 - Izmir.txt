@@ -10,5 +10,3 @@ life_rating = 40
 #    upgrade = yes
 #}
 
-
-}

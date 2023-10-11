@@ -5,6 +5,3 @@ add_core = FRA
 trade_goods = wool
 life_rating = 35
 
-
-
-

@@ -20,8 +20,3 @@ party_loyalty = {
 #    upgrade = yes
 #}
 
-
-    add_core = CSA
-}
-
-

@@ -5,6 +5,4 @@ add_core = MAY
 is_slave = yes
 trade_goods = fruit
 life_rating = 33
-1861.1.1 = {
-    remove_core = UCA
-}
+

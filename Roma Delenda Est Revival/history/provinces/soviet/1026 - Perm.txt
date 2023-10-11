@@ -4,5 +4,3 @@ add_core = UGR
 trade_goods = coal
 life_rating = 35
 
-
-}

@@ -16,5 +16,3 @@ naval_base = 2
 #    upgrade = yes
 #}
 
-
-}

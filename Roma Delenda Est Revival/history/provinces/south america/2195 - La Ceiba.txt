@@ -4,7 +4,4 @@ add_core = GLD
 is_slave = yes
 trade_goods = fruit
 life_rating = 35
-1861.1.1 = {
-    owner = HON
-    controller = HON
-}
+

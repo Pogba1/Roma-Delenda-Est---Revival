@@ -6,7 +6,3 @@ add_core = BRT
 trade_goods = timber
 life_rating = 35
 
-
-}
-
-

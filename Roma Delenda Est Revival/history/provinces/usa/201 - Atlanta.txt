@@ -27,7 +27,3 @@ state_building = {
 }
 
 
-
-}
-
-

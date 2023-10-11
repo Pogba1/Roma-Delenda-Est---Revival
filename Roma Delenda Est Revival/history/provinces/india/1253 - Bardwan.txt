@@ -5,4 +5,3 @@ add_core = BNG
 trade_goods = coal
 life_rating = 32
 
-

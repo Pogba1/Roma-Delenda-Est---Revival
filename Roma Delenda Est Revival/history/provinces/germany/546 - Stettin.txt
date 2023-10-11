@@ -4,12 +4,3 @@ add_core = SAX
 trade_goods = fish
 life_rating = 30
 
-
-    state_building = {
-        level = 1
-        building = regular_clothes_factory
-        upgrade = yes
-    }
-}
-
-

@@ -21,9 +21,3 @@ state_building = {
     upgrade = yes
 }
 
-
-}
-
-
-
-

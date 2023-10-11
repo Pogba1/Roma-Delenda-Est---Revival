@@ -4,4 +4,3 @@ add_core = FRE
 trade_goods = fish
 life_rating = 40
 
-

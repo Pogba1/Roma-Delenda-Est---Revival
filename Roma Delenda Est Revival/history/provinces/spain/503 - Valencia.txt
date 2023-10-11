@@ -15,12 +15,3 @@ life_rating = 35
 #    upgrade = yes
 #}
 
-
-    state_building = {
-        level = 1
-        building = luxury_clothes_factory
-        upgrade = yes
-    }
-}
-
-

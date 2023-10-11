@@ -5,4 +5,3 @@ add_core = BSQ
 trade_goods = cattle
 life_rating = 35
 
-

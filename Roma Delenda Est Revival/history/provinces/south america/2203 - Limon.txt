@@ -4,7 +4,4 @@ add_core = GLD
 is_slave = yes
 trade_goods = coffee
 life_rating = 33
-1861.1.1 = {
-    owner = COS
-    controller = COS
-}
+

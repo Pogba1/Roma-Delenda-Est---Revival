@@ -20,7 +20,3 @@ life_rating = 35
 #    upgrade = yes
 #}
 
-
-}
-
-

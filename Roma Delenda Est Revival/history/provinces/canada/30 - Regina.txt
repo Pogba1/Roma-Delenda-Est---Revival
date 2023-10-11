@@ -4,4 +4,3 @@ terrain = steppe
 life_rating = 31
 colonial = 2
 
-

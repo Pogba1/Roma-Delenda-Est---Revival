@@ -4,4 +4,3 @@ add_core = OCC
 trade_goods = wool
 life_rating = 35
 
-

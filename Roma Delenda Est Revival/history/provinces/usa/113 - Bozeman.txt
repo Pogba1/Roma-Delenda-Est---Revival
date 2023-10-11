@@ -4,4 +4,3 @@ add_core = CAS
 trade_goods = cattle
 life_rating = 35
 
-

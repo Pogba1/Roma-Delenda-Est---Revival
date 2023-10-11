@@ -4,4 +4,3 @@ add_core = FRE
 trade_goods = sulphur
 life_rating = 40
 
-

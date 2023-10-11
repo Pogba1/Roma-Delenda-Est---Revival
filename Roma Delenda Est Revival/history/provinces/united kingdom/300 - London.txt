@@ -6,12 +6,3 @@ life_rating = 45
 fort = 1
 
 
-
-    state_building = {
-        level = 1
-        building = luxury_furniture_factory
-        upgrade = yes
-    }
-}
-
-

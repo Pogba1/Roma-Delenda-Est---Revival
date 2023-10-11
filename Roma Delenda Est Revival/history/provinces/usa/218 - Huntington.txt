@@ -12,5 +12,3 @@ party_loyalty = {
     loyalty_value = 12
 }
 
-
-}

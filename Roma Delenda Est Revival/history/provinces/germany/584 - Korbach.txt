@@ -4,4 +4,3 @@ add_core = FRE
 trade_goods = timber
 life_rating = 35
 
-

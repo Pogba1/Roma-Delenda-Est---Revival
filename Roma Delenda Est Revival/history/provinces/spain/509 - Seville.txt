@@ -5,7 +5,3 @@ add_core = BSQ
 trade_goods = coal
 life_rating = 35
 
-
-}
-
-
