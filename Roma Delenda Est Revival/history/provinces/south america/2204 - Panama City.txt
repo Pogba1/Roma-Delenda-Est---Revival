@@ -1,4 +1,4 @@
-oowner = GLD
+owner = GLD
 controller = GLD
 add_core = GLD
 is_slave = yes

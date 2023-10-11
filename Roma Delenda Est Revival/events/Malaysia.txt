@@ -78,7 +78,6 @@ country_event = {
         sphere_owner = { NOT = { truce_with = THIS } }
         OR = {
             year = 1870
-            has_global_flag = berlin_conference
             average_militancy = 5
         }
     }

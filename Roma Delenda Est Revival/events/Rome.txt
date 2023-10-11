@@ -5,27 +5,37 @@ country_event = {
     desc = "EVTDESC1"
     trigger = {
         tag = SPQ
- }
-mean_time_to_happen =  {days = 1}
-fire_only_once = yes
+    }
+
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    fire_only_once = yes
+
     option = {
         name = "EVTOPT1"
-     GRE = { all_core ={ add_core = SPQ } }
-     OCC = { all_core ={ add_core = SPQ } }
-     FRA = { all_core ={ add_core = SPQ } }
-     ITA = { all_core ={ add_core = SPQ } }
-     EGY = { all_core ={ add_core = SPQ } }
-     VAN = { all_core ={ add_core = SPQ } }
-     BSQ = { all_core ={ add_core = SPQ } }
-     TRI = { all_core ={ add_core = SPQ } }
-     NUM = { all_core ={ add_core = SPQ } }
-     YUG = { all_core ={ add_core = SPQ } }
-     ILL = { all_core ={ add_core = SPQ } }
-     LEV = { all_core ={ add_core = SPQ } }
-     PAP = { all_core ={ add_core = SPQ } }
-     SAL = { all_core ={ add_core = SPQ } }
-     ARM = { all_core ={ add_core = SPQ } }
-     MES = { all_core ={ add_core = SPQ } }
+        GRE = { all_core ={ add_core = SPQ } }
+        OCC = { all_core ={ add_core = SPQ } }
+        FRA = { all_core ={ add_core = SPQ } }
+        ITA = { all_core ={ add_core = SPQ } }
+        EGY = { all_core ={ add_core = SPQ } }
+        VAN = { all_core ={ add_core = SPQ } }
+        BSQ = { all_core ={ add_core = SPQ } }
+        TRI = { all_core ={ add_core = SPQ } }
+        NUM = { all_core ={ add_core = SPQ } }
+        YUG = { all_core ={ add_core = SPQ } }
+        ILL = { all_core ={ add_core = SPQ } }
+        LEV = { all_core ={ add_core = SPQ } }
+        PAP = { all_core ={ add_core = SPQ } }
+        SAL = { all_core ={ add_core = SPQ } }
+        ARM = { all_core ={ add_core = SPQ } }
+        MES = { all_core ={ add_core = SPQ } }
+
+        relation = {
+            who = ITA
+            value = -200
+        }
     }
 }
 
@@ -39,9 +49,9 @@ country_event = {
         tag = ITA
         year = 1840
         exists = SPQ
- }
-mean_time_to_happen =  {days = 1}
-fire_only_once = yes
+    }
+    mean_time_to_happen =  {days = 1}
+    fire_only_once = yes
     option = {
         name = "EVTOPT2"
          749 = {add_core = ITA } 
@@ -55,7 +65,9 @@ country_event = {
     title = "EVTNAME3"
     desc = "EVTDESC3"
     picture = "form_union_nation"
-is_triggered_only = yes
+
+    is_triggered_only = yes
+
     option = {
         name = "EVTOPT3"
         any_owned = {secede_province = ITA}
@@ -80,14 +92,18 @@ country_event = {
     desc = "EVTDESC4"
     major = yes
     trigger = { NOT = { tag = SPQ } 749 = { owned_by = THIS } }
-mean_time_to_happen =  {days = 1}
-fire_only_once = yes
-immediate = { any_pop = { 
-		limit = { is_culture_group = pan_Roman } 
+    mean_time_to_happen =  {days = 1}
+    fire_only_once = yes
+    immediate = { 
+        any_pop = { 
+		    limit = { 
+                is_culture_group = pan_Roman 
+            } 
 		reduce_pop = 0
-                }
-               SPQ = {all_core = {remove_core = SPQ} }
-              }
+        }
+        SPQ = {all_core = {remove_core = SPQ} }
+    }
+
     option = {
         name = "EVTOPT4"
     }
@@ -99,72 +115,27 @@ country_event = {
     title = "EVTNAME5"
     desc = "EVTDESC5"
     picture = "form_union_nation"
-is_triggered_only = yes
-   option = {
+    is_triggered_only = yes
+    option = {
         name = "EVTOPT5"
         prestige = 10
-               SPQ = {
-               add_casus_belli = {
+        release_vassal = SPQ
+        SPQ = {
+            add_casus_belli = {
                 target = THIS
                 type = conquest
                 months = 12
             }
-          }
-            war = {
-                target = SPQ
-                attacker_goal = { casus_belli = conquest}
+        }
+        war = {
+            target = SPQ
+            attacker_goal = { 
+                casus_belli = conquest
             }
+            defender_goal = {
+                casus_belli = roman_honor
+            }
+        }
     }
 }
-#Rome snobs everyone ( INFLUENCE )
-country_event = {
-	id = 6
-	title = "EVTNAME6"
-	desc = "EVTDESC6"
-	picture = "administration"
-	
-	trigger = {
-                     diplomatic_influence = {
-	              who = SPQ
-                     value = 50    
-		}
-    }
-	
-	mean_time_to_happen = {
-		days = 0
-	}
-	
-	option = {
-		name = "EVT6A"
-                      diplomatic_influence = {
-	              who = SPQ
-                     value = -100
-		}  
-	}
-}
-
-#Rome snobs everyone ( alliances )
-country_event = {
-	id = 7
-	title = "EVTNAME6"
-	desc = "EVTDESC7"
-	picture = "administration"
-	
-	trigger = {
-		alliance_with = SPQ
-	}
-	
-	mean_time_to_happen = {
-		days = 0
-	}
-	
-	option = {
-		name = "EVT6A"
-		SPQ = {
-			leave_alliance = THIS
-			relation = { who = THIS value = -200 }
-		}
-	}
-}
-
 

@@ -1,6 +1,3 @@
 trade_goods = fruit
 life_rating = 20
-1860.1.1 = {
-    owner = BOL
-    controller = BOL
-}
+

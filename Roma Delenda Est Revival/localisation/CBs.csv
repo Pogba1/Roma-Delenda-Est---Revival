@@ -28,3 +28,6 @@ take_capital;Take Capital;x
 take_capital_short;Take Capital;x
 take_capital_desc;Take this country's capital;x
 take_capital_setup;Take $RECIPIENT$'s capital;x
+roman_honor;Restore Roman Honor;;;;;;;;;;;;
+roman_honor_short;Annex Italia;;;;;;;;;;;;
+roman_honor_setup;Force another hellenic state to admit your superiority and join you in the fight for hellenic unification;;;;;;;;;;;;

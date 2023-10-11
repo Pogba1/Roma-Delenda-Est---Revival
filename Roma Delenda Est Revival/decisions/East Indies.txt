@@ -112,54 +112,6 @@ political_decisions = {
         }
     }
 
-    siamese_border_treaty = {
-        picture = unequal_treaty
-        potential = {
-            OR = {
-                AND = {
-                    capital_scope = { continent = europe }
-                    NOT = {
-                        tag = TUR
-                        tag = RUS
-                    }
-                }
-                primary_culture = japanese
-                tech_school = naval_tech_school
-            }
-            is_greater_power = yes
-            has_global_flag = berlin_conference
-            has_country_flag = created_my_indochina
-            SIA = {
-                neighbour = THIS
-                any_owned_province = {
-                    OR = {
-                        is_core = DAI
-                        is_core = CAM
-                        is_core = LUA
-                        is_core = WIA
-                    }
-                }
-            }
-            NOT = { has_country_flag = enacted_siamese_border_treaty }
-        }
-
-        allow = {
-            war = no
-            SIA = { war = no }
-            revolution_n_counterrevolution = 1
-            blue_and_brown_water_schools = 1
-        }
-
-        effect = {
-            set_country_flag = enacted_siamese_border_treaty
-            random = {
-                chance = 50
-                badboy = 1
-            }
-            SIA = { country_event = 95652 }
-        }
-    }
-
     annex_champasak = {
         picture = unequal_treaty
         potential = {

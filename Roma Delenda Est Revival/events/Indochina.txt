@@ -38,10 +38,6 @@ country_event = {
         }
         modifier = {
             factor = 0.5
-            has_global_flag = berlin_conference
-        }
-        modifier = {
-            factor = 0.5
             DAI = { exists = no }
         }
     }

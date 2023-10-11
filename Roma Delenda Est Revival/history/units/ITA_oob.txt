@@ -1,4 +1,9 @@
 prestige = 60
+SPQ = {
+    value = -50
+    level = 5
+    influence_value = 50
+}
 leader = {
     name = "Carlo di Persano"
     date = 1831.1.1

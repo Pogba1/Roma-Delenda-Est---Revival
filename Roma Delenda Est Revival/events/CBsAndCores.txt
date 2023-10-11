@@ -29,7 +29,6 @@ country_event = {
         }
         any_owned_province = { port = yes }
         press_rights = free_press
-        NOT = { has_global_flag = berlin_conference }
     }
 
     mean_time_to_happen = {
@@ -358,7 +357,6 @@ country_event = {
 
     trigger = {
         NOT = { has_country_modifier = neutrality_modifier }
-        NOT = { has_global_flag = berlin_conference }
         war = no
         colonial_nation = yes
         any_owned_province = {
@@ -384,10 +382,6 @@ country_event = {
 
     mean_time_to_happen = {
         months = 300
-        modifier = {
-            factor = 4
-            NOT = { has_global_flag = berlin_conference }
-        }
         modifier = {
             factor = 0.9
             NOT = { prestige = 500 }
@@ -643,7 +637,6 @@ country_event = {
         civilized = no
         colonial_nation = no
         is_vassal = no
-        NOT = { has_global_flag = berlin_conference }
         any_neighbor_country = {
             is_vassal = no
             colonial_nation = yes

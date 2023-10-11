@@ -1,5 +1,5 @@
-owner = UKR
-controller = UKR
+owner = PNT
+controller = PNT
 add_core = UKR
 add_core = PNT
 trade_goods = iron

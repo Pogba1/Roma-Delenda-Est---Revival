@@ -1949,10 +1949,6 @@ colonial_chaos = {
     icon = 2
 }
 
-loss_of_control = {
-    icon = 2
-}
-
 power_vacuum = {
     global_pop_consciousness_modifier = 0.05
     global_pop_militancy_modifier = 0.05

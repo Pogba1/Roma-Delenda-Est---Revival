@@ -1,7 +1,7 @@
 owner = GLD
 controller = GLD
 add_core = GLD
-add_core = GUY
+
 trade_goods = fruit
 terrain = plains
 life_rating = 35
