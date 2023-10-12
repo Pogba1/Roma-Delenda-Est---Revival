@@ -9,11 +9,6 @@ COV = {
     level = 5        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 25
 }
-CHL = {
-    value = -50        #relation
-    level = 0        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 5
-}
 LIS = {
     value = 100        #relation
     level = 5        #3=cordial, 4 = friendly, 5 sphere
@@ -23,11 +18,6 @@ LEO = {
     value = 100        #relation
     level = 4        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 75
-}
-AND = {
-    value = 100        #relation
-    level = 5        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 25
 }
 SOR = {
     value = 75        #relation
@@ -39,23 +29,12 @@ POR = {
     level = 4        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 85
 }
-SUL = {
-    value = 30        #relation
-    level = 5        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 25
-}
 
 GLC = {
     value = 150
     level = 5
     influence_value = 5
 }
-WOL = {
-    value = 50
-    level = 2
-    influence_value = 5
-}
-
 #Leaders
 
 leader = {
@@ -68,7 +47,7 @@ leader = {
 }
 
 leader = {
-    name = "Narváez"
+    name = "Narvï¿½ez"
     date = 1835.1.1
     type = land
     personality = efficient
@@ -159,12 +138,12 @@ navy = {
     name = "1a Escuadra del Norte"
     location = 474
     ship = {
-        name= "Bailén"
+        name= "Bailï¿½n"
         type = frigate
     }
 
     ship = {
-        name= "Reina María Cristina"
+        name= "Reina Marï¿½a Cristina"
         type = frigate
     }
 
@@ -184,18 +163,18 @@ navy = {
     name = "2a Escuadra del Norte"
     location = 512
     ship = {
-        name= "Rey Don Francisco de Asís"
+        name= "Rey Don Francisco de Asï¿½s"
         type = manowar
     }
 
     ship = {
-        name= "Reina Doña Isabel II"
+        name= "Reina Doï¿½a Isabel II"
         type = manowar
     }
 }
 
 navy = {
-    name = "Escuadra del Mediterráneo"
+    name = "Escuadra del Mediterrï¿½neo"
     location = 498
     ship = {
         name= "Princesa de Asturias"
@@ -213,7 +192,7 @@ navy = {
     }
 
     ship = {
-        name= "Colón"
+        name= "Colï¿½n"
         type = steam_transport
     }
 
@@ -237,103 +216,102 @@ navy = {
 
 
 army = {
-    name = "Ejército del Norte"
+    name = "Ejï¿½rcito del Norte"
     location = 497
     regiment = {
-        name= "1.1a División de Infantería"
+        name= "1.1a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 495
     }
 
     regiment = {
-        name= "2.1a División de Infantería"
+        name= "2.1a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 497
     }
 
     regiment = {
-        name= "3.1a División de Infantería"
+        name= "3.1a Divisiï¿½n de Infanterï¿½a"
         type = artillery
         home = 503
     }
 
     regiment = {
-        name= "1.2a División de Infantería"
+        name= "1.2a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 503
     }
 
     regiment = {
-        name= "2.2a División de Infantería"
+        name= "2.2a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 503
     }
 
     regiment = {
-        name= "3.2a División de Infantería"
+        name= "3.2a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 503
     }
 
     regiment = {
-        name= "1.4a División de Infantería"
+        name= "1.4a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 515
     }
 
     regiment = {
-        name= "2.4a División de Infantería"
+        name= "2.4a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 516
     }
 
     regiment = {
-        name= "3.4a División de Infantería"
+        name= "3.4a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 498
     }
 
     regiment = {
-        name= "1.3a División de Infantería"
+        name= "1.3a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 490
     }
 
     regiment = {
-        name= "2.3a División de Infantería"
+        name= "2.3a Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 488
     }
 
     regiment = {
-        name= "3.3a División de Infantería"
+        name= "3.3a Divisiï¿½n de Infanterï¿½a"
         type = engineer
         home = 489
     }
 
     regiment = {
-        name= "1.1a División de Caballería"
+        name= "1.1a Divisiï¿½n de Caballerï¿½a"
         type = cuirassier
         home = 487
     }
 
     regiment = {
-        name= "2.1a División de Caballería"
+        name= "2.1a Divisiï¿½n de Caballerï¿½a"
         type = cuirassier
         home = 487
     }
 
     regiment = {
-        name= "3.1a División de Caballería"
+        name= "3.1a Divisiï¿½n de Caballerï¿½a"
         type = cuirassier
         home = 487
     }
 
     regiment = {
-        name= "4.1a División de Caballería"
+        name= "4.1a Divisiï¿½n de Caballerï¿½a"
         type = hussar
         home = 487
     }
 
 }
-prestige = 80
