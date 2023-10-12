@@ -1,4 +1,4 @@
 
 trade_goods = cattle
 terrain = semidesert
-life_rating = 31
+life_rating = 10
