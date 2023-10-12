@@ -46,6 +46,5 @@ navy = {
         type = steam_transport
     }
 }
-prestige = 10
 
 

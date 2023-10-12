@@ -1,4 +1,3 @@
-prestige = 15
 leader = {
     name = "Albrecht Bernardotte "
     date = 1836.1.1

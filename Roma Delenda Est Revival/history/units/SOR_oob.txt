@@ -13,7 +13,3 @@ army = {
         home = 481
     }
 }
-
-prestige = 10
-
-

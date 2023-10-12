@@ -1,8 +1,6 @@
-
 LEV = {
     value = 200
 }
-prestige = 25
 navy = {
     name = "Taba"
     location = 1751

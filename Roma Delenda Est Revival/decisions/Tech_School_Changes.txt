@@ -16,7 +16,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
+            
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -44,7 +44,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
+            
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -80,7 +80,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
+            
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -114,7 +114,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
+            
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -148,7 +148,7 @@ political_decisions = {
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
-            prestige = -15
+            
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650
@@ -190,7 +190,6 @@ political_decisions = {
         }
 
         effect = {
-            random_owned = { limit = { owner = { NOT = { tech_school = developing_tech_school } } } owner = { prestige = -15 } }
             add_country_modifier = {
                 name = academic_confusion
                 duration = 3650

@@ -66,9 +66,6 @@ navy = {
     }
 
 }
-
-prestige = 20
-
 army = {
     name = "Army of Antioch"
     location = 900

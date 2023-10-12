@@ -11,7 +11,7 @@ civilized = yes
 
 
 #GreaterPowers = prestige
-prestige = 180
+prestige = 40
 
 # Political reforms
 slavery = no_slavery
@@ -87,10 +87,6 @@ romanticism = 1
 interchangeable_parts = 1
 high_pressure_steam_engine = 1
 late_classical_theory = 1
-
-# Inventions
-secularization = yes
-social_conscience = yes
 
 # Starting Consciousness
 consciousness = 2

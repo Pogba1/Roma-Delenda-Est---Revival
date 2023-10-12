@@ -1,7 +1,4 @@
 
-prestige = 30
-
-
 leader = {
     name = "von Mittrowitz-Nettolitzky"
     date = 1835.1.1

@@ -92,8 +92,4 @@ nonstate_consciousness = 1
 
 
 oob = "BYZ_oob.txt"
-1861.1.1 = {
-# Technologies
 
-#Inventions
-}
