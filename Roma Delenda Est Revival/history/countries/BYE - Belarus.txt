@@ -42,8 +42,6 @@ army_schools = yes_army_schools
 finance_reform = yes_finance_reform
 education_reform = yes_education_reform
 
-set_country_flag = Pagan_country
-
 oob = "BYE_oob.txt"
 
 ruling_party = BYE_conservative

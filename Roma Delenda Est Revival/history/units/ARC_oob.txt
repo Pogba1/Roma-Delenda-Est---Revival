@@ -1,7 +1,3 @@
-ENG = {
-    value = -100
-}
-
 FRA = {
     value = -150
 }
@@ -44,32 +40,32 @@ USA = {
 
 
 army = {
-    name = "Ejército de Buenos Aires"
+    name = "Ejï¿½rcito de Buenos Aires"
     location = 2348
     regiment = {
-        name= "1. División de Infantería"
+        name= "1. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2348
     }
 
     regiment = {
-        name= "2. División de Infantería"
+        name= "2. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2348
     }
 
     regiment = {
-        name= "3. División de Infantería"
+        name= "3. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2348
     }
     regiment = {
-        name= "1. División de Infantería"
+        name= "1. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2379
     }
     regiment = {
-        name= "2. División de Infantería"
+        name= "2. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2379
     }

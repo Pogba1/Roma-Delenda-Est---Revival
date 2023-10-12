@@ -1,7 +1,3 @@
-ENG = {
-    value = 50
-}
-
 army = {
     name = "Al Khalifa Army"
     location = 1162

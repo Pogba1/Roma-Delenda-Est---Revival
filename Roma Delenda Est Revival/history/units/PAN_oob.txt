@@ -1,10 +1,6 @@
 AFG = {
     value = 110
 }
-ENG = {
-    value = 75
-}
-
 leader = {
     name = "Ranjit Singh"
     type = land

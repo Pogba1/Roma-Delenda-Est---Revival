@@ -1,9 +1,5 @@
 #Relations
 
-USA = {
-    value = 10        #relation
-}
-
 SIA = {
     value = -50        #relation
 }
@@ -11,11 +7,6 @@ SIA = {
 FRA = {
     value = -75        #relation
 }
-
-ENG = {
-    value = 75        #relation
-}
-
 
 army = {
     name = "Royal Siamese Army"

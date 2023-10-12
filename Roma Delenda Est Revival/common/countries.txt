@@ -55,6 +55,7 @@ GRM		="countries/Germania.txt"
 ILL		="countries/Illyria.txt"
 SPQ		="countries/Rome.txt"
 CMP		="countries/North Sea Company.txt"
+OCC     ="countries/Occitania.txt"
 
 # French Minors
 BRT		="countries/Brittany.txt"

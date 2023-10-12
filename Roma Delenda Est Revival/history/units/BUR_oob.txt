@@ -4,9 +4,6 @@ SIA = {
     value = -200        #relation
 }
 
-ENG = {
-    value = -5        #relation
-}
 
 leader = {
     name = "Tharrawaddy Min"

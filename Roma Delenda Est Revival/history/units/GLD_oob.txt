@@ -17,15 +17,13 @@ leader = {
 }
 
 leader = {
-    name = "Khalid "al-Sahrawi""
+    name = "Khalid al-Sahrawi"
     date = 1836.1.1
     type = land
     personality = able
     background = engineer
     prestige = 0.0
 }
-
-
 
 leader = {
     name = "The Second prince"
@@ -330,7 +328,7 @@ navy = {
 
 }
 
-Mediterranean Fleet
+#Mediterranean Fleet
 navy = {
     name = "2nd fleet"
     location = 200 

@@ -379,7 +379,7 @@ navy = {
 
 }
 
-Mediterranean Fleet
+#Mediterranean Fleet
 navy = {
     name = "Indian Ocean fleet"
     location = 273 

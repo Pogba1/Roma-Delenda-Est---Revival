@@ -57,8 +57,5 @@ govt_flag = {
     flag = theocracy
 }
 
-set_country_flag = new_world_nation
-
-
 oob = "MEX_oob.txt"
 

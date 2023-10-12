@@ -26,11 +26,6 @@ MHR = {
     value = 100        #relation
     truce_until = 1837.1.1
 }
-
-ENG = {
-    value = 25        #relation
-}
-
 leader = {
     name = "Muhsin ibn al-Fadl al-Abdali"
     type = land
