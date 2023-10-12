@@ -480,7 +480,6 @@ country_event = {
             limit = {
                 OR = {
                     is_core = LUA
-                    is_core = WIA
                     is_core = CHK
                 }
                 any_neighbor_province = { owned_by = FROM }
@@ -510,11 +509,6 @@ country_event = {
             limit = { is_core = CHK }
             remove_core = SIA
             secede_province = CHK
-        }
-        any_owned = {
-            limit = { is_core = WIA }
-            remove_core = SIA
-            secede_province = WIA
         }
         any_owned = {
             limit = {
@@ -616,7 +610,6 @@ country_event = {
         relation = { who = SIA value = 200 }
         diplomatic_influence = { who = SIA value = 100 }
         diplomatic_influence = { who = LUA value = 200 }
-        diplomatic_influence = { who = WIA value = 200 }
     }
 }
 
@@ -788,7 +781,6 @@ country_event = {
             ai = yes
             neighbour = THIS
         OR = {
-            any_owned_province = { is_core = WIA }
             any_owned_province = { is_core = LUA }
             any_owned_province = { is_core = CHK }
             }
@@ -854,7 +846,6 @@ country_event = {
             any_owned = {
             limit = {
                 OR = {
-                    is_core = WIA
                     is_core = LUA
                     is_core = CHK
                     }

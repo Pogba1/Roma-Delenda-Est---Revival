@@ -157,11 +157,6 @@ SPA = { value = 0 }
 MOR = {
     value = 100        #relation
 }
-QNG ={
-    value = -10
-    level = 0
-    influence_value = 0
-}
 EGY = {
     value = 0        #relation
     level = 2        #3=cordial, 4 = friendly, 5 sphere
@@ -506,7 +501,7 @@ army = {
 }
 
 navy = {
-    name = "Königlich Preußische Marine"
+    name = "Kï¿½niglich Preuï¿½ische Marine"
     location = 690
     ship = {
         name= "1. Klipperflottille"

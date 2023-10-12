@@ -149,12 +149,6 @@ DEN = {
     value = 200
 }
 
-QNG ={
-    value = -10
-    level = 0
-    influence_value = 0
-}
-
 BAH ={
     value = -25
     level = 0

@@ -1796,7 +1796,6 @@ country_event = {
 }
             tag = DES
             tag = UBD
-            tag = INO
             tag = IRE
         }
         NOT = { has_country_flag = post_colonial_country }

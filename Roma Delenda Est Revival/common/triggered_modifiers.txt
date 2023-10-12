@@ -281,22 +281,6 @@ substate_nation_player = {
     icon = 10
 }
 
-chinese_substate = {
-    trigger = {
-        OR = {
-            substate_of = QNG
-            vassal_of = QNG
-        }
-        civilized = no
-        exists = yes
-        QNG = {    government = absolute_monarchy }
-        is_culture_group = east_asian
-    }
-    icon = 10
-    research_points_modifier = -0.2
-    global_pop_consciousness_modifier = 0.02
-}
-
 own_kiel_canal = {
     trigger = {
         exists = yes

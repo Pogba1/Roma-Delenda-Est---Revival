@@ -1,6 +1,5 @@
 owner = PER
 controller = PER
-add_core = BDK
 add_core = PER
 add_core = AFG
 terrain = dryhills

@@ -16,7 +16,6 @@ political_decisions = {
                 is_greater_power = yes
                 is_secondary_power = yes
             }
-            CHY = { exists = no }
             DAG = { exists = no }
             CIR = { exists = no }
         }
@@ -35,7 +34,6 @@ political_decisions = {
                         OR = {
                             is_core = CIR
                             is_core = DAG
-                            is_core = CHY
                         }
                     }
                     NOT = { tag = THIS }

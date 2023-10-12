@@ -656,15 +656,6 @@ italian = {
         Lunardi Molinelli Orsini Ottaviani Pironti Scammacca Torlonia Turrisi Vernazza Zunica }
         radicalism = 10
     }
-    maltese = {
-        color = {100 150 120}
-        primary = MLT
-        first_names = { Alessandru Beru Duminku Enrico Fernardu Frangisku Gabriel Ferlad Gorg Joseph
-        Karmenu Lawrenz Marju Mikiel Ninu Pawlu Rokku Saber Ugo Valent }
-
-        last_names = { Abela Adami Azzopardi Boffa Borg Buhagiar Cassar Farrugia Frendo Gonzi
-        Howard Mifsud Mintoff Mizzi Muscat Olivier Puli Pullicino Strickland Vella }
-    }
 }
 pan_basque = {
 basque = {

@@ -2959,10 +2959,6 @@ country_event = {
             owner = { primary_culture = forest_bantu }
         }
         random_owned = {
-            limit = { owner = { tag = INO } }
-            owner = { primary_culture = javan }
-        }
-        random_owned = {
             limit = { owner = { tag = IVC } }
             owner = { primary_culture = dyula }
         }
@@ -3017,12 +3013,6 @@ country_event = {
                 owner = { tag = TOG }
             }
             owner = { primary_culture = ewe }
-        }
-        random_owned = {
-            limit = {
-                owner = { tag = BKF }
-            }
-            owner = { primary_culture = mossi }
         }
         random_owned = {
             limit = {
@@ -3153,7 +3143,6 @@ country_event = {
         any_country = {
             limit = {
                 OR = {
-                    tag = MUG
                     tag = BUN
                     tag = MEW
                     tag = AWA
@@ -3166,7 +3155,6 @@ country_event = {
         any_country = {
             limit = {
                 OR = {
-                    tag = MUG
                     tag = BUN
                     tag = MEW
                     tag = AWA
@@ -4592,7 +4580,6 @@ country_event = {
                     NOT = { has_global_flag = indian_call_to_union }
                     OR = {
                         tag = MAH
-                        tag = MUG
                         tag = BNG
                     }
                 }

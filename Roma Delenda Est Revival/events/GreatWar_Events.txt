@@ -564,34 +564,6 @@ country_event = {
             country_event = 96015
         }
 
-        #release Czechoslovakia, if possible
-        any_country = {
-            limit = {
-                tag = CZH
-                exists = no
-                THIS = {
-                    owns = 625
-                    owns = 633
-                }
-                NOT = { exists = BOH }
-                NOT = { exists = SLV }
-            }
-            set_global_flag = czechoslovakia_formed
-            BOH = { all_core = { add_core = CZH } }
-            SLV = { all_core = { add_core = CZH } }
-            2584 = { add_core = CZH }
-            689 = { add_core = CZH }
-            all_core = {
-                limit = {
-                    is_core = THIS
-                    state_scope = {
-                        NOT = { any_owned_province = { is_capital = yes } }
-                    }
-                }
-                remove_core = THIS
-            }
-            country_event = 96012
-        }
 
         #release non-existing countries
         any_country = {
@@ -798,32 +770,6 @@ country_event = {
             country_event = 961000
         }
 
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = GHN } }
-                has_country_flag = ghana_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = BKF } }
-                has_country_flag = burkina_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = INO } }
-                has_country_flag = indonesia_master
-            }
-            country_event = 961000
-        }
 
         random_country = {
             limit = {
@@ -848,15 +794,6 @@ country_event = {
                 NOT = { tag = THIS }
                 THIS = { any_owned_province = { is_core = GBU } }
                 has_country_flag = guine_bissau_master
-            }
-            country_event = 961000
-        }
-
-        random_country = {
-            limit = {
-                NOT = { tag = THIS }
-                THIS = { any_owned_province = { is_core = ZBW } }
-                has_country_flag = zimbabwe_master
             }
             country_event = 961000
         }
@@ -895,10 +832,8 @@ country_event = {
                 OR = {
                     tag = HND
                     tag = NGR
-                    tag = INO
                     tag = BUR
                     tag = SIA
-                    tag = LXA
                     tag = NYE
                 }
                 OR = {
@@ -3626,9 +3561,6 @@ country_event = {
         396 = {
             add_core = THIS
             secede_province = THIS
-            remove_core = PRU
-            remove_core = NGF
-            remove_core = GER
             }
 
     }
@@ -4398,7 +4330,6 @@ country_event = {
                 remove_core = MAS
                 remove_core = MOS
                 remove_core = DND
-                remove_core = BKF
                 secede_province = THIS
             }
         }
@@ -4424,42 +4355,6 @@ country_event = {
             }
             any_owned = {
                 limit = { is_core = SUD }
-                secede_province = THIS
-            }
-        }
-
-        random_country = {
-            limit = {
-                THIS = { has_country_flag = ghana_master }
-                tag = FROM
-                any_owned_province = { is_core = GHN }
-            }
-            any_owned = {
-                limit = { is_core = GHN }
-                secede_province = THIS
-            }
-        }
-
-        random_country = {
-            limit = {
-                THIS = { has_country_flag = burkina_master }
-                tag = FROM
-                any_owned_province = { is_core = BKF }
-            }
-            any_owned = {
-                limit = { is_core = BKF }
-                secede_province = THIS
-            }
-        }
-
-        random_country = {
-            limit = {
-                THIS = { has_country_flag = indonesia_master }
-                tag = FROM
-                any_owned_province = { is_core = INO }
-            }
-            any_owned = {
-                limit = { is_core = INO }
                 secede_province = THIS
             }
         }
@@ -4495,18 +4390,6 @@ country_event = {
             }
             any_owned = {
                 limit = { is_core = GBU }
-                secede_province = THIS
-            }
-        }
-
-        random_country = {
-            limit = {
-                THIS = { has_country_flag = zimbabwe_master }
-                tag = FROM
-                any_owned_province = { is_core = ZBW }
-            }
-            any_owned = {
-                limit = { is_core = ZBW }
                 secede_province = THIS
             }
         }

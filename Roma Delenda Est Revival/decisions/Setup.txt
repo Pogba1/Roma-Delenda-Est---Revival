@@ -464,7 +464,6 @@ political_decisions = {
                             is_core = EST
                             is_core = LIT
                             is_core = TUR
-                            is_core = CHY
                             is_core = CIR
                         }
                     }
@@ -497,7 +496,6 @@ political_decisions = {
                             NOT = { terrain = montane_tundra }
                             NOT = { terrain = marsh }
                         }
-                        NOT = { is_core = GER }
                     }
                     add_province_modifier = { name = small_baby_boom duration = 1095 }
                 }
@@ -721,7 +719,6 @@ political_decisions = {
             any_country = { limit = { exists = yes } set_country_flag = existing_country }
 
             ################Starting Events###########################
-            QNG = { country_event = { id = 160009 days = 5 } }
             ##########################################################
 
             ################Uncivs Close their borders###########################
@@ -781,7 +778,6 @@ political_decisions = {
 
             any_country = { limit = { exists = yes civilized = yes is_greater_power = no is_secondary_power = no number_of_states = 2 } treasury = 10000 }
             any_country = { limit = { exists = yes civilized = yes is_greater_power = no is_secondary_power = no NOT = { number_of_states = 2 } } treasury = 5000 }
-            any_country = { limit = { exists = yes civilized = no NOT = { tag = QNG } } treasury = 2500 }
             #########Literate countries were usually well developed#########
 
             any_country = {
@@ -1084,73 +1080,6 @@ political_decisions = {
             1616 = { set_province_flag = summer_palace }
             #################Provinces Setup######################
 
-            #################Japan Setup######################
-            #Shogun Faction
-            any_country = {
-                limit = {
-                    exists = yes
-                    OR = {
-                        tag = KAG
-                        tag = SEN
-                        tag = YZW
-                        tag = TKG
-                    }
-                }
-                set_country_flag = sakoku_applied
-                any_pop = {
-                    ideology = { value = conservative factor = 0.6 }
-                    ideology = { value = reactionary factor = 0.4 }
-                }
-                aristocrats = { ideology = { value = reactionary factor = 0.4 } }
-                add_country_modifier = { name = uncivilized_isolationism duration = -1 }
-                add_country_modifier = { name = sakoku duration = -1 }
-
-            }
-            #Emperor Faction
-            any_country = {
-                limit = {
-                    exists = yes
-                    OR = {
-                        tag = CHO
-                        tag = SAT
-                        tag = TOS
-                        tag = JAP
-                    }
-                }
-                set_country_flag = rangaku_applied
-                any_pop = {
-                    ideology = { value = conservative factor = 0.5 }
-                    ideology = { value = reactionary factor = 0.1 }
-                }
-                add_country_modifier = { name = uncivilized_isolationism duration = -1 }
-                add_country_modifier = { name = rangaku duration = -1 }
-                random_owned = {
-                    limit = { province_id = 1661 }
-                    any_pop = { ideology = { value = liberal factor = 0.2 } }
-                    add_province_modifier = { name = foreign_trading_post duration = -1 }
-                }
-
-            }
-            #################Japan Setup######################
-
-            #################Qing Setup######################
-            QNG = {
-                add_country_modifier = { name = global_baby_boom duration = 1065 }
-                add_country_modifier = { name = uncivilized_isolationism duration = -1 }
-                remove_country_modifier = western_influences
-                set_country_flag = mandate
-                any_pop = {
-                    limit = { type = bureaucrats }
-                    literacy = 0.05
-                }
-                any_pop = {
-                    limit = { type = aristocrats }
-                    literacy = 0.06
-                }
-            }
-            #################Qing Setup######################
-
-
             #################Isolationist Uncivs Setup######################
 
             any_country = {
@@ -1421,16 +1350,6 @@ political_decisions = {
                 diplomatic_influence = { who = GAZ value = -400 }
                 diplomatic_influence = { who = AGC value = -400 }
             }
-
-            any_country = {
-                limit = {
-                    exists = yes
-                    is_greater_power = yes
-                    NOT = { is_our_vassal = NEH }
-                }
-                diplomatic_influence = { who = NEH value = -400 }
-            }
-
             1253 = { add_province_modifier = { name = local_economic_downturn duration = 8760 } }
 
             any_country = {

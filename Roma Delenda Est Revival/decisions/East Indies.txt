@@ -34,21 +34,6 @@ political_decisions = {
                         vassal_of = THIS
                     }
                 }
-                WIA = {
-                    NOT = { has_country_flag = annexed_to_FRA }
-                    neighbour = THIS
-                    civilized = no
-                    ai = yes
-                    war = no
-                    OR = {
-                        part_of_sphere = no
-                        in_sphere = THIS
-                    }
-                    OR = {
-                        is_vassal = no
-                        vassal_of = THIS
-                    }
-                }
                 CHK = {
                     NOT = { has_country_flag = annexed_to_FRA }
                     neighbour = THIS
@@ -220,169 +205,6 @@ political_decisions = {
         }
     }
 
-    form_french_indochina = {
-        picture = map_indochina
-        potential = {
-            NOT = {
-                primary_culture = lao
-                primary_culture = khmer
-                primary_culture = vietnamese
-                is_vassal = yes
-            }
-            any_owned_province = {
-                is_core = DAI
-                is_colonial = yes
-            }
-            NOT = { has_country_flag = created_my_indochina }
-        }
-
-        allow = {
-            OR = {
-                owns = 1380
-                owns = 1369
-            }
-            revolution_n_counterrevolution = 1
-        }
-
-        effect = {
-            set_country_flag = created_my_indochina
-            prestige = 10
-            any_neighbor_country = {
-                limit = {
-                    OR = {
-                        primary_culture = vietnamese
-                        primary_culture = thai
-                        primary_culture = lao
-                        primary_culture = khmer
-                    }
-                    civilized = no
-                    NOT = { alliance_with = THIS }
-                }
-                relation = { who = THIS value = -100 }
-            }
-            random_country = {
-                limit = {
-                    tag = DAI
-                    OR = {
-                        AND = {
-                            in_sphere = THIS
-                            relation = { who = THIS value = 190 }
-                        }
-                        vassal_of = THIS
-                    }
-                }
-                annex_to = THIS
-            }
-        }
-    }
-
-    organize_laos = {
-        picture = form_laos
-        potential = {
-            civilized = yes
-            NOT = {
-                has_global_flag = laos_organized
-                primary_culture = lao
-                primary_culture = vietnamese
-                primary_culture = khmer
-                primary_culture = thai
-            }
-            OR = {
-                1356 = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            vassal_of = THIS
-                            in_sphere = THIS
-                        }
-                    }
-                }
-                1357 = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            vassal_of = THIS
-                            in_sphere = THIS
-                        }
-                    }
-                }
-                1361 = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            vassal_of = THIS
-                            in_sphere = THIS
-                        }
-                    }
-                }
-                1362 = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            vassal_of = THIS
-                            in_sphere = THIS
-                        }
-                    }
-                }
-                1363 = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            vassal_of = THIS
-                            in_sphere = THIS
-                        }
-                    }
-                }
-            }
-        }
-
-        allow = {
-            war = no
-            revolution_n_counterrevolution = 1
-            1356 = { owned_by = THIS }
-            1357 = { owned_by = THIS }
-            1361 = { owned_by = THIS }
-            1362 = { owned_by = THIS }
-            1363 = { owned_by = THIS }
-            1360 = { owned_by = THIS }
-        }
-
-        effect = {
-            set_global_flag = laos_organized
-            prestige = 5
-            LUA = {
-                all_core = {
-                    add_core = LXA
-                    remove_core = LUA
-                }
-            }
-            WIA = {
-                all_core = {
-                    add_core = LXA
-                    remove_core = WIA
-                }
-            }
-            CHK = {
-                all_core = {
-                    add_core = LXA
-                    remove_core = CHK
-                }
-            }
-            LXA = {
-                set_country_flag = Luangprabang
-                government = democracy
-                political_reform = landed_voting
-                all_core = { remove_core = SIA }
-                tech_school = developing_tech_school
-            }
-            random_owned = {
-                limit = { owner = { NOT = { has_global_flag = rgo_change_in_laos } } }
-                owner = { country_event = 199070 }
-            }
-        }
-        ai_will_do = { factor = 1 }
-    }
-
     form_laos = {
         picture = form_laos
         potential = {
@@ -449,7 +271,6 @@ political_decisions = {
             LUA_1356 = { add_core = LXA }
             any_owned = { remove_core = LUA }
             any_owned = { remove_core = CHK }
-            any_owned = { remove_core = WIA }
             any_owned = { limit = { region = LUA_1356 } remove_core = SIA }
             random_owned = {
                 limit = {

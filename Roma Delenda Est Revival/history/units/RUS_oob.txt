@@ -65,9 +65,6 @@ WAL = {
 }
 
 #Asia
-QNG = {
-    value = 75
-}
 TKG = {
     value = 75
 }
@@ -1121,7 +1118,7 @@ leader = {
 }
 
 leader = {
-    name = "Alexander von Lüders"
+    name = "Alexander von Lï¿½ders"
     picture = rus_gen_lueders
     date = 1829.1.1
     type = land

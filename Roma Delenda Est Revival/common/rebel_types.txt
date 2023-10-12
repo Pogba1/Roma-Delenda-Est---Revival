@@ -2108,7 +2108,6 @@ liberal_rebels = {
         modifier = {
             factor = 0.1
             country = {
-                tag = SPC
                 OR = {
                     government = hms_government
                     government = prussian_constitutionalism
@@ -2393,13 +2392,6 @@ unciv_reactionary_rebels = {
         modifier = {
             factor = 1.02
             country = { civilization_progress = 0.75 }
-        }
-        modifier = {
-            factor = 0.01
-            country = {
-                tag = QNG
-                civilization_progress = 0.75
-            }
         }
         modifier = {
             factor = 1.02

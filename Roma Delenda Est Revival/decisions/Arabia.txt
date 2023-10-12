@@ -220,8 +220,6 @@ political_decisions = {
         TKM = { all_core = {add_core = CLP } }
         XIN = { all_core = {add_core = CLP } }  
         UZB = { all_core = {add_core = CLP } } 
-        TAJ = { all_core = {add_core = CLP } }
-        KYR = { all_core = {add_core = CLP } }
         KAZ = { all_core = {add_core = CLP } } 
         BUK = { all_core = {add_core = CLP } } 
         KOK = { all_core = {add_core = CLP } } 

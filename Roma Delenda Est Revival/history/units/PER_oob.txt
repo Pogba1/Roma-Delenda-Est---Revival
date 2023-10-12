@@ -2,8 +2,6 @@ BUK = {
     value = 50
 }
 
-KHI = { value = 300 }
-
 POR = { value = 200 }
 
 leader = {

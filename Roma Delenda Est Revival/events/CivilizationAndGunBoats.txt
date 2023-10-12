@@ -2850,12 +2850,6 @@ country_event = {
         part_of_sphere = yes
         sphere_owner = { NOT = { truce_with = THIS } }
         is_vassal = no
-        NOT = {
-            has_country_modifier = rangaku
-            tag = QNG
-            vassal_of = QNG
-            substate_of = QNG
-        }
     }
 
     mean_time_to_happen = {

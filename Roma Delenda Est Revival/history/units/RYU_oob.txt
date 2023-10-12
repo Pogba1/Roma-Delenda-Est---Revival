@@ -1,4 +1,3 @@
-QNG = { value = 125 }
 JAP = { value = 125 }
 
 army = {
