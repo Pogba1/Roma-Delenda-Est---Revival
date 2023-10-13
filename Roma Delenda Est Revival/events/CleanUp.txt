@@ -1769,10 +1769,6 @@ country_event = {
             sphere_owner = { state_n_government = 1 }
             NOT = { is_culture_group = american_cultures }
         }
-        OR = {
-            NOT = { tag = BAN }
-            sphere_owner = { neighbour = THIS }
-        }
         NOT = {
          AND = {
             tag = PNT

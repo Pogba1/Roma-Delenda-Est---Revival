@@ -585,7 +585,6 @@ british = {
     scottish = {
         color = { 0 71 182 }
         radicalism = 5
-        primary = SCO
         first_names = { Alan Alastair Alban Alpin Andrew Angus Aulay Blane Boyd Calum Clyde Coll Derek Donald Donnan Dougal Douglas Duff Duncan Ewan Farquar Fingal Finlay Gavin Gillian Gillis Gordon Greer Hamish Ian Ivar Kenneth Kentigern Kirk Kyle Lachlan Lorne Malcolm Mirren Mungo Neil Nevin Ranald Rory Ross Sholto Somerled Tavish Torquil Wallace}
 
         last_names = { Smith Brown Wilson Robertson Thomson Campbell Stewart Anderson Scott Murray MacDonald Reid Taylor Clark Ross Young Mitchell Watson Paterson Morrison Sanders    }
@@ -870,7 +869,6 @@ polish_culture_group = {
         Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski
         Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
     }
-    union = POL
 }
 
 czecho_slovak_culture_group = {

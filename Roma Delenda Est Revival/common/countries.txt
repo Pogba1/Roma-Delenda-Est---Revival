@@ -109,7 +109,6 @@ CHK        ="countries/Champasak.txt"
 
 #Europe
 ATR        = "countries/Asturias.txt"
-BAN        = "countries/Banat.txt"
 BSQ        = "countries/Basqueland.txt"
 ENL        = "countries/England.txt"
 WHA        = "countries/Wales.txt"
@@ -126,7 +125,7 @@ DUR        = "countries/Durrani Empire.txt"
 KDS        = "countries/Kurdistan.txt"
 TCA        = "countries/Transcaucasia.txt"
 TKM        = "countries/Turkmenistan.txt"
- UYG        = "countries/Uyghurstan.txt"
+UYG        = "countries/Uyghurstan.txt"
 UZB        = "countries/Uzbekistan.txt"
 
 #India
@@ -192,33 +191,18 @@ SWE        = "countries/Sweden.txt"
 
 # Western Europe
 CAT        = "countries/Catalonia.txt"
-FLA        = "countries/Flanders.txt"
 IRE        = "countries/Ireland.txt"
-NET        = "countries/Netherlands.txt"
-SCO        = "countries/Scotland.txt"
 SPA        = "countries/Spain.txt"
 WLL        = "countries/Wallonia.txt"
 
 # Germany
-BAV        = "countries/Bavaria.txt"
-DZG        = "countries/Danzig.txt"
-HAM        = "countries/Hamburg.txt"
-HOL        = "countries/Holstein.txt"
 LUX        = "countries/Luxemburg.txt"
 SAX        = "countries/Saxony.txt"
-SCH        = "countries/Schleswig.txt"
 
 # Eastern Europe
-BOH        = "countries/Bohemia-Moravia.txt"
-KRA        = "countries/Krakow.txt"
 CRI        = "countries/Crimea.txt"
 EST        = "countries/Estonia.txt"
 HUN        = "countries/Hungary.txt"
-LIT        = "countries/Lithuania.txt"
-LAT        = "countries/Latvia.txt"
-POL        = "countries/Poland.txt"
-SLV        = "countries/Slovakia.txt"
-SWI        = "countries/Switzerland.txt"
 SIE        = "countries/Siebenburgen.txt"
 UKR        = "countries/Ukraine.txt"
 

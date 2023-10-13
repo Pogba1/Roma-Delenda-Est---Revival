@@ -2254,27 +2254,12 @@ free_peoples = {
             FROM = {
                 exists = no
                 NOT = {
-                    tag = POL
                     tag = HUN
-                    tag = BOH
                     tag = ALB
-                    tag = LIT
-                    tag = BOS
                     tag = CRO
                     tag = SIE
                     tag = LUX
                 }
-            }
-            AND = {
-                any_owned_province = {
-                    OR = {
-                        region = PRU_701
-                        region = RUS_706
-                        region = RUS_715
-                        region = AUS_702
-                    }
-                }
-                FROM = { tag = POL }
             }
             AND = {
                 any_owned_province = {
@@ -2290,20 +2275,12 @@ free_peoples = {
                 FROM = { tag = CRO }
             }
             AND = {
-                any_owned_province = { region = AUS_625 }
-                FROM = { tag = BOH }
-            }
-            AND = {
                 any_owned_province = { region = TUR_853 }
                 FROM = { tag = ALB }
             }
             AND = {
                 any_owned_province = { region = TUR_788 }
                 FROM = { tag = BOS }
-            }
-            AND = {
-                any_owned_province = { region = RUS_360 }
-                FROM = { tag = LIT }
             }
             AND = {
                 any_owned_province = { region = AUS_657 }
