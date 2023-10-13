@@ -543,8 +543,6 @@ political_decisions = {
                 literacy = -0.15
             }
             any_pop = { limit = { OR = { has_pop_culture = maghrebi has_pop_culture = berber } } literacy = -0.99 }
-            relation = { who = WOL value = -400 }
-            relation = { who = TOO value = -400 }
         }
     }
 
@@ -1212,15 +1210,12 @@ political_decisions = {
 
             #################Government Flags Setup######################
 
-            CRT = { add_country_modifier = { name = caudillo_leaders duration = 1825 } }
-
             any_country = {
                 limit = {
                     exists = yes
                     is_greater_power = yes
                 }
                 diplomatic_influence = { who = GAZ value = -400 }
-                diplomatic_influence = { who = AGC value = -400 }
             }
             1253 = { add_province_modifier = { name = local_economic_downturn duration = 8760 } }
 

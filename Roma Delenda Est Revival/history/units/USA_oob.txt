@@ -129,7 +129,6 @@ FRA = { value = 75 }
 AUS = { value = 25 }
 RUS = { value = 25 }
 PRU = { value = 25 }
-TUR = { value = 0 }
 SPA = { value = -25 }
 
 #Other

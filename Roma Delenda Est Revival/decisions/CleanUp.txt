@@ -2646,10 +2646,6 @@ political_decisions = {
             is_vassal = yes
             OR = {
                 AND = {
-                    tag = CRT
-                    overlord = { tag = ARC }
-                }
-                AND = {
                     is_culture_group = italian
                     overlord = { is_culture_group = italian }
                 }
@@ -2662,18 +2658,8 @@ political_decisions = {
                     overlord = { primary_culture = japanese }
                 }
                 AND = {
-                    tag = CPL
-                    overlord = { tag = RUS }
-                }
-                AND = {
                     tag = POR
                     overlord = { primary_culture = spanish }
-                }
-                AND = {
-                    tag = SBA
-                    overlord = {
-                        tag = ARC
-                    }
                 }
             }
         }

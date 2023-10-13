@@ -193,7 +193,6 @@ SWE        = "countries/Sweden.txt"
 CAT        = "countries/Catalonia.txt"
 IRE        = "countries/Ireland.txt"
 SPA        = "countries/Spain.txt"
-WLL        = "countries/Wallonia.txt"
 
 # Germany
 LUX        = "countries/Luxemburg.txt"

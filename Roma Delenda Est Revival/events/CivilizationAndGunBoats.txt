@@ -3968,12 +3968,9 @@ country_event = {
         random_country = {
             limit = {
                 exists = yes
-                OR = {
-                    AND = {
-                        is_greater_power = yes
-                        has_country_flag = sunni_country
-                    }
-                    tag = TUR
+                AND = {
+                    is_greater_power = yes
+                    has_country_flag = sunni_country
                 }
             }
             country_event = 90961

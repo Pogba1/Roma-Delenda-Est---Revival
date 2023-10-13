@@ -602,7 +602,6 @@ country_event = {
                     sphere_owner = {
                         is_sphere_leader_of = THIS
                         NOT = { is_culture_group = germanic }
-                        NOT = { tag = TUR }
                         NOT = {
                             any_owned_province = { any_core = { is_culture_group = south_slavic } }
                         }
@@ -1036,7 +1035,6 @@ country_event = {
             NOT = {
                 truce_with = THIS
                 is_culture_group = germanic
-                tag = TUR
                 tag = HUN
             }
             is_greater_power = yes

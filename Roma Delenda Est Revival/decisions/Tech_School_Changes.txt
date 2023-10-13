@@ -229,20 +229,13 @@ political_decisions = {
         potential = {
             NOT = { tech_school = japanese_tech_school }
             NOT = { has_country_modifier = interment_camps }
-            OR = {
-                tag = JAP
-                tag = TKG
-            }
+            tag = JAP
             civilized = yes
         }
 
         allow = {
             military_score = 50
             invention = manifest_destiny
-            OR = {
-                AND = { tag = JAP NOT = { exists = TKG } }
-                AND = { tag = TKG NOT = { exists = JAP } }
-            }
         }
 
         effect = {

@@ -2,8 +2,6 @@ name = "Ottoman Restoration of Tripoli"
 
 1835.10.2 = {
 
-    }
-
     war_goal = {
 
     }

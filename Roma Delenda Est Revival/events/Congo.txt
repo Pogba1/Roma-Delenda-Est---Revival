@@ -281,7 +281,6 @@ country_event = {
                 NOT = {
                     is_sphere_leader_of = THIS
                     alliance_with = THIS
-                    tag = TUR
                     tag = RUS
                 }
             }

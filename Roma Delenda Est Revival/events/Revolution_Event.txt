@@ -1883,35 +1883,6 @@ country_event = {
             }
             owner = { set_country_flag = 2nd_republic }
         }
-        random_owned = {
-            limit = {
-                owner = { tag = TUR }
-            }
-            owner = {
-                remove_accepted_culture = kurdish
-                any_pop = {
-                    limit = {
-                        OR = {
-                            has_pop_culture = kurdish
-                            has_pop_culture = armenian
-                        }
-                    }
-                    militancy = 5
-                }
-                any_owned = {
-                    limit = {
-                        OR = {
-                            is_core = KDS
-                            is_core = ARM
-                        }
-                    }
-                    add_province_modifier = {
-                        name = nationalist_agitation
-                        duration = 730
-                    }
-                }
-            }
-        }
         random_country = {
             limit = {
                 is_sphere_leader_of = THIS

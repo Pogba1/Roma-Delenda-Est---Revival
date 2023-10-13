@@ -7,7 +7,6 @@ political_decisions = {
                 AND = {
                     capital_scope = { continent = europe }
                     NOT = {
-                        tag = TUR
                         tag = RUS
                     }
                 }
@@ -146,7 +145,6 @@ political_decisions = {
                 AND = {
                     capital_scope = { continent = europe }
                     NOT = {
-                        tag = TUR
                         tag = RUS
                     }
                 }
@@ -202,137 +200,6 @@ political_decisions = {
 
         ai_will_do = {
             factor = 1
-        }
-    }
-
-    form_laos = {
-        picture = form_laos
-        potential = {
-            primary_culture = lao
-            is_vassal = no
-            NOT = { exists = LXA }
-            NOT = { has_country_flag = laos_formed }
-            NOT = { has_country_flag = post_colonial_country }
-        }
-
-        allow = {
-            war = no
-            OR = {
-                AND = {
-                    nationalism_n_imperialism = 1
-                    OR = {
-                        prestige = 30
-                        rank = 16
-                    }
-                }
-                AND = {
-                    military_score = 40
-                    prestige = 150
-                }
-                AND = {
-                    1356 = {
-                        OR = {
-                            owned_by = THIS
-                            owner = { vassal_of = THIS }
-                        }
-                    }
-                    1357 = {
-                        OR = {
-                            owned_by = THIS
-                            owner = { vassal_of = THIS }
-                        }
-                    }
-                    1361 = {
-                        OR = {
-                            owned_by = THIS
-                            owner = { vassal_of = THIS }
-                        }
-                    }
-                    1362 = {
-                        OR = {
-                            owned_by = THIS
-                            owner = { vassal_of = THIS }
-                        }
-                    }
-                    1363 = {
-                        OR = {
-                            owned_by = THIS
-                            owner = { vassal_of = THIS }
-                        }
-                    }
-                }
-            }
-        }
-
-        effect = {
-            set_country_flag = laos_formed
-            prestige = 10
-            change_tag = LXA
-            LUA_1356 = { add_core = LXA }
-            any_owned = { remove_core = LUA }
-            any_owned = { remove_core = CHK }
-            any_owned = { limit = { region = LUA_1356 } remove_core = SIA }
-            random_owned = {
-                limit = {
-                    owner = {
-                        OR = {
-                            ai = no
-                            owns = 1358
-                            owns = 1359
-                        }
-                    }
-                }
-                owner = {
-                    1358 = { add_core = LXA }
-                    1359 = { add_core = LXA }
-                }
-            }
-            any_country = {
-                limit = {
-                    ai = yes
-                    exists = yes
-                    primary_culture = lao
-                    vassal_of = THIS
-                }
-                annex_to = THIS
-            }
-            any_country = {
-                limit = {
-                    ai = yes
-                    exists = yes
-                    primary_culture = lao
-                    in_sphere = THIS
-                }
-                annex_to = THIS
-            }
-            any_country = {
-                limit = {
-                    exists = yes
-                    primary_culture = lao
-                    is_greater_power = no
-                    is_vassal = no
-                    relation = {
-                        who = THIS
-                        value = 5
-                    }
-                    NOT = {
-                        tag = THIS
-                        truce_with = THIS
-                    }
-                }
-                country_event = 97120
-            }
-            random_owned = {
-                limit = { owner = { NOT = { has_global_flag = rgo_change_in_laos } } }
-                owner = { country_event = 199070 }
-            }
-        }
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                badboy = 0.8
-            }
         }
     }
 
@@ -565,7 +432,6 @@ political_decisions = {
                 AND = {
                     capital_scope = { continent = europe }
                     NOT = {
-                        tag = TUR
                         tag = RUS
                     }
                 }
