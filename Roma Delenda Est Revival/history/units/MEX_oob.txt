@@ -1,12 +1,9 @@
-USA = {
-    value = 100
-}
 SPA = {
     value = 75
 }
 
 leader = {
-    name = "D. Francisco López "
+    name = "D. Francisco Lï¿½pez "
     type = sea
     date="1820.1.1"
     personality = bastard
@@ -30,7 +27,7 @@ leader = {
 }
 
 leader = {
-    name = "Juan Álvarez"
+    name = "Juan ï¿½lvarez"
     type = land
     date="1836.1.1"
     personality = skilled
@@ -38,7 +35,7 @@ leader = {
 }
 
 leader = {
-    name = "José de Herrera"
+    name = "Josï¿½ de Herrera"
     type = land
     date="1836.1.1"
     personality = soldierly
@@ -70,7 +67,7 @@ army = {
 }
 
 army = {
-    name = "Ejército del Ciudad Mejico"
+    name = "Ejï¿½rcito del Ciudad Mejico"
     location = 2172
     regiment = {
         name= "1.Division Comonfort"

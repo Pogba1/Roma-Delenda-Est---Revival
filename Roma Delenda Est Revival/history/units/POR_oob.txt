@@ -1,15 +1,3 @@
-GBU = {
-    value = 100
-}
-
-LOA = {
-    value = 75
-}
-
-KON = {
-    value = 125
-}
-
 SUA = {
     value = 100
 }
@@ -24,7 +12,7 @@ leader = {
 }
 
 army = {
-    name = "Exército Português"
+    name = "Exï¿½rcito Portuguï¿½s"
     location = 518
     regiment = {
         name= "1. Brigada de Infantaria"
@@ -56,7 +44,7 @@ navy = {
 
 navy = {
     location = 518
-    name = "Esquadrão de Navio"
+    name = "Esquadrï¿½o de Navio"
 
     ship = {
         name= "1. Transporte Flotilha"

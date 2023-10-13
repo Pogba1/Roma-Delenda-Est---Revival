@@ -1,31 +1,4 @@
 #Relations
-NEJ = {
-    value = -150
-}
-
-HAL = {
-    value = -50
-}
-
-NYE = {
-    value = -50        #relation
-    truce_until = 1840.1.1
-}
-
-FDL = {
-    value = 100    #relation
-    truce_until = 1837.1.1
-}
-
-KTH = {
-    value = 100        #relation
-    truce_until = 1837.1.1
-}
-
-MHR = {
-    value = 100        #relation
-    truce_until = 1837.1.1
-}
 leader = {
     name = "Muhsin ibn al-Fadl al-Abdali"
     type = land

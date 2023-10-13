@@ -1,11 +1,6 @@
 #Sphere of Influence
 
 #Europe
-MON = {
-    value = -10
-    level = 5
-    influence_value = 0
-}
 
 TCA = {
     value = 200
@@ -35,11 +30,6 @@ SWE = {
     level = 3
     influence_value = 0
 }
-SER = {
-    value = 125
-    level = 4
-    influence_value = 0
-}
 GRE = {
     value = 125
     level = 4
@@ -53,21 +43,8 @@ KRA = {
 DEN = {
     value = 125
 }
-MOL = {
-    value = 125
-    level = 4
-    influence_value = 0
-}
-WAL = {
-    value = 125
-    level = 4
-    influence_value = 0
-}
 
 #Asia
-TKG = {
-    value = 75
-}
 KOR = {
     value = 100
     level = 0
@@ -105,15 +82,6 @@ CIR = {
     influence_value = 1
 }
 
-#Other GP's
-#GPs
-ENG = { value = -100 }
-FRA = { value = -100 }
-AUS = { value = 50 }
-USA = { value = 25 }
-PRU = { value = 80 }
-TUR = { value = 125 }
-SPA = { value = 0 }
 
 army = {
     name = "1-i Armeiskii Korpus" #Ingria Army

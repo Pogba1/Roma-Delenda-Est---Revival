@@ -1,5 +1,5 @@
 capital = 834
-primary_culture = Athenian
+primary_culture = Ionian
 culture = Doric
 culture = Macedonian
 religion = orthodox

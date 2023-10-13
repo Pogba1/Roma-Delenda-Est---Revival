@@ -1,7 +1,6 @@
 capital = 1745
 primary_culture = misri
 culture = Levantine
-religion = coptic
 culture = amhara
 culture = tigray
 culture = oromo

@@ -4607,6 +4607,10 @@ roman_honor = {
 
     always = no
 
+    can_use = {
+        always = no 
+    }
+
     po_annex = yes
 
     war_name = UNIFICATION_HUMILIATE_NAME

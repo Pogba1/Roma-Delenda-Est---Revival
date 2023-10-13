@@ -49,17 +49,13 @@ upper_house = {
 }
 
 
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-
 # Technologies
 military_staff_system = 1
 flintlock_rifles = 1
 
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
- army_schools = yes_army_schools
+army_schools = yes_army_schools
 finance_reform = finance_reform_two
 education_reform = yes_education_reform
 

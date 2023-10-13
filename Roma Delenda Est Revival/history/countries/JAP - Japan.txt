@@ -61,7 +61,6 @@ mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
 piston_steam_engine = 1
-hot_blast = 1
 
 ruling_party = JAP_reactionary
 upper_house = {

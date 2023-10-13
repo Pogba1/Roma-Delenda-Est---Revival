@@ -50,11 +50,6 @@ upper_house = {
 }
 
 decision = 1836_denmark_setup
-
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-
 # Technologies
 military_staff_system = 1
 flintlock_rifles = 1
@@ -67,9 +62,3 @@ education_reform = yes_education_reform
 
 
 oob = "DEN_oob.txt"
-
-1850.1.1 = {
-decision = danmarks_riges_grundlov
-}
-
-

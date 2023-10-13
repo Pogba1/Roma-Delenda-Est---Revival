@@ -1,35 +1,32 @@
-ECU = { value = -100 }
-PBC = { value = -100 }
-
 army = {
     name = "1st Army"
     location = 2324
     regiment = {
-        name= "1. Brigada de artillería"
+        name= "1. Brigada de artillerï¿½a"
         type = artillery
         home = 2324
     }
 
     regiment = {
-        name= "1. Brigada de Infantería"
+        name= "1. Brigada de Infanterï¿½a"
         type = infantry
         home = 2324
     }
 
     regiment = {
-        name= "2. Brigada de Infantería"
+        name= "2. Brigada de Infanterï¿½a"
         type = infantry
         home = 2325
     }
 
     regiment = {
-        name= "3. Brigada de Infantería"
+        name= "3. Brigada de Infanterï¿½a"
         type = infantry
         home = 2328
     }
 
     regiment = {
-        name= "1. Brigada de Caballería"
+        name= "1. Brigada de Caballerï¿½a"
         type = cuirassier
         home = 2324
     }
@@ -39,41 +36,41 @@ army = {
     name = "2nd Army"
     location = 2349
     regiment = {
-        name= "1. División de Infantería"
+        name= "1. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2348
     }
 
     regiment = {
-        name= "2. División de Infantería"
+        name= "2. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2348
     }
 
     regiment = {
-        name= "3. División de Infantería"
+        name= "3. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2348
     }
 
     regiment = {
-        name= "4. División de Infantería"
+        name= "4. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2349
     }
     regiment = {
-        name= "3. División de Infantería"
+        name= "3. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2349
     }
 
     regiment = {
-        name= "4. División de Infantería"
+        name= "4. Divisiï¿½n de Infanterï¿½a"
         type = infantry
         home = 2360
     }
     regiment = {
-        name= "4. División de Infantería"
+        name= "4. Divisiï¿½n de Infanterï¿½a"
         type = artillery
         home = 2344
     }
