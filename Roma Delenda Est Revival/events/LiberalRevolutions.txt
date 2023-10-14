@@ -3243,7 +3243,6 @@ country_event = {
                 exists = no
                 NOT = {
                     is_primary_culture = THIS
-                    tag = SAF
                 }
             }
             NOT = { has_province_modifier = nationalist_agitation }
@@ -3366,7 +3365,6 @@ province_event = {
             exists = no
             NOT = {
                 is_primary_culture = THIS
-                tag = SAF
             }
         }
         liberal = 10

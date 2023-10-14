@@ -2,7 +2,6 @@ owner = GAZ
 controller = GAZ
 add_core = GAZ
 add_core = MAT
-add_core = TRN
 terrain = mountain
 trade_goods = wool
 life_rating = 15

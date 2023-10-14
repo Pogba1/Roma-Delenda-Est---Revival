@@ -3011,18 +3011,6 @@ country_event = {
             limit = { owner = { tag = GMB } }
             owner = { primary_culture = mande }
         }
-        random_owned = {
-            limit = {
-                owner = { tag = SAF }
-            }
-            owner = {
-                primary_culture = khoisan
-                add_accepted_culture = sotho
-                add_accepted_culture = xhosa
-                add_accepted_culture = zulu
-                add_accepted_culture = nguni
-            }
-        }
         any_pop = {
             militancy = -6
         }
