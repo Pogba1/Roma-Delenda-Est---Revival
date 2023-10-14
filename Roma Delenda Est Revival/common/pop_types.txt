@@ -1,6 +1,6 @@
 #general promote mtth, same for all pops
 promotion_chance = {
-	factor = 0.15
+	factor = 0.2
 	
     modifier = {
         factor = -0.1
