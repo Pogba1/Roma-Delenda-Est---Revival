@@ -3355,6 +3355,9 @@ acquire_state = {
     good_relation_militancy_factor = 1
 
     can_use = {
+        NOT = {
+            year = 1860
+        }
         OR = {
             NOT = { has_country_modifier = war_focus }
             THIS = {
@@ -4589,6 +4592,7 @@ conquest = {
     crisis = no
 
     can_use = {
+        total_pops = 400000
         OR = {
             NOT = { has_country_modifier = war_focus }
             THIS = {
