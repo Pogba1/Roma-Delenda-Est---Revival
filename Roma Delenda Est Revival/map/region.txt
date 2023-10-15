@@ -528,13 +528,13 @@ RUS_964 = { 968 967 966 964 970 678} #Crimea
 
 RUS_968 = { 969 954 } #Transnistria
 
-RUS_973 = { 976 973 975 965 } #Kherson-Zaporizhia
+RUS_973 = { 976 973 975 965 979 980 } #Kherson-Zaporizhia
 
 RUS_955 = { 972 971 961 } #Yekaterinoslav
 
 RUS_977 = { 977 1017 1018 1019 } #Kursk
 
-RUS_978 = { 978 962 963 980 974 979 } #Kharkov
+RUS_978 = { 978 962 963 974 } #Kharkov
 
 RUS_979 = {  1047 1046  1041 } #Don Host Oblast
 
