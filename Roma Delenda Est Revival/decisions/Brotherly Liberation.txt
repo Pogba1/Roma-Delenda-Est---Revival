@@ -93,9 +93,7 @@ political_decisions = {
             war = no
             is_vassal = no
             is_disarmed = no
-            war_policy = jingoism
             revolution_n_counterrevolution = 1
-            year = 1895
             is_greater_power = yes
         }
         effect = {

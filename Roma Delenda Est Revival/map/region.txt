@@ -187,24 +187,24 @@ NET_379 = { 379 378 380 381 } #Zeeland
 
 NET_385 = { 385 383 384 386 } #Friesland
 
-BEL_387 = { 387 388 389 390 391 } #Flanders
-
-BEL_394 = { 394 392 393 395 398 } #Wallonia
+BEL_387 = { 387 390 392 391 394 395 } #Flanders
 
 
 ### France
 
 FRA_399 = { 403 402 2570 } #Picardie - used to be { 403 405 406 408 402 2570 }
 
-FRA_400 = { 408 405 406 407  } #Champagne
+FRA_401 = { 401 404 405 }
 
-FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
+FRA_400 = { 408 406 407 } #Champagne
+
+FRA_404 = { 388 389 393 399 400 } #Nord-Pas-De-Calais/Artois
 
 FRA_607 = { 607 608 432 433} # Geneva
 
-FRA_411 = { 411 413 414 412 573 } #Ardennes
+FRA_411 = { 411 410 414 } #Ardennes
 
-FRA_412 = {  409 410 571 570 } #Alsace-Lorraine
+FRA_412 = { 409 412 413 570 571 573 } #Alsace-Lorraine
 
 FRA_418 = { 418 415 416 417 } #Normandie
 
@@ -286,13 +286,13 @@ SAX_558 = { 558 559 560 687 } #Saxony
 
 HES_2560 = { 564 565 566 567 568 2560 } #Hessen
 
-PRU_570 = {   } #Palatinate
+PRU_570 = { 572 398 397 396 574 576 } #Palatinate
 
-PRU_575 = { 575 576 577 572 397 396 574} #Rheinland
+PRU_575 = { 575 576 577 578 579 2561 } #Rheinland
 
-PRU_578 = { 578 579 2561 583 } #Eastern Rheinland
+PRU_578 = { 572 397 396 574  } #Eastern Rheinland
 
-PRU_581 = { 580 581 582 584 538 } #Westfalen
+PRU_581 = { 580 581 582 583 584 538 } #Westfalen
 
 BAD_586 = { 586 587 588 591 594} #Baden
 
@@ -358,15 +358,13 @@ AUS_780 = { 780 781 782 774 } #Dalmatia
 
 SAR_720 = { 722 723 724 725 } #Piemonte
 
-#MOD_739 = { 739 738 740 } #Emilia
+ITA_745 = { 745 746 748 740 1981 }
 
-TUS_744 = { 744 745 746 747 748 1981 } #Tuscany
+PAP_741 = { 741 742 739 738 } #Emilia-Romagna
 
-PAP_741 = { 741 742 743 739 738 740 } #Emilia-Romagna
+PAP_743 = { 743 744 747 752 751 }
 
-PAP_752 = { 749 752 750 751 } #Lazio
-
-SIC_753 = {  2567 10 753 757 } #Puglia
+SIC_753 = { 750 749 2567 10 753 757 } #Puglia
 
 ITA_754 = {754 755 759 760 761 756 758} # South Italy
 

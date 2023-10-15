@@ -945,7 +945,6 @@ political_decisions = {
             2482 = { add_province_modifier = { name = province_small_immigration_boom duration = 3650 } }    #Tasmania, AU
             2484 = { add_province_modifier = { name = province_small_immigration_boom duration = 7300 } }    #Gladstone, AU
             2491 = { add_province_modifier = { name = province_small_immigration_boom duration = 7300 } }    #Adelaide, AU
-            372 = { add_province_modifier = { name = sound_dues_toll duration = -1 } } #Copenhagen
             2172 = { set_province_flag = mexico_city }
             1616 = { set_province_flag = summer_palace }
             #################Provinces Setup######################
