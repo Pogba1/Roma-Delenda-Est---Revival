@@ -17915,17 +17915,22 @@
 
 # Ghent
 389 = {
-    unit = {
-        x = 2866.000000
-        y = 1650.000000
-    }
-
     text_position = {
         x = 2865.800049
         y = 1648.699951
     }
 
     text_scale = 1.700000
+    unit = {
+        x = 2866.000000
+        y = 1650.000000
+    }
+
+    factory = {
+        x = 2862.000000
+        y = 1653.000000
+    }
+
     building_construction = {
         x = 2863.100098
         y = 1650.000000
@@ -17936,15 +17941,15 @@
         y = 1647.900024
     }
 
-    factory = {
-        x = 2862.000000
-        y = 1653.000000
-    }
-
     building_position = {
         fort = {
             x = 2871.100098
             y = 1652.000000
+        }
+
+        naval_base = {
+            x = 2859.843333
+            y = 1658.176667
         }
 
     }
@@ -18053,18 +18058,23 @@
 
 # Tournai
 393 = {
-    unit = {
-        x = 2864.000000
-        y = 1641.000000
-    }
-
     text_position = {
-        x = 2864.199951
+        x = 2862.775000
         y = 1640.500000
     }
 
     text_rotation = 0.000001
     text_scale = 1.900000
+    unit = {
+        x = 2864.000000
+        y = 1641.000000
+    }
+
+    factory = {
+        x = 2866.100098
+        y = 1643.300049
+    }
+
     building_construction = {
         x = 2861.800049
         y = 1642.199951
@@ -18073,11 +18083,6 @@
     military_construction = {
         x = 2866.000000
         y = 1640.000000
-    }
-
-    factory = {
-        x = 2866.100098
-        y = 1643.300049
     }
 
     building_position = {
@@ -18164,11 +18169,10 @@
 
 396 = {
     text_position = {
-        x = 2900.300000
-        y = 1638.250000
+        x = 2901.200000
+        y = 1639.100000
     }
 
-    text_rotation = 4.722439
     text_scale = 1.000000
     unit = {
         x = 2903.025000
@@ -18694,12 +18698,16 @@
 # Strasbourg
 409 = {
     text_position = {
-        x = 2924.600098
-        y = 1599.699951
+        x = 2922.965000
+        y = 1605.210000
     }
 
-    text_rotation = 1.221731
-    text_scale = 2.400000
+    text_scale = 2
+    factory = {
+        x = 2928.199951
+        y = 1606.800049
+    }
+
     building_construction = {
         x = 2921.000000
         y = 1608.000000
@@ -18708,11 +18716,6 @@
     military_construction = {
         x = 2921.000000
         y = 1599.400024
-    }
-
-    factory = {
-        x = 2928.199951
-        y = 1606.800049
     }
 
     building_position = {
@@ -18728,20 +18731,20 @@
 # Colmar
 410 = {
     text_position = {
-        x = 2921.800049
-        y = 1583.099976
+        x = 2921.125000
+        y = 1588.625000
     }
 
     text_rotation = 1.396264
     text_scale = 1.600000
-    building_construction = {
-        x = 2921.699951
-        y = 1581.800049
-    }
-
     factory = {
         x = 2919.699951
         y = 1592.000000
+    }
+
+    building_construction = {
+        x = 2921.699951
+        y = 1581.800049
     }
 
     building_position = {
