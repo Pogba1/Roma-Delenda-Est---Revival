@@ -162,20 +162,10 @@ political_decisions = {
         }
 
         allow = {
-            OR = {
-                total_pops = 50000000
-                AND = {
-                    is_secondary_power = yes
-                    sphere_owner = {
-                        NOT = {
-                            relation = { who = THIS value = -100 }
-                            truce_with = THIS
-                        }
-                    }
-                }
-                AND = {
-                    ai = yes
-                    has_country_flag = failed_unification_remove_from_sphere
+            sphere_owner = {
+                NOT = {
+                    relation = { who = THIS value = -100 }
+                    truce_with = THIS
                 }
             }
         }
